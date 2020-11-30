@@ -7,8 +7,8 @@
   "pat": "Environment.PatToken",
   "defaultTeamName": "OneProject_09 Team",
   "description": "One Project to Rule Them All",
-  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\Sales and Guest Services\\SecurityTasks.json",
-  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "securityTasksFile": "..\\..\\..\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\Sales and Guest Services\\SecurityTasks.json",
+  "importPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "restApiService": {
     "build": "5.0",
     "coreApi": "5.0",

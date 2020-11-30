@@ -5,7 +5,7 @@
   "pat": "Environment.PatTokenTfs2019",
   "templatesPath": "..\\..\\..\\ADO.Engine\\TemplateFiles",
   "buildReleasePrefixPath": "",
-  "exportPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "exportPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "behaviors": {
     "addProjectNameToBuildDefinitionPath": true,
     "addProjectNameToReleaseDefinitionPath": true,

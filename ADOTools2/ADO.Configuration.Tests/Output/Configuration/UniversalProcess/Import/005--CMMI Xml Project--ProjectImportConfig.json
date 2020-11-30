@@ -7,8 +7,8 @@
   "pat": "Environment.PatToken",
   "defaultTeamName": "UniversalXML_08 Team",
   "description": "One PROCESS to Rule Them All",
-  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\processdevopsabcs\\CMMI Xml Project\\SecurityTasks.json",
-  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "securityTasksFile": "..\\..\\..\\Templates\\V2\\ExtractedTemplate\\processdevopsabcs\\CMMI Xml Project\\SecurityTasks.json",
+  "importPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "restApiService": {
     "build": "5.0",
     "coreApi": "5.0",

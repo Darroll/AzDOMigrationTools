@@ -38,7 +38,7 @@ namespace ADO.Configuration.Tests
             sourcePatToken = "Environment.PatToken";
             destinationPatToken = "Environment.PatToken";
             templateFilesPath = "..\\..\\..\\ADO.Engine\\TemplateFiles";
-            exportPath = "C:\\Templates\\V2\\ExtractedTemplate";
+            exportPath = "..\\..\\..\\Templates\\V2\\ExtractedTemplate";
             defaultProjectExportBehavior = ProjectExportBehavior.GetDefault(true);
             defaultProjectImportBehavior = ProjectImportBehavior.GetDefault(true);
             //change some values

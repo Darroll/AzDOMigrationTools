@@ -8,7 +8,7 @@
   "defaultTeamName": "Inc2_PDSSv3",
   "description": "Inc2 Test Migration",
   "securityTasksFile": "[Not Used]",
-  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "importPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "restApiService": {
     "build": "5.0",
     "coreApi": "5.0",

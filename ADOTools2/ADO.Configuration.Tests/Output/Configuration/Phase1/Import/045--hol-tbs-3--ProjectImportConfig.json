@@ -7,8 +7,8 @@
   "pat": "Environment.PatToken",
   "defaultTeamName": "OneProjectV2_06 Team",
   "description": "One Project to Rule Them All V2",
-  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\devopsabcs\\hol-tbs-3\\SecurityTasks.json",
-  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "securityTasksFile": "..\\..\\..\\Templates\\V2\\ExtractedTemplate\\devopsabcs\\hol-tbs-3\\SecurityTasks.json",
+  "importPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "restApiService": {
     "build": "5.0",
     "coreApi": "5.0",

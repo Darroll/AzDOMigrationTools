@@ -7,8 +7,8 @@
   "pat": "Environment.PatToken",
   "defaultTeamName": "XProject Team",
   "description": "One Project to Rule Them All",
-  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\agileatscale\\OneProjectV2_05\\SecurityTasks.json",
-  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "securityTasksFile": "..\\..\\..\\Templates\\V2\\ExtractedTemplate\\agileatscale\\OneProjectV2_05\\SecurityTasks.json",
+  "importPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "restApiService": {
     "build": "5.0",
     "coreApi": "5.0",

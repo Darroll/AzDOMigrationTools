@@ -4,7 +4,7 @@
   "pat": "Environment.PatToken",
   "templatesPath": "..\\..\\..\\ADO.Engine\\TemplateFiles",
   "buildReleasePrefixPath": "Demo\\Migrations\\PartsUnlimited",
-  "exportPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "exportPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "behaviors": {
     "addProjectNameToBuildDefinitionPath": true,
     "addProjectNameToReleaseDefinitionPath": true,

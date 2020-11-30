@@ -32,7 +32,7 @@ namespace ADO.Configuration.Tests
                 $"..\\..\\..\\..\\ADOTools2\\ADO.Engine.Console\\bin\\Debug\\ADOTools2.exe",
                 "Environment.PatTokenTfs2019",
                 "..\\..\\..\\ADO.Engine\\TemplateFiles",
-                "C:\\Templates\\V2\\ExtractedTemplate",
+                "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
                 @"C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.ProcessMapping.Tests\Output\OneMapToRuleThemAll.json",
                 null
                 );

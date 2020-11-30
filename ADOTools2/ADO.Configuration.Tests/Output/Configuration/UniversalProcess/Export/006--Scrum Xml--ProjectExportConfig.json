@@ -5,7 +5,7 @@
   "pat": "Environment.PatToken",
   "templatesPath": "..\\..\\..\\ADO.Engine\\TemplateFiles",
   "buildReleasePrefixPath": "Demo\\Migrations\\Scrum Xml",
-  "exportPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "exportPath": "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
   "behaviors": {
     "addProjectNameToBuildDefinitionPath": true,
     "addProjectNameToReleaseDefinitionPath": true,
@@ -57,6 +57,6 @@
     "workItemTracking": "5.0",
     "workItemTracking|Get Classification Nodes": "5.0"
   },
-  "processMapLocation": "C:\\Users\\dawal\\source\\repos\\MigrationVNext\\ADOTools2\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
   "isOnPremiseMigration": true
 }

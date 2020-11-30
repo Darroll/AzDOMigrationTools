@@ -31,7 +31,7 @@ namespace ADO.Configuration.Tests
                 $"..\\..\\..\\..\\ADOTools2\\ADO.Engine.Console\\bin\\Debug\\ADOTools2.exe",
                 "Environment.PatTokenCCL",
                 "..\\..\\..\\ADO.Engine\\TemplateFiles",
-                "C:\\Templates\\V2\\ExtractedTemplate",
+                "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
                 @"C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.ProcessMapping.Tests\Output\OneMapToRuleThemAll.json",
                 null
                 );
@@ -111,7 +111,7 @@ namespace ADO.Configuration.Tests
                 $"..\\..\\..\\..\\ADOTools2\\ADO.Engine.Console\\bin\\Debug\\ADOTools2.exe",
                 "Environment.PatTokenCCL",
                 "..\\..\\..\\ADO.Engine\\TemplateFiles",
-                "C:\\Templates\\V2\\ExtractedTemplate",
+                "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
                 @"C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.ProcessMapping.Tests\Output\OneMapToRuleThemAll.json",
                 null
                 );
@@ -192,7 +192,7 @@ namespace ADO.Configuration.Tests
                 $"..\\..\\..\\..\\ADOTools2\\ADO.Engine.Console\\bin\\Debug\\ADOTools2.exe",
                 "Environment.PatTokenCCL",
                 "..\\..\\..\\ADO.Engine\\TemplateFiles",
-                "C:\\Templates\\V2\\ExtractedTemplate",
+                "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
                 @"C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.ProcessMapping.Tests\Output\OneMapToRuleThemAll.json",
                 null
                 );
@@ -212,8 +212,8 @@ namespace ADO.Configuration.Tests
             migration.SerializableIterationMap.SaveToJson(universalIterationMaps);
 
             List<string> teamExclusions = new List<string>() { "someExcludedTeam" };
-            string areaInitializationFile = $"C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\OneProject_01\\Areas.json";
-            string iterationInitializationFile = $"C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\OneProject_01\\Iterations.json";
+            string areaInitializationFile = $"..\\..\\..\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\OneProject_01\\Areas.json";
+            string iterationInitializationFile = $"..\\..\\..\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\OneProject_01\\Iterations.json";
             migration.GenerateImportConfig(
                 "Environment.PatToken",
                 "ccldevopsabcs",
@@ -273,7 +273,7 @@ namespace ADO.Configuration.Tests
                 $"..\\..\\..\\..\\ADOTools2\\ADO.Engine.Console\\bin\\Debug\\ADOTools2.exe",
                 "Environment.PatToken",
                 "..\\..\\..\\ADO.Engine\\TemplateFiles",
-                "C:\\Templates\\V2\\ExtractedTemplate",
+                "..\\..\\..\\Templates\\V2\\ExtractedTemplate",
                 @"C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.ProcessMapping.Tests\Output\OneMapToRuleThemAll.json",
                 null
                 );

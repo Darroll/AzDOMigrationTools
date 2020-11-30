@@ -1,5 +1,5 @@
 {
-  "InheritedProcessSourcePath": "C:\\Users\\dawal\\Source\\Repos\\MigrationVNext\\ADOTools2\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
+  "InheritedProcessSourcePath": "..\\..\\..\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
   "ProcessMaps": [
     {
       "SourceProcess": "Agile",
