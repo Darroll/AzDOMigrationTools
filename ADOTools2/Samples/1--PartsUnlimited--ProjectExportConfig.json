@@ -1,0 +1,17 @@
+{
+  //source PAT token
+  "PAT": "",
+  "OrganizationName": "devopsabcs",
+  "ProjectName": "PartsUnlimited",
+  "ProjectCreationVersion": "5.0",
+  "ProjectPropertyVersion": "5.0-preview.1",
+  "RepoVersion": "5.0-preview.1",
+  "BuildVersion": "5.0",
+  "ReleaseVersion": "5.0",
+  "WikiVersion": "5.0",
+  "BoardVersion": "5.0",
+  "GetRelease": "5.0",
+  "ExtractedTemplatePathRoot": "..\\\\..\\\\Output\\\\ExtractedTemplate\\\\",
+  "PreSettingPath": "..\\\\..\\\\..\\\\ProjectLibrary\\\\PreSetting",
+  "TemplatesPath": "..\\\\..\\\\..\\\\ProjectLibrary\\\\Templates"
+}

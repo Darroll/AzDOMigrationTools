@@ -1,0 +1,12 @@
+{
+  "Map": {
+    "(carnivalcruiselines, OneProject_01, OneProject_01)": {
+      "Id": 4,
+      "Name": "OneProject_01",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01",
+      "Attributes": null
+    }
+  }
+}

@@ -1,0 +1,4 @@
+﻿Collection,Project,Portfolio,ProgramOrProduct,Prefix,Process,TeamInclusionList,AreaPrefixPath,AreaBasePathList,AreaPathMapDictionary,IterationPrefixPath,IterationBasePathList,IterationPathMapDictionary,IsClone,IsOnPremiseProject,AzureDevOpsServerFQDN
+carnivalcruiselines,CSS Dining Mobility,Mobility Portfolio,Dining Product,CSS,Agile,,Mobility Portfolio\Dining Product,,,Mobility Portfolio\Dining Product,,,false,false,
+carnivalcruiselines,Sales and Guest Services,Sales and Guest Service Portfolio,Fuel Model Automation,"SGS",Agile - Carnival,,Sales and Guest Service Portfolio\Fuel Model Automation,,,Sales and Guest Service Portfolio\Fuel Model Automation,,,false,false,
+carnivalcruiselines,HR Finance Accounting,HR Finance Accounting Portfolio,Tokenization Product,"HRFA",Scrum - Carnival,,HR Finance Accounting Portfolio\Tokenization Product,,,HR Finance Accounting Portfolio\Tokenization Product,,,false,false,

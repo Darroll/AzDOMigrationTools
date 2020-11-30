@@ -1,0 +1,134 @@
+{
+  "Id": 1,
+  "Name": "OneProject",
+  "StructureType": "area",
+  "HasChildren": true,
+  "Path": "\\OneProject\\Area",
+  "Attributes": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "Mobility Portfolio",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Area\\Mobility Portfolio",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "Dining Product",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Area\\Mobility Portfolio\\Dining Product",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "CSS Dining Mobility",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\OneProject\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "Sales and Guest Services",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Area\\Sales and Guest Services",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 6,
+          "Name": "FMA",
+          "StructureType": "area",
+          "HasChildren": false,
+          "Path": "\\OneProject\\Area\\Sales and Guest Services\\FMA",
+          "Attributes": null,
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "HR Finance Accounting",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Area\\HR Finance Accounting",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 8,
+          "Name": "Tokenization",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Area\\HR Finance Accounting\\Tokenization",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 9,
+              "Name": "GFT",
+              "StructureType": "area",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Area\\HR Finance Accounting\\Tokenization\\GFT",
+              "Attributes": null,
+              "Children": [
+                {
+                  "Id": 10,
+                  "Name": "Chargeback",
+                  "StructureType": "area",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Area\\HR Finance Accounting\\Tokenization\\GFT\\Chargeback",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 11,
+                  "Name": "Processes",
+                  "StructureType": "area",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Area\\HR Finance Accounting\\Tokenization\\GFT\\Processes",
+                  "Attributes": null,
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "401K Officers",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Area\\HR Finance Accounting\\401K Officers",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 13,
+              "Name": "Zurich International",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\OneProject\\Area\\HR Finance Accounting\\401K Officers\\Zurich International",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 14,
+              "Name": "Merrill Lynch",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\OneProject\\Area\\HR Finance Accounting\\401K Officers\\Merrill Lynch",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

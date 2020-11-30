@@ -1,0 +1,182 @@
+{
+  "sourceCollection": "carnivalcruiselines",
+  "sourceProject": "OneProject_01",
+  "destinationCollection": "ccldevopsabcs",
+  "destinationProject": "OneProject_10",
+  "destinationProjectProcessName": "CCL-One",
+  "pat": "Environment.PatToken",
+  "defaultTeamName": "OneProject_10 Team",
+  "description": "One Project to Rule Them All",
+  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\OneProject_01\\SecurityTasks.json",
+  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "restApiService": {
+    "build": "5.0",
+    "coreApi": "5.0",
+    "distributedTask": "2.0-preview.1",
+    "extensionMgmtApi": "5.0-preview.1",
+    "taskAgentApi": "5.0-preview.1",
+    "git": "5.0",
+    "git|PullRequests": "5.0",
+    "git|Repositories": "5.0",
+    "git|ImportRequests": "5.0-preview.1",
+    "graph": "5.0-preview.1",
+    "policy": "5.0",
+    "processes": "5.0",
+    "projects": "5.0",
+    "projects|Get Project Properties": "5.0-preview.1",
+    "teams": "5.0",
+    "release": "5.0",
+    "security": "5.0-preview.1",
+    "serviceEndpoint": "5.0-preview.1",
+    "wiki": "5.0",
+    "wiql": "5.0",
+    "work": "5.0",
+    "work|Boards": "5.0",
+    "work|TeamSettings": "5.0",
+    "workItemTracking": "5.0",
+    "workItemTracking|Get Classification Nodes": "5.0"
+  },
+  "customInputParameterNamesForServiceEndpoint": null,
+  "importSourceCodeCredentials": {
+    "userID": "<Enter your user identifier to connect to ADO>",
+    "password": "Environment.PatTokenCCL",
+    "gitUsername": "<Enter your user identifier to connect to GitHub>",
+    "gitPassword": "Environment.GitHubPassword"
+  },
+  "behaviors": {
+    "createDestinationProject": true,
+    "initializeProject": true,
+    "deleteDefaultRepository": false,
+    "deleteSecurityTasksOutputFile": true,
+    "executeSecurityTasks": true,
+    "importAgentQueue": false,
+    "importArea": true,
+    "importBuildDefinition": true,
+    "importIteration": true,
+    "importPolicyConfiguration": true,
+    "importPullRequest": true,
+    "importReleaseDefinition": true,
+    "importRepository": true,
+    "importServiceEndpoint": true,
+    "importTeam": true,
+    "importTeamConfiguration": true,
+    "includeTeamSettings": true,
+    "includeTeamAreas": true,
+    "includeTeamIterations": true,
+    "includeBoardColumns": true,
+    "includeBoardRows": true,
+    "includeCardFieldSettings": true,
+    "includeCardStyleSettings": true,
+    "importTaskGroup": true,
+    "importVariableGroup": true,
+    "importWiki": true,
+    "installExtensions": false,
+    "querySecurityDescriptors": true,
+    "includeAreaSecurity": true,
+    "includeBuildPipelineSecurity": true,
+    "includeEndpointCreatorsSecurity": true,
+    "includeQueryFolderSecurity": true,
+    "includeReleasePipelineSecurity": true,
+    "includeRepositorySecurity": true,
+    "loadSecretsFromEnvironmentVariables": true,
+    "renameRepository": false,
+    "renameTeam": false,
+    "useSecurityTasksFile": false
+  },
+  "queryFolderPaths": [
+    {
+      "path": "Shared Queries/OneProject Portfolio/OneProject Product/OneProject_01",
+      "teamName": "OneProject_01 Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPaths": [
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper\\Australia Project",
+      "teamName": "Australia Project Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Bon Voyage",
+      "teamName": "Bon Voyage Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Carnival.com\\Cruise search",
+      "teamName": "DTS-CCL BCO1",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\FMA",
+      "teamName": "FMA",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations",
+      "teamName": "Guest Operations Portfolio Managers",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance",
+      "teamName": "HR Finance",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator",
+      "teamName": "Navigator Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\CCL Enterprise Programs\\PPC Program",
+      "teamName": "OneProject_01 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01\\CCL Enterprise Programs\\PPC Program",
+      "teamName": "PPC Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject_10\\OneProject Portfolio\\OneProject Product\\OneProject_01",
+      "teamName": "Sales and Travel Operations Portfolio Managers",
+      "disableInheritance": false
+    }
+  ],
+  "areaPrefixPath": "OneProject Portfolio\\OneProject Product",
+  "iterationPrefixPath": "OneProject Portfolio\\OneProject Product",
+  "buildPipelineFolderPaths": [
+    {
+      "path": "OneProject Portfolio/OneProject Product/OneProject_01",
+      "teamName": "OneProject_01 Team",
+      "disableInheritance": false
+    }
+  ],
+  "releasePipelineFolderPaths": [
+    {
+      "path": "OneProject Portfolio/OneProject Product/OneProject_01",
+      "teamName": "OneProject_01 Team",
+      "disableInheritance": false
+    }
+  ],
+  "repositorySecurity": [
+    {
+      "path": "FSS-TFS",
+      "teamName": "OneProject_01 Team",
+      "disableInheritance": false
+    }
+  ],
+  "teamMappings": null,
+  "teamExclusions": [
+    "someExcludedTeam"
+  ],
+  "teamInclusions": null,
+  "areaInclusions": null,
+  "iterationInclusions": null,
+  "prefixName": "OP01",
+  "prefixSeparator": "_",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "areaInitializationTreePath": "..\\..\\..\\ADO.Configuration.Tests\\Output\\CCLOneProject\\oneProjectAreaInitialization.json",
+  "iterationInitializationTreePath": "..\\..\\..\\ADO.Configuration.Tests\\Output\\CCLOneProject\\oneProjectIterationInitialization.json",
+  "isOnPremiseMigration": true,
+  "isClone": true
+}

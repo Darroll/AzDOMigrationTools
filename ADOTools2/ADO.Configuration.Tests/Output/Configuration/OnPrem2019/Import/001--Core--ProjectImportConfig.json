@@ -1,0 +1,152 @@
+{
+  "sourceCollection": "MissionNetV3",
+  "sourceProject": "Inc2_PDSS",
+  "destinationCollection": "Staging_PEOC3T",
+  "destinationProject": "Inc2_PDSS_DW",
+  "destinationProjectProcessName": "Agile",
+  "pat": "Environment.PatTokenTfs2019",
+  "defaultTeamName": "Inc2_PDSSv3",
+  "description": "Inc2 Test Migration",
+  "securityTasksFile": "[Not Used]",
+  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "restApiService": {
+    "build": "5.0",
+    "coreApi": "5.0",
+    "distributedTask": "2.0-preview.1",
+    "extensionMgmtApi": "5.0-preview.1",
+    "taskAgentApi": "5.0-preview.1",
+    "git": "5.0",
+    "git|PullRequests": "5.0",
+    "git|Repositories": "5.0",
+    "git|ImportRequests": "5.0-preview.1",
+    "graph": "5.0-preview.1",
+    "policy": "5.0",
+    "processes": "5.0",
+    "projects": "5.0",
+    "projects|Get Project Properties": "5.0-preview.1",
+    "teams": "5.0",
+    "release": "5.0",
+    "security": "5.0-preview.1",
+    "serviceEndpoint": "5.0-preview.1",
+    "wiki": "5.0",
+    "wiql": "5.0",
+    "work": "5.0",
+    "work|Boards": "5.0",
+    "work|TeamSettings": "5.0",
+    "workItemTracking": "5.0",
+    "workItemTracking|Get Classification Nodes": "5.0"
+  },
+  "customInputParameterNamesForServiceEndpoint": null,
+  "importSourceCodeCredentials": {
+    "userID": "<Enter your user identifier to connect to ADO>",
+    "password": "Environment.PatTokenTfs2019",
+    "gitUsername": "<Enter your user identifier to connect to GitHub>",
+    "gitPassword": "Environment.PatTokenTfs2019"
+  },
+  "behaviors": {
+    "createDestinationProject": true,
+    "initializeProject": false,
+    "deleteDefaultRepository": false,
+    "deleteSecurityTasksOutputFile": true,
+    "executeSecurityTasks": true,
+    "importAgentQueue": false,
+    "importArea": true,
+    "importBuildDefinition": true,
+    "importIteration": true,
+    "importPolicyConfiguration": true,
+    "importPullRequest": true,
+    "importReleaseDefinition": true,
+    "importRepository": true,
+    "importServiceEndpoint": true,
+    "importTeam": true,
+    "importTeamConfiguration": true,
+    "includeTeamSettings": true,
+    "includeTeamAreas": true,
+    "includeTeamIterations": true,
+    "includeBoardColumns": true,
+    "includeBoardRows": true,
+    "includeCardFieldSettings": true,
+    "includeCardStyleSettings": true,
+    "importTaskGroup": true,
+    "importVariableGroup": true,
+    "importWiki": true,
+    "installExtensions": false,
+    "querySecurityDescriptors": true,
+    "includeAreaSecurity": true,
+    "includeBuildPipelineSecurity": true,
+    "includeEndpointCreatorsSecurity": true,
+    "includeQueryFolderSecurity": true,
+    "includeReleasePipelineSecurity": true,
+    "includeRepositorySecurity": true,
+    "loadSecretsFromEnvironmentVariables": true,
+    "renameRepository": false,
+    "renameTeam": false,
+    "useSecurityTasksFile": false
+  },
+  "queryFolderPaths": [
+    {
+      "path": "Shared Queries",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPaths": [
+    {
+      "path": "Core",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "Core",
+      "teamName": "Stakeholders",
+      "disableInheritance": false
+    }
+  ],
+  "areaPrefixPath": null,
+  "iterationPrefixPath": null,
+  "buildPipelineFolderPaths": [
+    {
+      "path": "",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    }
+  ],
+  "releasePipelineFolderPaths": [
+    {
+      "path": "",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    }
+  ],
+  "repositorySecurity": [
+    {
+      "path": "Core",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "innovatian.bits",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "Core.wiki",
+      "teamName": "Core Team",
+      "disableInheritance": false
+    }
+  ],
+  "teamMappings": null,
+  "teamExclusions": [
+    "someExcludedTeam"
+  ],
+  "teamInclusions": null,
+  "areaInclusions": null,
+  "iterationInclusions": null,
+  "prefixName": null,
+  "prefixSeparator": "_",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "areaInitializationTreePath": null,
+  "iterationInitializationTreePath": null,
+  "isOnPremiseMigration": true,
+  "isClone": true
+}

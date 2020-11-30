@@ -1,0 +1,287 @@
+{
+  "telemetryEnableTrace": true,
+  "workaroundForQuerySOAPBugEnabled": false,
+  "source": {
+    "collection": "https://dev.azure.com/carnivalcruiselines",
+    "name": "HR Finance Accounting",
+    "token": "Environment.PatTokenCCL"
+  },
+  "target": {
+    "collection": "https://dev.azure.com/ccldevopsabcs",
+    "name": "OneProject_09",
+    "token": "Environment.PatToken"
+  },
+  "reflectedWorkItemIDFieldName": "ReflectedWorkItemId",
+  "sourceReflectedWorkItemIDFieldName": null,
+  "fieldMaps": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Task",
+      "sourceField": "Microsoft.VSTS.Common.BacklogPriority",
+      "targetField": "Microsoft.VSTS.Common.StackRank"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Epic",
+      "sourceField": "Microsoft.VSTS.Common.BacklogPriority",
+      "targetField": "Microsoft.VSTS.Common.StackRank"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Feature",
+      "sourceField": "Microsoft.VSTS.Common.BacklogPriority",
+      "targetField": "Microsoft.VSTS.Common.StackRank"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Product Backlog Item",
+      "sourceField": "Microsoft.VSTS.Common.BacklogPriority",
+      "targetField": "Microsoft.VSTS.Common.StackRank"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Product Backlog Item",
+      "sourceField": "Microsoft.VSTS.Scheduling.Effort",
+      "targetField": "Microsoft.VSTS.Scheduling.StoryPoints"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Bug",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "Ready for Test": "Active",
+        "Deferred": "New",
+        "Approved": "Active",
+        "Committed": "Resolved",
+        "Done": "Closed",
+        "Removed": "Resolved"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Task",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "In Progress": "Active",
+        "Done": "Closed",
+        "To Do": "New"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Epic",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "In Progress": "Active",
+        "Done": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Feature",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "In Progress": "Active",
+        "Done": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Impediment",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "Open": "Active"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Product Backlog Item",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "Approved": "Active",
+        "Committed": "Resolved",
+        "Done": "Closed"
+      }
+    }
+  ],
+  "workItemTypeDefinition": {
+    "Bug": "Bug",
+    "Epic": "Epic",
+    "Feature": "Feature",
+    "Issue": "Issue",
+    "Task": "Task",
+    "Test Case": "Test Case",
+    "Test Plan": "Test Plan",
+    "Test Suite": "Test Suite",
+    "User Story": "User Story",
+    "Requirement": "Requirement",
+    "Product Backlog Item": "User Story",
+    "Shared Steps": "Shared Steps",
+    "Shared Parameter": "Shared Parameter",
+    "Impediment": "Issue",
+    "Change Request": "Change Request",
+    "Review": "Review",
+    "Risk": "Risk"
+  },
+  "processors": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "HR Finance Accounting\\Tokenization": "HR Finance Accounting\\Tokenization",
+        "HR Finance Accounting\\401K Officers": "HR Finance Accounting\\401K Officers"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\401K Officers": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\Talent Management": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Talent Management"
+        }
+      },
+      "queryBit": " AND [System.CreatedDate] > @Today - 90 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment', 'Issue', 'Change Request', 'Review', 'Risk') AND [System.State] <> 'Removed' AND ([System.AreaPath] UNDER 'HR Finance Accounting\\Tokenization' OR [System.AreaPath] UNDER 'HR Finance Accounting\\401K Officers') ",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "HR Finance Accounting\\Tokenization": "HR Finance Accounting\\Tokenization",
+        "HR Finance Accounting\\401K Officers": "HR Finance Accounting\\401K Officers"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\401K Officers": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\Talent Management": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Talent Management"
+        }
+      },
+      "queryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed' AND ([System.AreaPath] UNDER 'HR Finance Accounting\\Tokenization' OR [System.AreaPath] UNDER 'HR Finance Accounting\\401K Officers') ",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "queryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 90  AND ([System.AreaPath] UNDER 'HR Finance Accounting\\Tokenization' OR [System.AreaPath] UNDER 'HR Finance Accounting\\401K Officers') "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+      "enabled": true,
+      "queryBit": "AND [System.AttachedFileCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+      "enabled": true,
+      "prefixProjectToNodes": false,
+      "prefixPath": "HR Finance Accounting\\Tokenization",
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "HR Finance Accounting\\Tokenization": "HR Finance Accounting\\Tokenization",
+        "HR Finance Accounting\\401K Officers": "HR Finance Accounting\\401K Officers"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\401K Officers": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\Talent Management": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Talent Management"
+        }
+      },
+      "sharedFolderName": "Shared Queries"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+      "areaPath": "",
+      "enabled": true,
+      "iterationPath": "",
+      "onlyElementsWithTag": null,
+      "prefixProjectToNodes": false,
+      "prefixPath": "HR Finance Accounting\\Tokenization",
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "HR Finance Accounting\\Tokenization": "HR Finance Accounting\\Tokenization",
+        "HR Finance Accounting\\401K Officers": "HR Finance Accounting\\401K Officers"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\401K Officers": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "HR Finance Accounting\\Tokenization": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Tokenization",
+          "HR Finance Accounting\\Talent Management": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Talent Management"
+        }
+      },
+      "removeInvalidTestSuiteLinks": false
+    }
+  ],
+  "loadSecretsFromEnvironmentVariables": true
+}

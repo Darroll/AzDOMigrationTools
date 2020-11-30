@@ -1,0 +1,26 @@
+{
+  "name": "Customer",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Customer\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "FinTech",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Customer\\Area\\FinTech",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Finastra-Hackfest-PoC",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Customer\\Area\\FinTech\\Finastra-Hackfest-PoC",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

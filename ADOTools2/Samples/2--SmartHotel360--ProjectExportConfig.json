@@ -1,0 +1,27 @@
+{
+  //source PAT token
+  "PAT": "",
+  "OrganizationName": "devopsabcs",
+  "ProjectName": "SmartHotel360",
+  "ProjectCreationVersion": "5.0",
+  "ProjectPropertyVersion": "5.0-preview.1",
+  "RepoVersion": "5.0-preview.1",
+  "BuildVersion": "5.0",
+  "ReleaseVersion": "5.0",
+  "WikiVersion": "5.0",
+  "BoardVersion": "5.0",
+  "WorkItemsVersion": "5.0",
+  "QueriesVersion": "5.0",
+  "EndPointVersion": "5.0-preview",
+  "ExtensionVersion": "5.0-preview",
+  "DashboardVersion": "5.0-preview.2",
+  "AgentQueueVersion": "5.0-preview.1",
+  "GetSourceCodeVersion": "5.0-preview.1",
+  "TestPlanVersion": "1.0",
+  "GetRelease": "5.0",
+  "BaseAddress": "https://app.vssps.visualstudio.com/",
+  "ProjectProperties": "5.0-preview.1",
+  "ExtractedTemplatePathRoot": "..\\\\..\\\\Output\\\\ExtractedTemplate\\\\",
+  "PreSettingPath": "..\\\\..\\\\..\\\\ProjectLibrary\\\\PreSetting",
+  "TemplatesPath": "..\\\\..\\\\..\\\\ProjectLibrary\\\\Templates"
+}

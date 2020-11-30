@@ -1,0 +1,5 @@
+cd "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Engine.Console\bin\Debug"
+ADOTools2 import --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\Import\004--HR Finance Accounting--ProjectImportConfig.json"
+ADOTools2 import --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\Import\007--CSS Dining Mobility--ProjectImportConfig.json"
+ADOTools2 import --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\Import\010--Sales and Guest Services--ProjectImportConfig.json"
+cd "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\Scripts"

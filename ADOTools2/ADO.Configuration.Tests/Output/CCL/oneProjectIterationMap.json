@@ -1,0 +1,74 @@
+{
+  "Map": {
+    "(carnivalcruiselines, Master Data Management, Master Data Management)": {
+      "Id": 4,
+      "Name": "Master Data Management",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\MDM Portfolio\\MDM Product\\Master Data Management",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, Project Delta, Project Delta)": {
+      "Id": 13,
+      "Name": "Project Delta",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\Delta Portfolio\\Delta Product\\Project Delta",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, CSS Dining Mobility, CSS Dining Mobility)": {
+      "Id": 49,
+      "Name": "CSS Dining Mobility",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, Sales and Guest Services, Sales and Guest Services\\FMA)": {
+      "Id": 68,
+      "Name": "FMA",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\Sales and Guest Services\\FMA",
+      "Attributes": {
+        "startDate": "2019-09-02T00:00:00Z",
+        "finishDate": "2020-12-31T00:00:00Z"
+      }
+    },
+    "(carnivalcruiselines, Sales and Guest Services, Sales and Guest Services\\iCare)": {
+      "Id": 105,
+      "Name": "iCare",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\Sales and Guest Services\\iCare",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\Tokenization)": {
+      "Id": 202,
+      "Name": "Tokenization",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Tokenization",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\Talent Management)": {
+      "Id": 205,
+      "Name": "Talent Management",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_09\\Iteration\\HR Finance Accounting\\Talent Management",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, CSS Dining Mobility, CSS Dining Mobility\\Sprint 2)": {
+      "Id": 50,
+      "Name": "Sprint 1",
+      "StructureType": "iteration",
+      "HasChildren": false,
+      "Path": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1",
+      "Attributes": {
+        "startDate": "2019-09-19T00:00:00Z",
+        "finishDate": "2019-09-30T00:00:00Z"
+      }
+    }
+  }
+}

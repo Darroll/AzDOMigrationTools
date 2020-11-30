@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{108A0541-D66C-4926-A461-52F422AE056E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADO.Engine</RootNamespace>
+    <AssemblyName>AzureDevOps.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LINQtoCSV, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LINQtoCSV.1.4.0.0\lib\net35\LINQtoCSV.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=6.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.IdentityModel.JsonWebTokens.6.8.0\lib\net461\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=6.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.IdentityModel.Logging.6.8.0\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=6.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.IdentityModel.Tokens.6.8.0\lib\net461\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.VisualStudio.Services.Client.16.153.0\lib\net45\Microsoft.TeamFoundation.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.VisualStudio.Services.Client.16.153.0\lib\net45\Microsoft.VisualStudio.Services.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.WebApi, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.VisualStudio.Services.Client.16.153.0\lib\net45\Microsoft.VisualStudio.Services.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\System.IdentityModel.Tokens.Jwt.6.8.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.VisualStudio.Services.ExtensionManagement.WebApi, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.VisualStudio.Services.ExtensionManagement.WebApi.16.153.0\lib\net45\Microsoft.VisualStudio.Services.ExtensionManagement.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.Gallery.WebApi, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.VisualStudio.Services.Gallery.WebApi.16.153.0\lib\net45\Microsoft.VisualStudio.Services.Gallery.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TreeCollections, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\TreeCollections.1.0.4\lib\net45\TreeCollections.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntities\BusinessHierarchy.cs" />
+    <Compile Include="BusinessEntities\BusinessHierarchyComparers.cs" />
+    <Compile Include="BusinessEntities\BusinessHierarchyCsv.cs" />
+    <Compile Include="BusinessEntities\BusinessNode.cs" />
+    <Compile Include="BusinessEntities\BusinessNodeClasses.cs" />
+    <Compile Include="BusinessEntities\BusinessNodeComparers.cs" />
+    <Compile Include="BusinessEntities\BusinessNodeDataNode.cs" />
+    <Compile Include="BusinessEntities\BusinessNodeItem.cs" />
+    <Compile Include="BusinessEntities\CadenceExtensions.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeEnhanced.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeEnhancedClasses.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeEnhancedDataNode.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeEnhancedItem.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimal.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimalMap.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimalWithId.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimalWithIdClasses.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimalWithIdDataNode.cs" />
+    <Compile Include="BusinessEntities\ClassificationNodeMinimalWithIdItem.cs" />
+    <Compile Include="BusinessEntities\Constants.cs" />
+    <Compile Include="BusinessEntities\DateTimeExtensions.cs" />
+    <Compile Include="BusinessEntities\EnumExtensions.cs" />
+    <Compile Include="BusinessEntities\IClassificationNodeMinimalMap.cs" />
+    <Compile Include="BusinessEntities\Migration.cs" />
+    <Compile Include="BusinessEntities\SerializableClassificationNodeMap.cs" />
+    <Compile Include="BusinessEntities\SimpleMutableBusinessNodeNode.cs" />
+    <Compile Include="BusinessEntities\SimpleMutableClassificationNodeEnhancedNode.cs" />
+    <Compile Include="BusinessEntities\SimpleMutableClassificationNodeMinimalWithIdNode.cs" />
+    <Compile Include="BusinessEntities\TeamAreasMinimal.cs" />
+    <Compile Include="BusinessEntities\TeamIterationsMinimal.cs" />
+    <Compile Include="BusinessEntities\Teams.cs" />
+    <Compile Include="BusinessEntities\TeamSettingsMinimal.cs" />
+    <Compile Include="BusinessEntities\TripleKey.cs" />
+    <Compile Include="Collections\AbstractIdentification.cs" />
+    <Compile Include="ColorTextWriterTraceListener.cs" />
+    <Compile Include="Configuration\Behavior.cs" />
+    <Compile Include="DefinitionFiles.cs" />
+    <Compile Include="Configuration\EngineConfigurationJsonConverter.cs" />
+    <Compile Include="Configuration\ProjectImport\EngineConfiguration.cs" />
+    <Compile Include="Configuration\ProjectImportSourceCodeCredentials.cs" />
+    <Compile Include="Configuration\NamespacePathSecuritySpec.cs" />
+    <Compile Include="Configuration\RestApiServiceConfig.cs" />
+    <Compile Include="Configuration\ProjectExport\EngineConfiguration.cs" />
+    <Compile Include="Collections\DependencyGraph.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="CustomComparers.cs" />
+    <Compile Include="Utilities\CollectionExtensions.cs" />
+    <Compile Include="Utilities\JsonExtensions.cs" />
+    <Compile Include="Utilities\StringListExtensions.cs" />
+    <Compile Include="Utilities\StringWrapExtensions.cs" />
+    <Compile Include="Utilities\TripleKeyConverter.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="ProjectExportEngine.cs" />
+    <Compile Include="ProjectImportEngine.cs" />
+    <Compile Include="ProjectDefinition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="TemplateFiles\ImportSourceCode.json" />
+    <None Include="TemplateFiles\GitServiceEndpoint.json" />
+    <None Include="TemplateFiles\CreateProject.json" />
+    <None Include="TemplateFiles\RedirectedTaskGroup.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ADOTools1\src\VstsSyncMigrator.Core\VstsSyncMigrator.Core.csproj">
+      <Project>{68baf6ba-2bc0-48d0-b892-1d9f93d7003a}</Project>
+      <Name>VstsSyncMigrator.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADO.ProcessMapping\ADO.ProcessMapping.csproj">
+      <Project>{c1dfed0c-9ff8-45f0-bd9a-9344231ba7a0}</Project>
+      <Name>ADO.ProcessMapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADO.Tools\ADO.Tools.csproj">
+      <Project>{c83d5261-4c9a-49a8-9249-7e584b17dc6c}</Project>
+      <Name>ADO.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADO.RestAPI\ADO.RestAPI.csproj">
+      <Project>{b38d22ee-2ca6-40ab-941f-ed0cb8b40b95}</Project>
+      <Name>ADO.RestAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

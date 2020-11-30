@@ -1,0 +1,12 @@
+{
+  "Map": {
+    "(RPSUPDV6, Core, Core)": {
+      "Id": 3,
+      "Name": "Core",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\Core\\Iteration\\Core\\Core",
+      "Attributes": null
+    }
+  }
+}

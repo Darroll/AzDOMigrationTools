@@ -1,0 +1,4 @@
+﻿Collection,Project,Portfolio,ProgramOrProduct,Prefix,Process,TeamInclusionList,AreaPrefixPath,AreaBasePathList,AreaPathMapDictionary,IterationPrefixPath,IterationBasePathList,IterationPathMapDictionary,IsClone,IsOnPremiseProject,AzureDevOpsServerFQDN
+processdevopsabcs,Scrum Xml,Demo,Migrations,"S",Scrum,,Demo\Migrations,,,Demo\Migrations,,,false,false,
+processdevopsabcs,Agile Xml,Demo,Migrations,"A",Agile,,Demo\Migrations,,,Demo\Migrations,,,false,false,
+processdevopsabcs,CMMI Xml Project,Demo,Migrations,"W",CMMI,,Demo\Migrations,,,Demo\Migrations,,,false,false,

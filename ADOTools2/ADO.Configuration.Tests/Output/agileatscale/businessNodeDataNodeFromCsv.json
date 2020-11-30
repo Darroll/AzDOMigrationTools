@@ -1,0 +1,127 @@
+{
+  "Id": 1,
+  "Name": "XProject",
+  "BusinessNodeType": 0,
+  "Disabled": false,
+  "IsClone": false,
+  "IsOnPremiseProject": false,
+  "AzureDevOpsServerFQDN": null,
+  "OrganizationName": null,
+  "TeamPrefix": null,
+  "Process": null,
+  "TeamInclusions": null,
+  "AreaBasePaths": null,
+  "AreaPathMap": null,
+  "IterationBasePaths": null,
+  "IterationPathMap": null,
+  "Team": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "OneProject Portfolio",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "OneProject Portfolio Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "OneProject Portfolio Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "OneProject Product",
+          "BusinessNodeType": 3,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "OneProject Product Product Team",
+            "TeamLevel": 2,
+            "Description": "OneProject Product Product Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "OneProjectV2_05",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "agileatscale",
+              "TeamPrefix": "OP01",
+              "Process": "MigrateableScrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "OneProjectV2_05 Team",
+                "TeamLevel": 3,
+                "Description": "OneProjectV2_05 Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

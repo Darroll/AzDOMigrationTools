@@ -1,0 +1,34 @@
+{
+  "name": "Workshops",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Workshops\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "DevOps",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Workshops\\Area\\DevOps",
+      "attributes": null,
+      "children": [
+        {
+          "name": "hol",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Workshops\\Area\\DevOps\\hol",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "hol-tbs-3",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Workshops\\Area\\DevOps\\hol-tbs-3",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

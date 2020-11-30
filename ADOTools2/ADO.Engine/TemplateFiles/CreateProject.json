@@ -1,0 +1,13 @@
+{
+   "name": "$Project$",
+   "description": "$Description$",
+   "visibility" : "$Visibility$",
+   "capabilities": {
+     "versioncontrol": {
+       "sourceControlType": "$SourceControlType$"
+     },
+     "processTemplate": {
+       "templateTypeId": "$ProcessTemplateType-Id$"
+     }
+   }
+}

@@ -1,0 +1,1182 @@
+{
+  "sourceCollection": "agileatscale",
+  "sourceProject": "OneProjectV2_05",
+  "destinationCollection": "agileatscale",
+  "destinationProject": "XProject",
+  "destinationProjectProcessName": "MigrateableScrum",
+  "pat": "Environment.PatToken",
+  "defaultTeamName": "XProject Team",
+  "description": "One Project to Rule Them All",
+  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\agileatscale\\OneProjectV2_05\\SecurityTasks.json",
+  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "restApiService": {
+    "build": "5.0",
+    "coreApi": "5.0",
+    "distributedTask": "2.0-preview.1",
+    "extensionMgmtApi": "5.0-preview.1",
+    "taskAgentApi": "5.0-preview.1",
+    "git": "5.0",
+    "git|PullRequests": "5.0",
+    "git|Repositories": "5.0",
+    "git|ImportRequests": "5.0-preview.1",
+    "graph": "5.0-preview.1",
+    "policy": "5.0",
+    "processes": "5.0",
+    "projects": "5.0",
+    "projects|Get Project Properties": "5.0-preview.1",
+    "teams": "5.0",
+    "release": "5.0",
+    "security": "5.0-preview.1",
+    "serviceEndpoint": "5.0-preview.1",
+    "wiki": "5.0",
+    "wiql": "5.0",
+    "work": "5.0",
+    "work|Boards": "5.0",
+    "work|TeamSettings": "5.0",
+    "workItemTracking": "5.0",
+    "workItemTracking|Get Classification Nodes": "5.0"
+  },
+  "customInputParameterNamesForServiceEndpoint": null,
+  "importSourceCodeCredentials": {
+    "userID": "<Enter your user identifier to connect to ADO>",
+    "password": "Environment.PatToken",
+    "gitUsername": "<Enter your user identifier to connect to GitHub>",
+    "gitPassword": "Environment.GitHubPassword"
+  },
+  "behaviors": {
+    "createDestinationProject": true,
+    "initializeProject": true,
+    "deleteDefaultRepository": false,
+    "deleteSecurityTasksOutputFile": true,
+    "executeSecurityTasks": true,
+    "importAgentQueue": false,
+    "importArea": true,
+    "importBuildDefinition": true,
+    "importIteration": true,
+    "importPolicyConfiguration": true,
+    "importPullRequest": true,
+    "importReleaseDefinition": true,
+    "importRepository": true,
+    "importServiceEndpoint": true,
+    "importTeam": true,
+    "importTeamConfiguration": true,
+    "includeTeamSettings": true,
+    "includeTeamAreas": true,
+    "includeTeamIterations": true,
+    "includeBoardColumns": true,
+    "includeBoardRows": true,
+    "includeCardFieldSettings": true,
+    "includeCardStyleSettings": true,
+    "importTaskGroup": true,
+    "importVariableGroup": true,
+    "importWiki": true,
+    "installExtensions": false,
+    "querySecurityDescriptors": true,
+    "includeAreaSecurity": true,
+    "includeBuildPipelineSecurity": true,
+    "includeEndpointCreatorsSecurity": true,
+    "includeQueryFolderSecurity": true,
+    "includeReleasePipelineSecurity": true,
+    "includeRepositorySecurity": true,
+    "loadSecretsFromEnvironmentVariables": true,
+    "renameRepository": false,
+    "renameTeam": false,
+    "useSecurityTasksFile": false
+  },
+  "queryFolderPaths": [
+    {
+      "path": "Shared Queries/OneProject Portfolio/OneProject Product/OneProjectV2_05",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPaths": [
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureBatch",
+      "teamName": "AB_AzureBatch Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureAD",
+      "teamName": "AD_AzureAD Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ApplicationInsights",
+      "teamName": "AI_ApplicationInsights Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ApplicationInsights",
+      "teamName": "ApplicationInsights Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Autoscaling",
+      "teamName": "AS_Autoscaling Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Autoscaling",
+      "teamName": "Autoscaling Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureAD",
+      "teamName": "AzureAD Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureBatch",
+      "teamName": "AzureBatch Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureServiceBus",
+      "teamName": "AzureServiceBus Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\BusinessIntelligence",
+      "teamName": "BusinessIntelligence Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Cache",
+      "teamName": "Cache Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Cache",
+      "teamName": "CA_Cache Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\CosmosDB",
+      "teamName": "CDB_CosmosDB Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ContentDeliveryNetwork",
+      "teamName": "CDN_ContentDeliveryNetwork Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203",
+      "teamName": "CertAZ203 Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Containers",
+      "teamName": "CNT_Containers Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Containers",
+      "teamName": "Containers Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ContentDeliveryNetwork",
+      "teamName": "ContentDeliveryNetwork Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\CosmosDB",
+      "teamName": "CosmosDB Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer",
+      "teamName": "Customer Portfolio Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo",
+      "teamName": "Demo Portfolio Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps",
+      "teamName": "DevOps Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\DevOpsDemoGenerator",
+      "teamName": "DevOpsDemoGenerator Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\DevOpsDemoGenerator",
+      "teamName": "DG_DevOpsDemoGenerator Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer\\FinTech\\Finastra-Hackfest-PoC",
+      "teamName": "Finastra-Hackfest-PoC Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer\\FinTech",
+      "teamName": "FinTech Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer\\FinTech\\Finastra-Hackfest-PoC",
+      "teamName": "FIN_Finastra-Hackfest-PoC Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\TestAzureFunctionAppSoln",
+      "teamName": "FN_TestAzureFunctionAppSoln Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol",
+      "teamName": "hol Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3",
+      "teamName": "hol-tbs-3 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program",
+      "teamName": "HOL3_CRM program",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\ERP Program\\desktop",
+      "teamName": "HOL3_desktop",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\ERP Program",
+      "teamName": "HOL3_ERP program",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3",
+      "teamName": "HOL3_hol-tbs-3 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Legacy Portfolio",
+      "teamName": "HOL3_legacy prortfolio",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program\\mobile",
+      "teamName": "HOL3_Mobile",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio",
+      "teamName": "HOL3_modern portfolio",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\RnD portfolio",
+      "teamName": "HOL3_RnD portfolio",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program\\web",
+      "teamName": "HOL3_Web",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program",
+      "teamName": "HOL_CRM Program",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol",
+      "teamName": "HOL_hol Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program\\Mobile CRM",
+      "teamName": "HOL_Mobile CRM",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio",
+      "teamName": "HOL_Modern Portfolio",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program\\Web CRM",
+      "teamName": "HOL_Web CRM",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle",
+      "teamName": "JV_ScrumWithJavaMyShuttle Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle\\Team1",
+      "teamName": "JV_Team1",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle\\Team2",
+      "teamName": "JV_Team2",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\KanbanCustomization",
+      "teamName": "KanbanCustomization Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\KanbanCustomization",
+      "teamName": "KB_KanbanCustomization Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ManagedIdentities",
+      "teamName": "ManagedIdentities Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\MessagingAndEventing",
+      "teamName": "MessagingAndEventing Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\MessagingAndEventing",
+      "teamName": "ME_MessagingAndEventing Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations",
+      "teamName": "Migrations Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\MigrationTool",
+      "teamName": "MigrationTool Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ManagedIdentities",
+      "teamName": "MI_ManagedIdentities Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\MigrationTool",
+      "teamName": "MT_MigrationTool Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS",
+      "teamName": "OSS Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited",
+      "teamName": "PartsUnlimited Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\BusinessIntelligence\\PowerBI",
+      "teamName": "PBI_PowerBI Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\PostmanTools",
+      "teamName": "PostmanTools Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\BusinessIntelligence\\PowerBI",
+      "teamName": "PowerBI Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\PostmanTools",
+      "teamName": "PT_PostmanTools Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited",
+      "teamName": "PU_PartsUnlimited Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited\\PUL",
+      "teamName": "PU_PUL",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited\\PUL-DB",
+      "teamName": "PU_PUL-DB",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research",
+      "teamName": "Research Portfolio Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureServiceBus",
+      "teamName": "SB_AzureServiceBus Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle",
+      "teamName": "ScrumWithJavaMyShuttle Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Search",
+      "teamName": "Search Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Testing\\SpecFlow",
+      "teamName": "SF_SpecFlow Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360\\Mobile",
+      "teamName": "SH_Mobile",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360\\Mobile",
+      "teamName": "SH_SmartHotel360 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360\\Web",
+      "teamName": "SH_Web",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360",
+      "teamName": "SmartHotel360 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Testing\\SpecFlow",
+      "teamName": "SpecFlow Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\spring-music-devops",
+      "teamName": "spring-music-devops Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\spring-music-devops",
+      "teamName": "SPR_spring-music-devops Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Search",
+      "teamName": "S_Search Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\TestAzureFunctionAppSoln",
+      "teamName": "TestAzureFunctionAppSoln Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Testing",
+      "teamName": "Testing Program Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training",
+      "teamName": "Training Portfolio Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\VstsExtensionSamples",
+      "teamName": "VstsExtensionSamples Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\VstsWorkItemMigrator",
+      "teamName": "VstsWorkItemMigrator Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\WebJobs",
+      "teamName": "WebJobs Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\WikiProject",
+      "teamName": "WikiProject Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\VstsWorkItemMigrator",
+      "teamName": "WIT_VstsWorkItemMigrator Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\WebJobs",
+      "teamName": "WJ_WebJobs Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops",
+      "teamName": "Workshops Portfolio Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\WikiProject",
+      "teamName": "WP_WikiProject Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XProject\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\VstsExtensionSamples",
+      "teamName": "XT_VstsExtensionSamples Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPrefixPath": "OneProject Portfolio\\OneProject Product",
+  "iterationPrefixPath": "OneProject Portfolio\\OneProject Product",
+  "buildPipelineFolderPaths": [
+    {
+      "path": "OneProject Portfolio/OneProject Product/OneProjectV2_05",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    }
+  ],
+  "releasePipelineFolderPaths": [
+    {
+      "path": "OneProject Portfolio/OneProject Product/OneProjectV2_05",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    }
+  ],
+  "repositorySecurity": [
+    {
+      "path": "OneProjectV2_05",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MI_ManagedIdentities",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_msgraph-training-uwp",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_AzureAD",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_CodeWiki01",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL3_InfrastructureRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_PowerShell",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MT_process-migrator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDN_ContentDeliveryNetwork.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_MessagingAndEventing",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WIT_VstsWorkItemMigrator.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AB_AzureBatch",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_ApplicationInsights.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "KB_KanbanCustomization.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FIN_Infrastructure",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "JV_ScrumWithJavaMyShuttle.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDN_ContentDeliveryNetwork",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WJ_AuctionCleanupJobSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WP_WikiProject",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SF_SpecFlowSampleSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_AzureRelay",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL_ModernApiRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FN_TestAzureFunctionAppSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CA_NationalCookies",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SPR_spring-music-devops",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PU_PartsUnlimited",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MI_ManagedIdentities.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_GlobalDistributionSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL_InfrastructureRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDN_demos",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_PS.MAD.D4AS",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SH_SmartHotel360.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SH_PublicWeb",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_DotNetSDKDemoSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WIT_VstsWorkItemMigrator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MT_MigrationTool.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_ServiceBusExplorer",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PT_PostmanTools",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WP_CodeWiki01",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_ResidencePortal-API",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL3_ModernApiAppRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "KB_KanbanCustomization",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_msgraph-training-aspnetmvcapp",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SB_AzureServiceBus",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WJ_WebJobs.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL_ModernUIAppRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CA_Cache",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CosmosDB.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_OMSSearchApi",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_Autoscaling",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SF_SpecFlow",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MT_TemplateGeneratorSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CosmosDbServerSideSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "JV_MyShuttle",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FIN_SampleWebAppRepo",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDN_pluralsight-azure-cdn-with-storage",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SF_SpecFlow.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_PS.MAD.D4AS.Test",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CNT_Containers.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "S_Search.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL_hol.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FIN_Finastra-Hackfest-PoC.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CNT_AzureKubernetesService",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MT_azure-devops-migration-tools",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_AzureAD.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AB_AnimationCreator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WP_CodeWiki02",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_Autoscaling.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CA_Cache.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "S_AzureSearch",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PBI_msft-extensions",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FN_TestAzureFunctionAppSoln.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FIN_my-first-extension",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MT_MigrationTool",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AB_AzureBatch.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CNT_Containers",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WJ_WebJobs",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_CodeWiki01",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CNT_m4demos",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PBI_AzurePowerBITaggingReports",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CrossPartitionQueriesSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PBI_PowerBI",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XT_VstsExtensionSamples",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "DG_DevOpsDemoGenerator.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "DG_DevOpsDemoGenerator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PU_PartsUnlimited_wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CosmosDbGremlinApiSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FIN_Finastra-Hackfest-PoC",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SH_SmartHotel360",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AS_CodeWiki02",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_MessagingAndEventing.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_ApplicationInsights",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CosmosDB",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_ResidencePortal-UI",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SPR_spring-music-devops.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PBI_PowerBI.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_quickstartcore",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "S_Search",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "MI_module3",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PT_PostmanTools.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WP_WikiProject.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AI_CodeWiki02",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_ServiceBusQueueApp",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WJ_JobsAuctions",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_CosmosDbTableApiSoln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL3_hol-tbs-3",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "DG_AzureDevOpsDemoGenerator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SB_AzureServiceBus.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_GraphGetStartedSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CNT_ServiceFabric",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "AD_CodeWiki01",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL3_hol-tbs-3.wiki",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "SB_MultiTierAppSln",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "ME_SendTestClient",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "XT_vsts-extension-samples",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL3_ModernUIAppRepository",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "PT_azuredevops-postman-collections",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CDB_azure-documentdb-datamigrationtool",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "HOL_hol",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "WIT_vsts-work-item-migrator",
+      "teamName": "OneProjectV2_05 Team",
+      "disableInheritance": false
+    }
+  ],
+  "teamMappings": null,
+  "teamExclusions": [
+    "someExcludedTeam"
+  ],
+  "teamInclusions": null,
+  "areaInclusions": null,
+  "iterationInclusions": null,
+  "prefixName": "OP01",
+  "prefixSeparator": "_",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "areaInitializationTreePath": "..\\..\\..\\ADO.Configuration.Tests\\Output\\agileatscale\\oneProjectAreaInitialization.json",
+  "iterationInitializationTreePath": "..\\..\\..\\ADO.Configuration.Tests\\Output\\agileatscale\\oneProjectIterationInitialization.json",
+  "isOnPremiseMigration": true,
+  "isClone": true
+}

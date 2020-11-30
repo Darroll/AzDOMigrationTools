@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Customer Portfolio Team",
+    "description": "Customer Portfolio Team is responsible for Epic-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "FinTech Program Team",
+    "description": "FinTech Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Finastra-Hackfest-PoC Team",
+    "description": "Finastra-Hackfest-PoC Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Demo Portfolio Team",
+    "description": "Demo Portfolio Team is responsible for Epic-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Migrations Program Team",
+    "description": "Migrations Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "PartsUnlimited Team",
+    "description": "PartsUnlimited Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "SmartHotel360 Team",
+    "description": "SmartHotel360 Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Research Portfolio Team",
+    "description": "Research Portfolio Team is responsible for Epic-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "BusinessIntelligence Program Team",
+    "description": "BusinessIntelligence Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "PowerBI Team",
+    "description": "PowerBI Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "DevOps Program Team",
+    "description": "DevOps Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "KanbanCustomization Team",
+    "description": "KanbanCustomization Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "VstsExtensionSamples Team",
+    "description": "VstsExtensionSamples Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Migrations Program Team",
+    "description": "Migrations Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "DevOpsDemoGenerator Team",
+    "description": "DevOpsDemoGenerator Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "MigrationTool Team",
+    "description": "MigrationTool Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "PostmanTools Team",
+    "description": "PostmanTools Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "VstsWorkItemMigrator Team",
+    "description": "VstsWorkItemMigrator Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "WikiProject Team",
+    "description": "WikiProject Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "OSS Program Team",
+    "description": "OSS Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "ScrumWithJavaMyShuttle Team",
+    "description": "ScrumWithJavaMyShuttle Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "spring-music-devops Team",
+    "description": "spring-music-devops Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Testing Program Team",
+    "description": "Testing Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "SpecFlow Team",
+    "description": "SpecFlow Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Training Portfolio Team",
+    "description": "Training Portfolio Team is responsible for Epic-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "CertAZ203 Program Team",
+    "description": "CertAZ203 Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "ApplicationInsights Team",
+    "description": "ApplicationInsights Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Autoscaling Team",
+    "description": "Autoscaling Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "AzureAD Team",
+    "description": "AzureAD Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "AzureBatch Team",
+    "description": "AzureBatch Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "AzureServiceBus Team",
+    "description": "AzureServiceBus Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Cache Team",
+    "description": "Cache Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Containers Team",
+    "description": "Containers Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "ContentDeliveryNetwork Team",
+    "description": "ContentDeliveryNetwork Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "CosmosDB Team",
+    "description": "CosmosDB Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "ManagedIdentities Team",
+    "description": "ManagedIdentities Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "MessagingAndEventing Team",
+    "description": "MessagingAndEventing Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Search Team",
+    "description": "Search Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "TestAzureFunctionAppSoln Team",
+    "description": "TestAzureFunctionAppSoln Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "WebJobs Team",
+    "description": "WebJobs Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "Workshops Portfolio Team",
+    "description": "Workshops Portfolio Team is responsible for Epic-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "DevOps Program Team",
+    "description": "DevOps Program Team is responsible for Feature-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "hol Team",
+    "description": "hol Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  },
+  {
+    "name": "hol-tbs-3 Team",
+    "description": "hol-tbs-3 Team is responsible for Requirement-level work items",
+    "projectName": "OneProjectV2_02"
+  }
+]

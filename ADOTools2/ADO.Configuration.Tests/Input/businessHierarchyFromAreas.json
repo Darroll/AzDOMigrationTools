@@ -1,0 +1,237 @@
+{
+  "Name": "OneProjectV2_02",
+  "Children": [
+    {
+      "Name": "Customer",
+      "BusinessHierarchyTeam": {
+        "Name": "Customer Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "FinTech",
+          "BusinessHierarchyTeam": {
+            "Name": "FinTech Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Finastra-Hackfest-PoC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Demo",
+      "BusinessHierarchyTeam": {
+        "Name": "Demo Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "Migrations",
+          "BusinessHierarchyTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PartsUnlimited"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "SmartHotel360"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Research",
+      "BusinessHierarchyTeam": {
+        "Name": "Research Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "BusinessIntelligence",
+          "BusinessHierarchyTeam": {
+            "Name": "BusinessIntelligence Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PowerBI"
+            }
+          ]
+        },
+        {
+          "Name": "DevOps",
+          "BusinessHierarchyTeam": {
+            "Name": "DevOps Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "KanbanCustomization"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "VstsExtensionSamples"
+            }
+          ]
+        },
+        {
+          "Name": "Migrations",
+          "BusinessHierarchyTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "DevOpsDemoGenerator"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "MigrationTool"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PostmanTools"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "VstsWorkItemMigrator"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "WikiProject"
+            }
+          ]
+        },
+        {
+          "Name": "OSS",
+          "BusinessHierarchyTeam": {
+            "Name": "OSS Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ScrumWithJavaMyShuttle"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "spring-music-devops"
+            }
+          ]
+        },
+        {
+          "Name": "Testing",
+          "BusinessHierarchyTeam": {
+            "Name": "Testing Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "SpecFlow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Training",
+      "BusinessHierarchyTeam": {
+        "Name": "Training Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "CertAZ203",
+          "BusinessHierarchyTeam": {
+            "Name": "CertAZ203 Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ApplicationInsights"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Autoscaling"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureAD"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureBatch"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureServiceBus"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Cache"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Containers"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ContentDeliveryNetwork"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "CosmosDB"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ManagedIdentities"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "MessagingAndEventing"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Search"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "TestAzureFunctionAppSoln"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "WebJobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Workshops",
+      "BusinessHierarchyTeam": {
+        "Name": "Workshops Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "DevOps",
+          "BusinessHierarchyTeam": {
+            "Name": "DevOps Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "hol"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "hol-tbs-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

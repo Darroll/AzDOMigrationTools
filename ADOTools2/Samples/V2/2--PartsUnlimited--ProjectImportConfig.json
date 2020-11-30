@@ -1,0 +1,144 @@
+{
+	"sourceCollection": "devopsabcs",
+	"sourceProject": "PartsUnlimited",
+	"destinationCollection": "agileatscale",
+	"destinationProject": "OneProjectV2_02",
+	"destinationProjectProcessName": "MigrateableScrum",
+	"pat": "Environment.PatToken",
+	"defaultTeamName": "OneProjectV2_02 Team",
+	"description": "One Project to Rule Them All V2",
+	"securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\devopsabcs\\PartsUnlimited\\SecurityTasks.json",
+	"importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+	"restApiService": {
+		"build": "5.0",
+		"coreApi": "5.0",
+		"distributedTask": "2.0-preview.1",
+		"extensionMgmtApi": "5.0-preview.1",
+		"taskAgentApi": "5.0-preview.1",
+		"git": "5.0",
+		"git|PullRequests": "5.0",
+		"git|Repositories": "5.0",
+		"git|ImportRequests": "5.0-preview.1",
+		"graph": "5.0-preview.1",
+		"policy": "5.0",
+		"processes": "5.0",
+		"projects": "5.0",
+		"projects|Get Project Properties": "5.0-preview.1",
+		"teams": "5.0",
+		"release": "5.0",
+		"security": "5.0-preview.1",
+		"serviceEndpoint": "5.0-preview.1",
+		"wiki": "5.0",
+		"wiql": "5.0",
+		"work": "5.0",
+		"work|Boards": "5.0",
+		"work|TeamSettings": "5.0",
+		"workItemTracking": "5.0",
+		"workItemTracking|Get Classification Nodes": "5.0"
+	},
+	"customInputParameterNamesForServiceEndpoint": null,
+	"importSourceCodeCredentials": {
+		"userID": "<Enter your user identifier to connect to ADO>",
+		"password": "Environment.PatToken",
+		"gitUsername": "<Enter your user identifier to connect to GitHub>",
+		"gitPassword": "Environment.GitHubPassword"
+	},
+	"behaviors": {
+		"createDestinationProject": false,
+		"initializeProject": false,
+		"deleteDefaultRepository": false,
+		"deleteSecurityTasksOutputFile": true,
+		"executeSecurityTasks": true,
+		"importAgentQueue": false,
+		"importArea": true,
+		"importBuildDefinition": true,
+		"importIteration": true,
+		"importPolicyConfiguration": true,
+		"importPullRequest": true,
+		"importReleaseDefinition": true,
+		"importRepository": true,
+		"importServiceEndpoint": true,
+		"importTeam": true,
+		"importTeamConfiguration": true,
+		"includeTeamSettings": true,
+		"includeTeamAreas": true,
+		"includeTeamIterations": true,
+		"includeBoardColumns": true,
+		"includeBoardRows": true,
+		"includeCardFieldSettings": true,
+		"includeCardStyleSettings": true,
+		"importTaskGroup": true,
+		"importVariableGroup": true,
+		"importWiki": true,
+		"installExtensions": false,
+		"querySecurityDescriptors": true,
+		"includeAreaSecurity": true,
+		"includeBuildPipelineSecurity": true,
+		"includeEndpointCreatorsSecurity": true,
+		"includeQueryFolderSecurity": true,
+		"includeReleasePipelineSecurity": true,
+		"includeRepositorySecurity": true,
+		"loadSecretsFromEnvironmentVariables": true,
+		"renameRepository": false,
+		"renameTeam": false,
+		"useSecurityTasksFile": false
+	},
+	"queryFolderPaths": [
+		{
+			"path": "Shared Queries/Demo/Migrations/PartsUnlimited",
+			"teamName": "PartsUnlimited Team",
+			"disableInheritance": false
+		}
+	],
+	"areaPaths": [
+		{
+			"path": "OneProjectV2_02\\Demo\\Migrations\\PartsUnlimited",
+			"teamName": "PartsUnlimited Team",
+			"disableInheritance": false
+		},
+		{
+			"path": "OneProjectV2_02\\Demo\\Migrations\\PartsUnlimited\\PUL",
+			"teamName": "PUL",
+			"disableInheritance": false
+		},
+		{
+			"path": "OneProjectV2_02\\Demo\\Migrations\\PartsUnlimited\\PUL-DB",
+			"teamName": "PUL-DB",
+			"disableInheritance": false
+		}
+	],
+	"areaIterationPrefixPath": "Demo\\Migrations",
+	"buildPipelineFolderPaths": [
+		{
+			"path": "Demo/Migrations/PartsUnlimited",
+			"teamName": "PartsUnlimited Team",
+			"disableInheritance": false
+		}
+	],
+	"releasePipelineFolderPaths": [
+		{
+			"path": "Demo/Migrations/PartsUnlimited",
+			"teamName": "PartsUnlimited Team",
+			"disableInheritance": false
+		}
+	],
+	"repositorySecurity": [
+		{
+			"path": "PartsUnlimited",
+			"teamName": "PartsUnlimited Team",
+			"disableInheritance": false
+		}
+	],
+	"teamMappings": [
+		{
+			"sourceTeam": "Some Source Team 1",
+			"destinationTeam": "Some Destination Team 1"
+		},
+		{
+			"sourceTeam": "Some Source Team 2",
+			"destinationTeam": "Some Destination Team 2"
+		}
+	],
+	"prefixName": "PU",
+	"prefixSeparator": "_"
+}

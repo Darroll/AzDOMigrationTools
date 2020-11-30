@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI",
+      "includeChildren": true
+    }
+  ]
+}

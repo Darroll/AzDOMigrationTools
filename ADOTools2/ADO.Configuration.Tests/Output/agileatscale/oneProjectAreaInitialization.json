@@ -1,0 +1,420 @@
+{
+  "Id": 1,
+  "Name": "XProject",
+  "StructureType": "area",
+  "HasChildren": true,
+  "Path": "\\XProject\\Area",
+  "Attributes": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "Customer",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\Customer",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "FinTech",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Customer\\FinTech",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "Finastra-Hackfest-PoC",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Customer\\FinTech\\Finastra-Hackfest-PoC",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "Demo",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\Demo",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 6,
+          "Name": "Migrations",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Demo\\Migrations",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 7,
+              "Name": "SmartHotel360",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Demo\\Migrations\\SmartHotel360",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 8,
+              "Name": "PartsUnlimited",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Demo\\Migrations\\PartsUnlimited",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "Research",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\Research",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 10,
+          "Name": "Testing",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Research\\Testing",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 11,
+              "Name": "SpecFlow",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Testing\\SpecFlow",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "OSS",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Research\\OSS",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 13,
+              "Name": "spring-music-devops",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\OSS\\spring-music-devops",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 14,
+              "Name": "ScrumWithJavaMyShuttle",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\OSS\\ScrumWithJavaMyShuttle",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "Migrations",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Research\\Migrations",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 16,
+              "Name": "WikiProject",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Migrations\\WikiProject",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 17,
+              "Name": "VstsWorkItemMigrator",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Migrations\\VstsWorkItemMigrator",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 18,
+              "Name": "PostmanTools",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Migrations\\PostmanTools",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 19,
+              "Name": "MigrationTool",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Migrations\\MigrationTool",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 20,
+              "Name": "DevOpsDemoGenerator",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\Migrations\\DevOpsDemoGenerator",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Name": "DevOps",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Research\\DevOps",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 22,
+              "Name": "VstsExtensionSamples",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\DevOps\\VstsExtensionSamples",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 23,
+              "Name": "KanbanCustomization",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\DevOps\\KanbanCustomization",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Name": "BusinessIntelligence",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Research\\BusinessIntelligence",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 25,
+              "Name": "PowerBI",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Research\\BusinessIntelligence\\PowerBI",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "Name": "Training",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\Training",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 27,
+          "Name": "CertAZ203",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Training\\CertAZ203",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 28,
+              "Name": "WebJobs",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\WebJobs",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 29,
+              "Name": "TestAzureFunctionAppSoln",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\TestAzureFunctionAppSoln",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 30,
+              "Name": "Search",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\Search",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 31,
+              "Name": "MessagingAndEventing",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\MessagingAndEventing",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 32,
+              "Name": "ManagedIdentities",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\ManagedIdentities",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 33,
+              "Name": "CosmosDB",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\CosmosDB",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 34,
+              "Name": "ContentDeliveryNetwork",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\ContentDeliveryNetwork",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 35,
+              "Name": "Containers",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\Containers",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 36,
+              "Name": "Cache",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\Cache",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 37,
+              "Name": "AzureServiceBus",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\AzureServiceBus",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 38,
+              "Name": "AzureBatch",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\AzureBatch",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 39,
+              "Name": "AzureAD",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\AzureAD",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 40,
+              "Name": "Autoscaling",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\Autoscaling",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 41,
+              "Name": "ApplicationInsights",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Training\\CertAZ203\\ApplicationInsights",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "Name": "Workshops",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\Workshops",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 43,
+          "Name": "DevOps",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\XProject\\Area\\Workshops\\DevOps",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 44,
+              "Name": "hol-tbs-3",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Workshops\\DevOps\\hol-tbs-3",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 45,
+              "Name": "hol",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\XProject\\Area\\Workshops\\DevOps\\hol",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

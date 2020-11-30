@@ -1,0 +1,5 @@
+cd "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools1\src\VstsSyncMigrator.Console\bin\Debug"
+migration execute --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\BulkImport\004--Agile Xml--ProjectBulkImportConfig.json"
+migration execute --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\BulkImport\005--CMMI Xml Project--ProjectBulkImportConfig.json"
+migration execute --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\BulkImport\006--Scrum Xml--ProjectBulkImportConfig.json"
+cd "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\Scripts"

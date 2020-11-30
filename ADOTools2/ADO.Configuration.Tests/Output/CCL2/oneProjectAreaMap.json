@@ -1,0 +1,36 @@
+{
+  "Map": {
+    "(carnivalcruiselines, CSS Dining Mobility, CSS Dining Mobility)": {
+      "Id": 4,
+      "Name": "CSS Dining Mobility",
+      "StructureType": "area",
+      "HasChildren": false,
+      "Path": "\\OneProject\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, Sales and Guest Services, Sales and Guest Services\\FMA)": {
+      "Id": 6,
+      "Name": "FMA",
+      "StructureType": "area",
+      "HasChildren": false,
+      "Path": "\\OneProject\\Area\\Sales and Guest Services\\FMA",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\Tokenization)": {
+      "Id": 8,
+      "Name": "Tokenization",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Area\\HR Finance Accounting\\Tokenization",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\401K Officers)": {
+      "Id": 12,
+      "Name": "401K Officers",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Area\\HR Finance Accounting\\401K Officers",
+      "Attributes": null
+    }
+  }
+}

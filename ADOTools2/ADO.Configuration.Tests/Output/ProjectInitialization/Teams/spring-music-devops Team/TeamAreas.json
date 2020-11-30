@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops",
+      "includeChildren": true
+    }
+  ]
+}

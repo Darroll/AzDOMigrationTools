@@ -1,0 +1,165 @@
+{
+  "telemetryEnableTrace": true,
+  "workaroundForQuerySOAPBugEnabled": false,
+  "source": {
+    "collection": "https://dev.azure.com/agileatscale",
+    "name": "OneProjectV2_05",
+    "token": "Environment.PatToken"
+  },
+  "target": {
+    "collection": "https://dev.azure.com/agileatscale",
+    "name": "XProject",
+    "token": "Environment.PatToken"
+  },
+  "reflectedWorkItemIDFieldName": "ReflectedWorkItemId",
+  "sourceReflectedWorkItemIDFieldName": null,
+  "fieldMaps": [],
+  "workItemTypeDefinition": {
+    "Bug": "Bug",
+    "Epic": "Epic",
+    "Feature": "Feature",
+    "Issue": "Issue",
+    "Task": "Task",
+    "Test Case": "Test Case",
+    "Test Plan": "Test Plan",
+    "Test Suite": "Test Suite",
+    "User Story": "User Story",
+    "Requirement": "Requirement",
+    "Product Backlog Item": "Product Backlog Item",
+    "Shared Steps": "Shared Steps",
+    "Shared Parameter": "Shared Parameter",
+    "Impediment": "Impediment",
+    "Change Request": "Change Request",
+    "Review": "Review",
+    "Risk": "Risk"
+  },
+  "processors": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "OneProject Portfolio\\OneProject Product",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "queryBit": " AND [System.CreatedDate] > @Today - 90 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment', 'Issue', 'Change Request', 'Review', 'Risk') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "OneProject Portfolio\\OneProject Product",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "queryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "queryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+      "enabled": true,
+      "queryBit": "AND [System.AttachedFileCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+      "enabled": true,
+      "prefixProjectToNodes": false,
+      "prefixPath": "OneProject Portfolio\\OneProject Product",
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "sharedFolderName": "Shared Queries"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+      "areaPath": "",
+      "enabled": true,
+      "iterationPath": "",
+      "onlyElementsWithTag": null,
+      "prefixProjectToNodes": false,
+      "prefixPath": "OneProject Portfolio\\OneProject Product",
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "OneProjectV2_05": "\\XProject\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05"
+        }
+      },
+      "removeInvalidTestSuiteLinks": false
+    }
+  ],
+  "loadSecretsFromEnvironmentVariables": true
+}

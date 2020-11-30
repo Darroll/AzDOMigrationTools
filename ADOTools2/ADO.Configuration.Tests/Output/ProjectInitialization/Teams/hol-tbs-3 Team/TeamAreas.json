@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Workshops\\DevOps\\hol-tbs-3",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Workshops\\DevOps\\hol-tbs-3",
+      "includeChildren": true
+    }
+  ]
+}

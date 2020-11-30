@@ -1,0 +1,5 @@
+cd "C:\Users\dawal\source\repos\MigrationVNext\ADOTools1\src\VstsSyncMigrator.Console\bin\Debug"
+migration execute --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\BulkImport\004--HR Finance Accounting--ProjectBulkImportConfig.json"
+migration execute --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\BulkImport\007--CSS Dining Mobility--ProjectBulkImportConfig.json"
+migration execute --consoleoutput -c "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\BulkImport\010--Sales and Guest Services--ProjectBulkImportConfig.json"
+cd "C:\Users\dawal\source\repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\CCL2\Scripts"

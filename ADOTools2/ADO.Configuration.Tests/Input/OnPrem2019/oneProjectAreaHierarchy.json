@@ -1,0 +1,75 @@
+{
+  "name": "Core",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Core\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "Core",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Core\\Area\\Core",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Core",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\Core\\Area\\Core\\Core",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Q42016",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\Q42016",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "ARCH",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\ARCH",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "DEV",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\DEV",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "IA-STIG",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\IA-STIG",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "SYS",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\SYS",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "TEST-BUILD-TOOLS",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\Core\\Area\\Core\\Core\\TEST-BUILD-TOOLS",
+              "attributes": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

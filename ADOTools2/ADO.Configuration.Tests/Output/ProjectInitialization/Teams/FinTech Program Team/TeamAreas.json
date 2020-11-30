@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Customer\\FinTech",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Customer\\FinTech",
+      "includeChildren": true
+    }
+  ]
+}

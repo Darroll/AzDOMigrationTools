@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADO.RestAPI</RootNamespace>
+    <AssemblyName>AzureDevOps.RestAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums.cs" />
+    <Compile Include="ProcessMapping\Maps.cs" />
+    <Compile Include="ProcessMapping\ProcessMappingUtility2.cs" />
+    <Compile Include="Services\Core\Processes.cs" />
+    <Compile Include="Services\DistributedTasks\Tasks.cs" />
+    <Compile Include="Services\ExtensionManagement\ExtensionManagement.cs" />
+    <Compile Include="Services\Wiki\Wiki.cs" />
+    <Compile Include="Services\Policy\PolicyConfigurations.cs" />
+    <Compile Include="Services\DistributedTasks\TaskGroups.cs" />
+    <Compile Include="Services\DistributedTasks\VariableGroups.cs" />
+    <Compile Include="Services\ApiServiceBase.cs" />
+    <Compile Include="Services\Build\BuildDefinition.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Services\Git\PullRequests.cs" />
+    <Compile Include="Services\Git\Repositories.cs" />
+    <Compile Include="Services\Graph\Graph.cs" />
+    <Compile Include="IConfiguration.cs" />
+    <Compile Include="Services\Core\Projects.cs" />
+    <Compile Include="Services\Core\Teams.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Release\ReleaseDefinition.cs" />
+    <Compile Include="Services\WorkItemTracking\Queries.cs" />
+    <Compile Include="Services\DistributedTasks\Queue.cs" />
+    <Compile Include="Services\Security\AccessControlEntries.cs" />
+    <Compile Include="Services\Security\AccessControlLists.cs" />
+    <Compile Include="Services\Security\SecurityNamespaces.cs" />
+    <Compile Include="Services\ServiceEndpoint\ServiceEndpoints.cs" />
+    <Compile Include="Tasks\SecurityTasks.cs" />
+    <Compile Include="Services\Work\BoardConfiguration.cs" />
+    <Compile Include="Services\Work\TeamSettings.cs" />
+    <Compile Include="Viewmodel50\BuildMinimalResponse.cs" />
+    <Compile Include="Viewmodel50\BuildResponse.cs" />
+    <Compile Include="Viewmodel50\CommonResponses.cs" />
+    <Compile Include="Viewmodel50\DistributedTaskMinimalResponse.cs" />
+    <Compile Include="Viewmodel50\ExtentionMgmtMinimalResponse.cs" />
+    <Compile Include="Viewmodel50\GitMinimalResponse.cs" />
+    <Compile Include="Viewmodel50\GitResponse.cs" />
+    <Compile Include="Viewmodel50\GraphResponse.cs" />
+    <Compile Include="Viewmodel50\InheritedProcess.cs" />
+    <Compile Include="Viewmodel50\PolicyConfigurationResponse.cs" />
+    <Compile Include="Viewmodel50\ReleaseMinimalResponse.cs" />
+    <Compile Include="Viewmodel50\SecurityResponse.cs" />
+    <Compile Include="Viewmodel50\ServiceEndpointResponse.cs" />
+    <Compile Include="Viewmodel50\TaskAgentResponse.cs" />
+    <Compile Include="Viewmodel50\CoreResponse.cs" />
+    <Compile Include="Viewmodel50\WikiResponse.cs" />
+    <Compile Include="Viewmodel50\WorkItemTrackingResponse.cs" />
+    <Compile Include="Viewmodel50\WorkResponse.cs" />
+    <Compile Include="Viewmodel51\ReleaseResponse.cs" />
+    <Compile Include="Viewmodel50\ReleaseResponse.cs" />
+    <Compile Include="Services\WorkItemTracking\ClassificationNodes.cs" />
+    <Compile Include="Viewmodel50\Links.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADO.Tools\ADO.Tools.csproj">
+      <Project>{c83d5261-4c9a-49a8-9249-7e584b17dc6c}</Project>
+      <Name>ADO.Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

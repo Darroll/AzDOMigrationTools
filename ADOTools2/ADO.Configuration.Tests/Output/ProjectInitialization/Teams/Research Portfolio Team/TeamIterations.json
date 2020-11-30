@@ -1,0 +1,401 @@
+{
+  "count": 44,
+  "value": [
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\KanbanCustomization\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\KanbanCustomization\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\KanbanCustomization\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\KanbanCustomization\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\DevOpsDemoGenerator\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\DevOpsDemoGenerator\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\DevOpsDemoGenerator\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\DevOpsDemoGenerator\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\MigrationTool\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\MigrationTool\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\MigrationTool\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\MigrationTool\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\WikiProject\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\WikiProject\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\WikiProject\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Migrations\\WikiProject\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\ScrumWithJavaMyShuttle\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\ScrumWithJavaMyShuttle\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\ScrumWithJavaMyShuttle\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\ScrumWithJavaMyShuttle\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\OSS\\spring-music-devops\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Testing\\SpecFlow\\Fiscal Year 2019 - H1",
+      "attributes": {
+        "startDate": "2019-01-01T00:00:00",
+        "finishDate": "2019-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2019 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Testing\\SpecFlow\\Fiscal Year 2019 - H2",
+      "attributes": {
+        "startDate": "2019-07-01T00:00:00",
+        "finishDate": "2019-12-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H1",
+      "path": "\\OneProjectV2_02\\Research\\Testing\\SpecFlow\\Fiscal Year 2020 - H1",
+      "attributes": {
+        "startDate": "2020-01-01T00:00:00",
+        "finishDate": "2020-06-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Fiscal Year 2020 - H2",
+      "path": "\\OneProjectV2_02\\Research\\Testing\\SpecFlow\\Fiscal Year 2020 - H2",
+      "attributes": {
+        "startDate": "2020-07-01T00:00:00",
+        "finishDate": "2020-12-31T00:00:00",
+        "timeFrame": "current"
+      }
+    }
+  ]
+}

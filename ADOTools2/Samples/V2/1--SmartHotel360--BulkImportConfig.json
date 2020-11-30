@@ -1,0 +1,97 @@
+﻿{
+	"TelemetryEnableTrace": true,
+	"loadSecretsFromEnvironmentVariables": true,
+	"Source": {
+		"Collection": "https://dev.azure.com/devopsabcs",
+		"Name": "SmartHotel360",
+		"Token": "Environment.PatToken"
+	},
+	"Target": {
+		"Collection": "https://dev.azure.com/agileatscale",
+		"Name": "OneProjectV2_02",
+		"Token": "Environment.PatToken"
+	},
+	"ReflectedWorkItemIDFieldName": "ReflectedWorkItemId",
+	"FieldMaps": [
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+			"WorkItemTypeName": "Bug",
+			"sourceField": "System.Description",
+			"targetField": "devopsabcs.ScrumIntegratedToServiceNow.ServiceNowDescription"
+		}
+	],
+	"WorkItemTypeDefinition": {
+		"Bug": "Bug",
+		"User Story": "User Story",
+		"Requirement": "Requirement",
+		"Task": "Task",
+		"Test Case": "Test Case",
+		"Shared Steps": "Shared Steps",
+		"Shared Parameter": "Shared Parameter",
+		"Epic": "Epic",
+		"Feature": "Feature",
+		"Product Backlog Item": "Product Backlog Item",
+		"Impediment": "Impediment",
+		"Test Plan": "Test Plan",
+		"Test Suite": "Test Suite"
+	},
+	"Processors": [
+		{
+			"DegreeOfParallelism": 16,
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+			"PrefixProjectToNodes": false,
+			"PrefixPath": "Demo\\Migrations",
+			"AreaPath": "",
+			"IterationPath": "",
+			"QueryBit": "AND [System.CreatedDate] > @Today - 365 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment') AND [System.State] <> 'Removed'",
+			"Enabled": true
+		},
+		{
+			"DegreeOfParallelism": 16,
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+			"PrefixProjectToNodes": false,
+			"PrefixPath": "Demo\\Migrations",
+			"AreaPath": "",
+			"IterationPath": "",
+			"QueryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed'",
+			"Enabled": true
+		},
+		{
+			"DegreeOfParallelism": 16,
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+			"QueryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 365",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+			"QueryBit": "AND [System.AttachedFileCount] > 0",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+			"PrefixProjectToNodes": false,
+			"PrefixPath": "Demo\\Migrations",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+			"Enabled": true
+		},
+		{
+			"ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+			"PrefixPath": "Demo\\Migrations",
+			"AreaPath": "",
+			"IterationPath": "",
+			"PrefixProjectToNodes": false,
+			"Enabled": true
+		}
+	]
+}

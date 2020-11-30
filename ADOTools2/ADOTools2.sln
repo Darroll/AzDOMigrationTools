@@ -1,0 +1,176 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Engine.Console", "ADO.Engine.Console\ADO.Engine.Console.csproj", "{74489550-88A8-4916-A0BF-1C03270D2081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.RestAPI", "ADO.RestAPI\ADO.RestAPI.csproj", "{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Engine", "ADO.Engine\ADO.Engine.csproj", "{108A0541-D66C-4926-A461-52F422AE056E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.RestAPI.Tests", "ADO.RestAPI.Tests\ADO.RestAPI.Tests.csproj", "{22FDB165-F2D1-4AF3-87AE-04F9631258AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{74BD499C-6648-4B1A-A60F-E6EB8C11DEA0}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\1--MergedProject--SecurityImportConfig.json = Samples\1--MergedProject--SecurityImportConfig.json
+		Samples\1--PartsUnlimited--ProjectExportConfig.json = Samples\1--PartsUnlimited--ProjectExportConfig.json
+		Samples\1--PartsUnlimited--ProjectImportConfig.json = Samples\1--PartsUnlimited--ProjectImportConfig.json
+		Samples\2--SmartHotel360--ProjectExportConfig.json = Samples\2--SmartHotel360--ProjectExportConfig.json
+		Samples\2--SmartHotel360--ProjectImportConfig.json = Samples\2--SmartHotel360--ProjectImportConfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FABC63DD-1737-474E-B845-9B5F65F46AFF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{C8595CFF-785A-49DC-8BCC-DD295B9E8243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{3D7A6832-029F-449E-B39B-B0BA99B8CB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Tools", "ADO.Tools\ADO.Tools.csproj", "{C83D5261-4C9A-49A8-9249-7E584B17DC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Engine.Tests", "ADO.Engine.Tests\ADO.Engine.Tests.csproj", "{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2", "V2", "{0A9D5FDB-F835-4C5A-8C4B-67A943DAA920}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\V2\1--SmartHotel360--BulkImportConfig.json = Samples\V2\1--SmartHotel360--BulkImportConfig.json
+		Samples\V2\1--SmartHotel360--ProjectExportConfig.json = Samples\V2\1--SmartHotel360--ProjectExportConfig.json
+		Samples\V2\1--SmartHotel360--ProjectImportConfig.json = Samples\V2\1--SmartHotel360--ProjectImportConfig.json
+		Samples\V2\2--PartsUnlimited--BulkImportConfig.json = Samples\V2\2--PartsUnlimited--BulkImportConfig.json
+		Samples\V2\2--PartsUnlimited--ProjectExportConfig.json = Samples\V2\2--PartsUnlimited--ProjectExportConfig.json
+		Samples\V2\2--PartsUnlimited--ProjectImportConfig.json = Samples\V2\2--PartsUnlimited--ProjectImportConfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildDefs", "BuildDefs", "{0552022B-79A3-4417-96F0-FABFCEB83B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-RawExport", "01-RawExport", "{0C88A1D6-AD9B-40A8-857E-9CC9A0814443}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\BuildDefs\01-RawExport\00-SmartHotel_Petchecker-Web.json = Samples\BuildDefs\01-RawExport\00-SmartHotel_Petchecker-Web.json
+		Samples\BuildDefs\01-RawExport\01-SmartHotel_Petchecker-Web-clone-TaskGroupTest.json = Samples\BuildDefs\01-RawExport\01-SmartHotel_Petchecker-Web-clone-TaskGroupTest.json
+		Samples\BuildDefs\01-RawExport\02-PartsUnlimitedE2E.json = Samples\BuildDefs\01-RawExport\02-PartsUnlimitedE2E.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Exported", "02-Exported", "{F18C6861-D0E5-41CD-8A9B-668D590CF0A0}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\BuildDefs\02-Exported\00-BuildDef1.json = Samples\BuildDefs\02-Exported\00-BuildDef1.json
+		Samples\BuildDefs\02-Exported\01-BuildDef2.json = Samples\BuildDefs\02-Exported\01-BuildDef2.json
+		Samples\BuildDefs\02-Exported\02-BuildDef1.json = Samples\BuildDefs\02-Exported\02-BuildDef1.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Work", "03-Work", "{F08E6C58-1487-47F1-A17F-01482BA6A604}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\BuildDefs\03-Work\00-ImportBuildDefinition1.json = Samples\BuildDefs\03-Work\00-ImportBuildDefinition1.json
+		Samples\BuildDefs\03-Work\01-ImportBuildDefinition2.json = Samples\BuildDefs\03-Work\01-ImportBuildDefinition2.json
+		Samples\BuildDefs\03-Work\02-ImportBuildDefinition1.json = Samples\BuildDefs\03-Work\02-ImportBuildDefinition1.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{7D89B492-741B-4AB2-8BF0-4CA69227620E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AreaPaths", "AreaPaths", "{5ABD9233-4AA0-4A19-A1C6-C9E4C07D7F22}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\Security\AreaPaths\00-responseAFTER.json = Samples\Security\AreaPaths\00-responseAFTER.json
+		Samples\Security\AreaPaths\00-responseBEFORE.json = Samples\Security\AreaPaths\00-responseBEFORE.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReleaseDefs", "ReleaseDefs", "{51C763EC-DFFA-466F-9B37-3BB0E5AB3760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-RawExport", "01-RawExport", "{C24A98E9-7922-447D-A57E-A099D2291A78}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\ReleaseDefs\01-RawExport\00-SmartHotel360_Website-Deploy.json = Samples\ReleaseDefs\01-RawExport\00-SmartHotel360_Website-Deploy.json
+		Samples\ReleaseDefs\01-RawExport\01-PartsUnlimitedE2E.json = Samples\ReleaseDefs\01-RawExport\01-PartsUnlimitedE2E.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Exported", "02-Exported", "{0D0F12CE-A551-47E7-94F3-07C1DF2EC576}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\ReleaseDefs\02-Exported\00-ReleaseDef1.json = Samples\ReleaseDefs\02-Exported\00-ReleaseDef1.json
+		Samples\ReleaseDefs\02-Exported\01-ReleaseDef1.json = Samples\ReleaseDefs\02-Exported\01-ReleaseDef1.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Work", "03-Work", "{724B0FCD-6A56-4B4A-80BF-A8D8A2060370}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\ReleaseDefs\03-Work\00-ImportReleaseDefinition1.json = Samples\ReleaseDefs\03-Work\00-ImportReleaseDefinition1.json
+		Samples\ReleaseDefs\03-Work\01-ImportReleaseDefinition1.json = Samples\ReleaseDefs\03-Work\01-ImportReleaseDefinition1.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Configuration.Tests", "ADO.Configuration.Tests\ADO.Configuration.Tests.csproj", "{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.ProcessMapping", "ADO.ProcessMapping\ADO.ProcessMapping.csproj", "{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.ProcessMapping.Tests", "ADO.ProcessMapping.Tests\ADO.ProcessMapping.Tests.csproj", "{9AE1C4D3-968B-4124-900E-EA68027ADABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Supplemental tools to migrate an ADO project from a source to a destination.
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74489550-88A8-4916-A0BF-1C03270D2081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74489550-88A8-4916-A0BF-1C03270D2081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74489550-88A8-4916-A0BF-1C03270D2081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74489550-88A8-4916-A0BF-1C03270D2081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108A0541-D66C-4926-A461-52F422AE056E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108A0541-D66C-4926-A461-52F422AE056E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108A0541-D66C-4926-A461-52F422AE056E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108A0541-D66C-4926-A461-52F422AE056E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FDB165-F2D1-4AF3-87AE-04F9631258AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FDB165-F2D1-4AF3-87AE-04F9631258AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FDB165-F2D1-4AF3-87AE-04F9631258AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FDB165-F2D1-4AF3-87AE-04F9631258AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83D5261-4C9A-49A8-9249-7E584B17DC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83D5261-4C9A-49A8-9249-7E584B17DC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83D5261-4C9A-49A8-9249-7E584B17DC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83D5261-4C9A-49A8-9249-7E584B17DC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE1C4D3-968B-4124-900E-EA68027ADABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE1C4D3-968B-4124-900E-EA68027ADABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE1C4D3-968B-4124-900E-EA68027ADABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE1C4D3-968B-4124-900E-EA68027ADABA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74489550-88A8-4916-A0BF-1C03270D2081} = {3D7A6832-029F-449E-B39B-B0BA99B8CB36}
+		{B38D22EE-2CA6-40AB-941F-ED0CB8B40B95} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{108A0541-D66C-4926-A461-52F422AE056E} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{22FDB165-F2D1-4AF3-87AE-04F9631258AF} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{C83D5261-4C9A-49A8-9249-7E584B17DC6C} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{A3C6DF10-4EE0-417C-AD1A-9606E7D1575D} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{0A9D5FDB-F835-4C5A-8C4B-67A943DAA920} = {74BD499C-6648-4B1A-A60F-E6EB8C11DEA0}
+		{0552022B-79A3-4417-96F0-FABFCEB83B66} = {74BD499C-6648-4B1A-A60F-E6EB8C11DEA0}
+		{0C88A1D6-AD9B-40A8-857E-9CC9A0814443} = {0552022B-79A3-4417-96F0-FABFCEB83B66}
+		{F18C6861-D0E5-41CD-8A9B-668D590CF0A0} = {0552022B-79A3-4417-96F0-FABFCEB83B66}
+		{F08E6C58-1487-47F1-A17F-01482BA6A604} = {0552022B-79A3-4417-96F0-FABFCEB83B66}
+		{7D89B492-741B-4AB2-8BF0-4CA69227620E} = {74BD499C-6648-4B1A-A60F-E6EB8C11DEA0}
+		{5ABD9233-4AA0-4A19-A1C6-C9E4C07D7F22} = {7D89B492-741B-4AB2-8BF0-4CA69227620E}
+		{51C763EC-DFFA-466F-9B37-3BB0E5AB3760} = {74BD499C-6648-4B1A-A60F-E6EB8C11DEA0}
+		{C24A98E9-7922-447D-A57E-A099D2291A78} = {51C763EC-DFFA-466F-9B37-3BB0E5AB3760}
+		{0D0F12CE-A551-47E7-94F3-07C1DF2EC576} = {51C763EC-DFFA-466F-9B37-3BB0E5AB3760}
+		{724B0FCD-6A56-4B4A-80BF-A8D8A2060370} = {51C763EC-DFFA-466F-9B37-3BB0E5AB3760}
+		{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{C1DFED0C-9FF8-45F0-BD9A-9344231BA7A0} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+		{9AE1C4D3-968B-4124-900E-EA68027ADABA} = {C8595CFF-785A-49DC-8BCC-DD295B9E8243}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DDE8E3A-4689-462D-BDAB-040CF6889C93}
+	EndGlobalSection
+EndGlobal

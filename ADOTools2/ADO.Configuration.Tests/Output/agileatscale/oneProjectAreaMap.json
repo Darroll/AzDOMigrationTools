@@ -1,0 +1,12 @@
+{
+  "Map": {
+    "(agileatscale, OneProjectV2_05, OneProjectV2_05)": {
+      "Id": 4,
+      "Name": "OneProjectV2_05",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05",
+      "Attributes": null
+    }
+  }
+}

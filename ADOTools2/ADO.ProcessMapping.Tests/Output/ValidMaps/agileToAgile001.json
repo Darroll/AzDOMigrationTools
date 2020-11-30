@@ -1,0 +1,41 @@
+{
+  "InheritedProcessSourcePath": "..\\..\\..\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
+  "ProcessMaps": [
+    {
+      "SourceProcess": "Agile",
+      "TargetProcess": "Agile001",
+      "WorkItemTypeMap": {},
+      "UnmappedSourceWorkItemTypes": [
+        "Microsoft.VSTS.WorkItemTypes.Bug",
+        "Microsoft.VSTS.WorkItemTypes.Epic",
+        "Microsoft.VSTS.WorkItemTypes.Feature",
+        "Microsoft.VSTS.WorkItemTypes.Task",
+        "Microsoft.VSTS.WorkItemTypes.TestCase",
+        "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "Microsoft.VSTS.WorkItemTypes.TestSuite",
+        "Microsoft.VSTS.WorkItemTypes.UserStory",
+        "Microsoft.VSTS.WorkItemTypes.Issue"
+      ],
+      "WorkItemTypeStateMap": {},
+      "UnmappedSourceWorkItemTypeStateMaps": {},
+      "WorkItemTypeFieldMap": {},
+      "UnmappedSourceWorkItemTypeFieldMaps": {},
+      "WorkItemTypeBoardMap": {},
+      "UnmappedSourceWorkItemTypeBoardMaps": [
+        "Microsoft.VSTS.WorkItemTypes.Bug",
+        "Microsoft.VSTS.WorkItemTypes.Epic",
+        "Microsoft.VSTS.WorkItemTypes.Feature",
+        "Microsoft.VSTS.WorkItemTypes.Task",
+        "Microsoft.VSTS.WorkItemTypes.TestCase",
+        "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "Microsoft.VSTS.WorkItemTypes.TestSuite",
+        "Microsoft.VSTS.WorkItemTypes.UserStory",
+        "Microsoft.VSTS.WorkItemTypes.Issue"
+      ],
+      "NonTrivialWorkItemTypeMap": {},
+      "NonTrivialWorkItemTypeFieldMap": {},
+      "NonTrivialWorkItemTypeStateMap": {},
+      "NonTrivialWorkItemTypeBoardMap": {}
+    }
+  ]
+}

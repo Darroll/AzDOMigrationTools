@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\Migrations\\VstsWorkItemMigrator",
+      "includeChildren": true
+    }
+  ]
+}

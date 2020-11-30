@@ -1,0 +1,24 @@
+{
+  "backlogIteration": {
+    "name": "hol",
+    "path": "\\OneProjectV2_02\\Workshops\\DevOps\\hol"
+  },
+  "bugsBehavior": "asRequirements",
+  "workingDays": [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday"
+  ],
+  "backlogVisibilities": {
+    "Microsoft.EpicCategory": true,
+    "Microsoft.FeatureCategory": true,
+    "Microsoft.RequirementCategory": true
+  },
+  "defaultIteration": {
+    "name": "Fiscal Year 2020 - H2",
+    "path": "\\OneProjectV2_02\\Workshops\\DevOps\\hol\\Fiscal Year 2020 - H2"
+  },
+  "defaultIterationMacro": "@currentIteration"
+}

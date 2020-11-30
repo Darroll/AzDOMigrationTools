@@ -1,0 +1,1574 @@
+{
+  "Id": 1,
+  "Name": "OneProjectV2_06",
+  "BusinessNodeType": 0,
+  "Disabled": false,
+  "IsClone": false,
+  "IsOnPremiseProject": false,
+  "AzureDevOpsServerFQDN": null,
+  "OrganizationName": null,
+  "TeamPrefix": null,
+  "Process": null,
+  "TeamInclusions": null,
+  "AreaBasePaths": null,
+  "AreaPathMap": null,
+  "IterationBasePaths": null,
+  "IterationPathMap": null,
+  "Team": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "Customer",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "Customer Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "Customer Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "FinTech",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "FinTech Program Team",
+            "TeamLevel": 2,
+            "Description": "FinTech Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "Finastra-Hackfest-PoC",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "FIN",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "Finastra-Hackfest-PoC Team",
+                "TeamLevel": 3,
+                "Description": "Finastra-Hackfest-PoC Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "Demo",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "Demo Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "Demo Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 6,
+          "Name": "Migrations",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "Migrations Program Team",
+            "TeamLevel": 2,
+            "Description": "Migrations Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 7,
+              "Name": "PartsUnlimited",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "PU",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "PartsUnlimited Team",
+                "TeamLevel": 3,
+                "Description": "PartsUnlimited Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 8,
+              "Name": "SmartHotel360",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "SH",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "SmartHotel360 Team",
+                "TeamLevel": 3,
+                "Description": "SmartHotel360 Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "Research",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "Research Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "Research Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 10,
+          "Name": "BusinessIntelligence",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "BusinessIntelligence Program Team",
+            "TeamLevel": 2,
+            "Description": "BusinessIntelligence Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 11,
+              "Name": "PowerBI",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "PBI",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "PowerBI Team",
+                "TeamLevel": 3,
+                "Description": "PowerBI Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "DevOps",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "DevOps Program Team",
+            "TeamLevel": 2,
+            "Description": "DevOps Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 13,
+              "Name": "KanbanCustomization",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "KB",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "KanbanCustomization Team",
+                "TeamLevel": 3,
+                "Description": "KanbanCustomization Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 14,
+              "Name": "VstsExtensionSamples",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "XT",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "VstsExtensionSamples Team",
+                "TeamLevel": 3,
+                "Description": "VstsExtensionSamples Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "Migrations",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "Migrations Program Team",
+            "TeamLevel": 2,
+            "Description": "Migrations Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 16,
+              "Name": "DevOpsDemoGenerator",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "DG",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "DevOpsDemoGenerator Team",
+                "TeamLevel": 3,
+                "Description": "DevOpsDemoGenerator Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 17,
+              "Name": "MigrationTool",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "MT",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "MigrationTool Team",
+                "TeamLevel": 3,
+                "Description": "MigrationTool Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 18,
+              "Name": "PostmanTools",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "PT",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "PostmanTools Team",
+                "TeamLevel": 3,
+                "Description": "PostmanTools Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 19,
+              "Name": "VstsWorkItemMigrator",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "WIT",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "VstsWorkItemMigrator Team",
+                "TeamLevel": 3,
+                "Description": "VstsWorkItemMigrator Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 20,
+              "Name": "WikiProject",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "WP",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "WikiProject Team",
+                "TeamLevel": 3,
+                "Description": "WikiProject Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Name": "OSS",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "OSS Program Team",
+            "TeamLevel": 2,
+            "Description": "OSS Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 22,
+              "Name": "ScrumWithJavaMyShuttle",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "JV",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "ScrumWithJavaMyShuttle Team",
+                "TeamLevel": 3,
+                "Description": "ScrumWithJavaMyShuttle Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 23,
+              "Name": "spring-music-devops",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "SPR",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "spring-music-devops Team",
+                "TeamLevel": 3,
+                "Description": "spring-music-devops Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Name": "Testing",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "Testing Program Team",
+            "TeamLevel": 2,
+            "Description": "Testing Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 25,
+              "Name": "SpecFlow",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "SF",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "SpecFlow Team",
+                "TeamLevel": 3,
+                "Description": "SpecFlow Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "Name": "Training",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "Training Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "Training Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 27,
+          "Name": "CertAZ203",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "CertAZ203 Program Team",
+            "TeamLevel": 2,
+            "Description": "CertAZ203 Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 28,
+              "Name": "ApplicationInsights",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "AI",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "ApplicationInsights Team",
+                "TeamLevel": 3,
+                "Description": "ApplicationInsights Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 29,
+              "Name": "Autoscaling",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "AS",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "Autoscaling Team",
+                "TeamLevel": 3,
+                "Description": "Autoscaling Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 30,
+              "Name": "AzureAD",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "AD",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "AzureAD Team",
+                "TeamLevel": 3,
+                "Description": "AzureAD Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 31,
+              "Name": "AzureBatch",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "AB",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "AzureBatch Team",
+                "TeamLevel": 3,
+                "Description": "AzureBatch Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 32,
+              "Name": "AzureServiceBus",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "SB",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "AzureServiceBus Team",
+                "TeamLevel": 3,
+                "Description": "AzureServiceBus Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 33,
+              "Name": "Cache",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "CA",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "Cache Team",
+                "TeamLevel": 3,
+                "Description": "Cache Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 34,
+              "Name": "Containers",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "CNT",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "Containers Team",
+                "TeamLevel": 3,
+                "Description": "Containers Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 35,
+              "Name": "ContentDeliveryNetwork",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "CDN",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "ContentDeliveryNetwork Team",
+                "TeamLevel": 3,
+                "Description": "ContentDeliveryNetwork Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 36,
+              "Name": "CosmosDB",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "CDB",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "CosmosDB Team",
+                "TeamLevel": 3,
+                "Description": "CosmosDB Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 37,
+              "Name": "ManagedIdentities",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "MI",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "ManagedIdentities Team",
+                "TeamLevel": 3,
+                "Description": "ManagedIdentities Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 38,
+              "Name": "MessagingAndEventing",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "ME",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "MessagingAndEventing Team",
+                "TeamLevel": 3,
+                "Description": "MessagingAndEventing Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 39,
+              "Name": "Search",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "S",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "Search Team",
+                "TeamLevel": 3,
+                "Description": "Search Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 40,
+              "Name": "TestAzureFunctionAppSoln",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "FN",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "TestAzureFunctionAppSoln Team",
+                "TeamLevel": 3,
+                "Description": "TestAzureFunctionAppSoln Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 41,
+              "Name": "WebJobs",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "WJ",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "WebJobs Team",
+                "TeamLevel": 3,
+                "Description": "WebJobs Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "Name": "Workshops",
+      "BusinessNodeType": 1,
+      "Disabled": false,
+      "IsClone": false,
+      "IsOnPremiseProject": false,
+      "AzureDevOpsServerFQDN": null,
+      "OrganizationName": null,
+      "TeamPrefix": null,
+      "Process": null,
+      "TeamInclusions": null,
+      "AreaBasePaths": null,
+      "AreaPathMap": null,
+      "IterationBasePaths": null,
+      "IterationPathMap": null,
+      "Team": {
+        "Name": "Workshops Portfolio Team",
+        "TeamLevel": 1,
+        "Description": "Workshops Portfolio Team is responsible for Epic-level work items",
+        "Cadences": [
+          {
+            "CadenceStart": "2019-01-01T00:00:00",
+            "CadenceEnd": "2020-12-31T00:00:00",
+            "CadenceType": 5,
+            "NumberOfWeeksPerSprint": 0,
+            "NumberOfSprintsPerProgramIncrement": 0,
+            "FiscalMonthStart": 1,
+            "SprintDayOfWeekStart": 0,
+            "IterationCounterStart": 1
+          }
+        ]
+      },
+      "Children": [
+        {
+          "Id": 43,
+          "Name": "DevOps",
+          "BusinessNodeType": 2,
+          "Disabled": false,
+          "IsClone": false,
+          "IsOnPremiseProject": false,
+          "AzureDevOpsServerFQDN": null,
+          "OrganizationName": null,
+          "TeamPrefix": null,
+          "Process": null,
+          "TeamInclusions": null,
+          "AreaBasePaths": null,
+          "AreaPathMap": null,
+          "IterationBasePaths": null,
+          "IterationPathMap": null,
+          "Team": {
+            "Name": "DevOps Program Team",
+            "TeamLevel": 2,
+            "Description": "DevOps Program Team is responsible for Feature-level work items",
+            "Cadences": [
+              {
+                "CadenceStart": "2019-01-01T00:00:00",
+                "CadenceEnd": "2020-12-31T00:00:00",
+                "CadenceType": 3,
+                "NumberOfWeeksPerSprint": 2,
+                "NumberOfSprintsPerProgramIncrement": 5,
+                "FiscalMonthStart": 1,
+                "SprintDayOfWeekStart": 0,
+                "IterationCounterStart": 1
+              }
+            ]
+          },
+          "Children": [
+            {
+              "Id": 44,
+              "Name": "hol",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "HOL",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "hol Team",
+                "TeamLevel": 3,
+                "Description": "hol Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "Id": 45,
+              "Name": "hol-tbs-3",
+              "BusinessNodeType": 4,
+              "Disabled": false,
+              "IsClone": false,
+              "IsOnPremiseProject": false,
+              "AzureDevOpsServerFQDN": null,
+              "OrganizationName": "devopsabcs",
+              "TeamPrefix": "HOL3",
+              "Process": "Scrum",
+              "TeamInclusions": null,
+              "AreaBasePaths": null,
+              "AreaPathMap": null,
+              "IterationBasePaths": null,
+              "IterationPathMap": null,
+              "Team": {
+                "Name": "hol-tbs-3 Team",
+                "TeamLevel": 3,
+                "Description": "hol-tbs-3 Team is responsible for Requirement-level work items",
+                "Cadences": [
+                  {
+                    "CadenceStart": "2019-01-01T00:00:00",
+                    "CadenceEnd": "2020-12-31T00:00:00",
+                    "CadenceType": 1,
+                    "NumberOfWeeksPerSprint": 2,
+                    "NumberOfSprintsPerProgramIncrement": 0,
+                    "FiscalMonthStart": 1,
+                    "SprintDayOfWeekStart": 0,
+                    "IterationCounterStart": 1
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

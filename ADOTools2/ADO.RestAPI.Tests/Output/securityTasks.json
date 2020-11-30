@@ -1,0 +1,34 @@
+{
+  "securityTaskList": [
+    {
+      "token": "token1",
+      "merge": true,
+      "accessControlEntries": [
+        {
+          "allow": 8,
+          "deny": 0,
+          "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-1204400969-2402986413-2179408616-0-0-0-0-2",
+          "extendedInfo": null
+        }
+      ]
+    },
+    {
+      "token": "$/782e99f8-00cd-4a3c-ac71-f1e4b66a4b00/c6900c27-7b7a-4ec6-9123-10f2af01e5b2/d04ccb12-126a-40eb-a017-d51de34d6105/f343b153-2536-443d-b4ad-57003685f88a/5d2c7b8c-88c0-4182-95a6-8cd8fb9e365b",
+      "merge": false,
+      "accessControlEntries": [
+        {
+          "allow": 15,
+          "deny": 0,
+          "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-4170788472-3439344714-2893148644-3060419328-1-1269247236-1779663680-2620129462-846055378",
+          "extendedInfo": null
+        },
+        {
+          "allow": 15,
+          "deny": 0,
+          "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-4170788472-3439344714-2893148644-3060419328-1-103231501-2676988997-2987904274-1825082100",
+          "extendedInfo": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Id": 1,
+  "Name": "Core",
+  "StructureType": "area",
+  "HasChildren": true,
+  "Path": "\\Core\\Area",
+  "Attributes": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "Core",
+      "StructureType": "area",
+      "HasChildren": true,
+      "Path": "\\Core\\Area\\Core",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "Core",
+          "StructureType": "area",
+          "HasChildren": true,
+          "Path": "\\Core\\Area\\Core\\Core",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "Q42016",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\Q42016",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 5,
+              "Name": "ARCH",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\ARCH",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 6,
+              "Name": "DEV",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\DEV",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 7,
+              "Name": "IA-STIG",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\IA-STIG",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 8,
+              "Name": "SYS",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\SYS",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 9,
+              "Name": "TEST-BUILD-TOOLS",
+              "StructureType": "area",
+              "HasChildren": false,
+              "Path": "\\Core\\Area\\Core\\Core\\TEST-BUILD-TOOLS",
+              "Attributes": null,
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

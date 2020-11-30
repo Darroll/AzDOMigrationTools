@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Workshops\\DevOps",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Workshops\\DevOps",
+      "includeChildren": true
+    }
+  ]
+}

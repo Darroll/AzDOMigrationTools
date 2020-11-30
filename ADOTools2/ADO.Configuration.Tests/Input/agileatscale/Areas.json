@@ -1,0 +1,300 @@
+{
+	"name": "OneProjectV2_05",
+	"structureType": "area",
+	"hasChildren": true,
+	"children": [
+		{
+			"name": "Customer",
+			"structureType": "area",
+			"hasChildren": true,
+			"children": [
+				{
+					"name": "FinTech",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "Finastra-Hackfest-PoC",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Customer\\FinTech\\Finastra-Hackfest-PoC"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Customer\\FinTech"
+				}
+			],
+			"path": "\\OneProjectV2_05\\Area\\Customer"
+		},
+		{
+			"name": "Demo",
+			"structureType": "area",
+			"hasChildren": true,
+			"children": [
+				{
+					"name": "Migrations",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "SmartHotel360",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Demo\\Migrations\\SmartHotel360"
+						},
+						{
+							"name": "PartsUnlimited",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Demo\\Migrations\\PartsUnlimited"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Demo\\Migrations"
+				}
+			],
+			"path": "\\OneProjectV2_05\\Area\\Demo"
+		},
+		{
+			"name": "Research",
+			"structureType": "area",
+			"hasChildren": true,
+			"children": [
+				{
+					"name": "Testing",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "SpecFlow",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Testing\\SpecFlow"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Research\\Testing"
+				},
+				{
+					"name": "OSS",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "spring-music-devops",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\OSS\\spring-music-devops"
+						},
+						{
+							"name": "ScrumWithJavaMyShuttle",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\OSS\\ScrumWithJavaMyShuttle"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Research\\OSS"
+				},
+				{
+					"name": "Migrations",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "WikiProject",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Migrations\\WikiProject"
+						},
+						{
+							"name": "VstsWorkItemMigrator",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Migrations\\VstsWorkItemMigrator"
+						},
+						{
+							"name": "PostmanTools",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Migrations\\PostmanTools"
+						},
+						{
+							"name": "MigrationTool",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Migrations\\MigrationTool"
+						},
+						{
+							"name": "DevOpsDemoGenerator",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\Migrations\\DevOpsDemoGenerator"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Research\\Migrations"
+				},
+				{
+					"name": "DevOps",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "VstsExtensionSamples",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\DevOps\\VstsExtensionSamples"
+						},
+						{
+							"name": "KanbanCustomization",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\DevOps\\KanbanCustomization"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Research\\DevOps"
+				},
+				{
+					"name": "BusinessIntelligence",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "PowerBI",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Research\\BusinessIntelligence\\PowerBI"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Research\\BusinessIntelligence"
+				}
+			],
+			"path": "\\OneProjectV2_05\\Area\\Research"
+		},
+		{
+			"name": "Training",
+			"structureType": "area",
+			"hasChildren": true,
+			"children": [
+				{
+					"name": "CertAZ203",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "WebJobs",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\WebJobs"
+						},
+						{
+							"name": "TestAzureFunctionAppSoln",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\TestAzureFunctionAppSoln"
+						},
+						{
+							"name": "Search",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\Search"
+						},
+						{
+							"name": "MessagingAndEventing",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\MessagingAndEventing"
+						},
+						{
+							"name": "ManagedIdentities",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\ManagedIdentities"
+						},
+						{
+							"name": "CosmosDB",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\CosmosDB"
+						},
+						{
+							"name": "ContentDeliveryNetwork",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\ContentDeliveryNetwork"
+						},
+						{
+							"name": "Containers",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\Containers"
+						},
+						{
+							"name": "Cache",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\Cache"
+						},
+						{
+							"name": "AzureServiceBus",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\AzureServiceBus"
+						},
+						{
+							"name": "AzureBatch",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\AzureBatch"
+						},
+						{
+							"name": "AzureAD",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\AzureAD"
+						},
+						{
+							"name": "Autoscaling",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\Autoscaling"
+						},
+						{
+							"name": "ApplicationInsights",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203\\ApplicationInsights"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Training\\CertAZ203"
+				}
+			],
+			"path": "\\OneProjectV2_05\\Area\\Training"
+		},
+		{
+			"name": "Workshops",
+			"structureType": "area",
+			"hasChildren": true,
+			"children": [
+				{
+					"name": "DevOps",
+					"structureType": "area",
+					"hasChildren": true,
+					"children": [
+						{
+							"name": "hol-tbs-3",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Workshops\\DevOps\\hol-tbs-3"
+						},
+						{
+							"name": "hol",
+							"structureType": "area",
+							"hasChildren": false,
+							"path": "\\OneProjectV2_05\\Area\\Workshops\\DevOps\\hol"
+						}
+					],
+					"path": "\\OneProjectV2_05\\Area\\Workshops\\DevOps"
+				}
+			],
+			"path": "\\OneProjectV2_05\\Area\\Workshops"
+		}
+	],
+	"path": "\\OneProjectV2_05\\Area"
+}

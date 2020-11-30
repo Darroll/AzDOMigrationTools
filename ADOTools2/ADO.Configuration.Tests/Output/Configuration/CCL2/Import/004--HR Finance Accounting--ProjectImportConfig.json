@@ -1,0 +1,201 @@
+{
+  "sourceCollection": "carnivalcruiselines",
+  "sourceProject": "HR Finance Accounting",
+  "destinationCollection": "ccldevopsabcs",
+  "destinationProject": "OneProject",
+  "destinationProjectProcessName": "CCL-One",
+  "pat": "Environment.PatToken",
+  "defaultTeamName": "OneProject Team",
+  "description": "One Project to Rule Them All",
+  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\HR Finance Accounting\\SecurityTasks.json",
+  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "restApiService": {
+    "build": "5.0",
+    "coreApi": "5.0",
+    "distributedTask": "2.0-preview.1",
+    "extensionMgmtApi": "5.0-preview.1",
+    "taskAgentApi": "5.0-preview.1",
+    "git": "5.0",
+    "git|PullRequests": "5.0",
+    "git|Repositories": "5.0",
+    "git|ImportRequests": "5.0-preview.1",
+    "graph": "5.0-preview.1",
+    "policy": "5.0",
+    "processes": "5.0",
+    "projects": "5.0",
+    "projects|Get Project Properties": "5.0-preview.1",
+    "teams": "5.0",
+    "release": "5.0",
+    "security": "5.0-preview.1",
+    "serviceEndpoint": "5.0-preview.1",
+    "wiki": "5.0",
+    "wiql": "5.0",
+    "work": "5.0",
+    "work|Boards": "5.0",
+    "work|TeamSettings": "5.0",
+    "workItemTracking": "5.0",
+    "workItemTracking|Get Classification Nodes": "5.0"
+  },
+  "customInputParameterNamesForServiceEndpoint": null,
+  "importSourceCodeCredentials": {
+    "userID": "<Enter your user identifier to connect to ADO>",
+    "password": "Environment.PatTokenCCL",
+    "gitUsername": "<Enter your user identifier to connect to GitHub>",
+    "gitPassword": "Environment.GitHubPassword"
+  },
+  "behaviors": {
+    "createDestinationProject": true,
+    "initializeProject": false,
+    "deleteDefaultRepository": false,
+    "deleteSecurityTasksOutputFile": true,
+    "executeSecurityTasks": true,
+    "importAgentQueue": false,
+    "importArea": true,
+    "importBuildDefinition": true,
+    "importIteration": true,
+    "importPolicyConfiguration": true,
+    "importPullRequest": true,
+    "importReleaseDefinition": true,
+    "importRepository": true,
+    "importServiceEndpoint": true,
+    "importTeam": true,
+    "importTeamConfiguration": true,
+    "includeTeamSettings": true,
+    "includeTeamAreas": true,
+    "includeTeamIterations": true,
+    "includeBoardColumns": true,
+    "includeBoardRows": true,
+    "includeCardFieldSettings": true,
+    "includeCardStyleSettings": true,
+    "importTaskGroup": true,
+    "importVariableGroup": true,
+    "importWiki": true,
+    "installExtensions": false,
+    "querySecurityDescriptors": true,
+    "includeAreaSecurity": true,
+    "includeBuildPipelineSecurity": true,
+    "includeEndpointCreatorsSecurity": true,
+    "includeQueryFolderSecurity": true,
+    "includeReleasePipelineSecurity": true,
+    "includeRepositorySecurity": true,
+    "loadSecretsFromEnvironmentVariables": true,
+    "renameRepository": false,
+    "renameTeam": false,
+    "useSecurityTasksFile": false
+  },
+  "queryFolderPaths": [
+    {
+      "path": "Shared Queries/HR Finance Accounting/Tokenization",
+      "teamName": "HR Finance Accounting Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPaths": [
+    {
+      "path": "OneProject\\HR Finance Accounting\\401K Officers",
+      "teamName": "401K Officers",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Talent Management\\Compensation",
+      "teamName": "Compensation",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\GETTHERE Modernization",
+      "teamName": "GETTHERE Modernization",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting",
+      "teamName": "HR Finance Accounting Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Talent Management\\LMS",
+      "teamName": "HR-LMS",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Instant Pay",
+      "teamName": "Instant Pay",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Intercard",
+      "teamName": "Intercard",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Lawson Upgrade",
+      "teamName": "Lawson Upgrade",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Oracle HCM",
+      "teamName": "Oracle HCM",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\PCI Secure Call Center",
+      "teamName": "PCI Secure Call Center",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Talent Management",
+      "teamName": "Talent Management",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Time and Attendance",
+      "teamName": "Time and Attendance",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\HR Finance Accounting\\Tokenization",
+      "teamName": "Tokenization",
+      "disableInheritance": false
+    }
+  ],
+  "areaPrefixPath": "",
+  "iterationPrefixPath": "",
+  "buildPipelineFolderPaths": [
+    {
+      "path": "HR Finance Accounting/Tokenization",
+      "teamName": "HR Finance Accounting Team",
+      "disableInheritance": false
+    }
+  ],
+  "releasePipelineFolderPaths": [
+    {
+      "path": "HR Finance Accounting/Tokenization",
+      "teamName": "HR Finance Accounting Team",
+      "disableInheritance": false
+    }
+  ],
+  "repositorySecurity": [],
+  "teamMappings": null,
+  "teamExclusions": [
+    "someExcludedTeam"
+  ],
+  "teamInclusions": [
+    "Tokenization",
+    "HR Finance Accounting Team",
+    "401K Officers"
+  ],
+  "areaInclusions": [
+    "HR Finance Accounting\\Tokenization",
+    "HR Finance Accounting\\401K Officers"
+  ],
+  "iterationInclusions": [
+    "HR Finance Accounting\\Tokenization",
+    "HR Finance Accounting\\Talent Management"
+  ],
+  "prefixName": "HRFA",
+  "prefixSeparator": "_",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "areaInitializationTreePath": null,
+  "iterationInitializationTreePath": null,
+  "isOnPremiseMigration": true,
+  "isClone": true
+}

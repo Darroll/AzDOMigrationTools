@@ -1,0 +1,34 @@
+{
+  //target PAT token
+  "PAT": "",
+  "OrganizationName": "devopsmigration",
+  "ProjectName": "MergedProject22",
+  "ProjectCreationVersion": "5.0",
+  "SecurityVersion": "5.0",
+  "GraphVersion": "5.0-preview.1",
+  "SecurityTasksOutputFile": "..\\..\\securityTasks-SmartHotel360Target.json",
+  "DefaultTeamName": "SmartHotel360 Team",
+  "EnableImportQueryFolderSecurity": true,
+  "EnableImportEndpointCreatorsSecurity": true,
+  "EnableImportAreaSecurity": true,
+  "QueryFolderPaths": [
+    {
+      "Path": "Shared Queries/Portfolio A/Program 2/SmartHotel360",
+      "DefaultTeamName": "SmartHotel360 Team"
+    },
+    {
+      "Path": "Shared Queries/Portfolio A/Program 1/PartsUnlimited",
+      "DefaultTeamName": "PartsUnlimited Team"
+    }
+  ],
+  "AreaPaths": [
+    {
+      "Path": "MergedProject22/Portfolio A/Program 2/SmartHotel360",
+      "DefaultTeamName": "SmartHotel360 Team"
+    },
+    {
+      "Path": "MergedProject22/Portfolio A/Program 1/PartsUnlimited",
+      "DefaultTeamName": "PartsUnlimited Team"
+    }
+  ]
+}

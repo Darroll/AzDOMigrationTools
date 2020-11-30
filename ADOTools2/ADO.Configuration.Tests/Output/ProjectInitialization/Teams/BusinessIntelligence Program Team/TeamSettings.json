@@ -1,0 +1,24 @@
+{
+  "backlogIteration": {
+    "name": "Fiscal Year 2020 - H2",
+    "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2020 - H2"
+  },
+  "bugsBehavior": "asRequirements",
+  "workingDays": [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday"
+  ],
+  "backlogVisibilities": {
+    "Microsoft.EpicCategory": true,
+    "Microsoft.FeatureCategory": true,
+    "Microsoft.RequirementCategory": true
+  },
+  "defaultIteration": {
+    "name": "Program Increment 9",
+    "path": "\\OneProjectV2_02\\Research\\BusinessIntelligence\\PowerBI\\Fiscal Year 2020 - H2\\Program Increment 9"
+  },
+  "defaultIterationMacro": "@currentIteration"
+}

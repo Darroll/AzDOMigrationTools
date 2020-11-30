@@ -1,0 +1,581 @@
+{
+  "name": "XProject",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\XProject\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "OneProject Portfolio",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\XProject\\Area\\OneProject Portfolio",
+      "attributes": null,
+      "children": [
+        {
+          "name": "OneProject Product",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product",
+          "attributes": null,
+          "children": [
+            {
+              "name": "OneProjectV2_05",
+              "structureType": "area",
+              "hasChildren": true,
+              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05",
+              "attributes": null,
+              "children": [
+                {
+                  "name": "Customer",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "FinTech",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer\\FinTech",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "Finastra-Hackfest-PoC",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Customer\\FinTech\\Finastra-Hackfest-PoC",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Demo",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Migrations",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "SmartHotel360",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "Mobile",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360\\Mobile",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Web",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\SmartHotel360\\Web",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PartsUnlimited",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "PUL",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited\\PUL",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "PUL-DB",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Demo\\Migrations\\PartsUnlimited\\PUL-DB",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Research",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Testing",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Testing",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "SpecFlow",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Testing\\SpecFlow",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "OSS",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "spring-music-devops",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\spring-music-devops",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "ScrumWithJavaMyShuttle",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "Team2",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle\\Team2",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Team1",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\OSS\\ScrumWithJavaMyShuttle\\Team1",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Migrations",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "WikiProject",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\WikiProject",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "VstsWorkItemMigrator",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\VstsWorkItemMigrator",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "PostmanTools",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\PostmanTools",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "MigrationTool",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\MigrationTool",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "DevOpsDemoGenerator",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\Migrations\\DevOpsDemoGenerator",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DevOps",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "VstsExtensionSamples",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\VstsExtensionSamples",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "KanbanCustomization",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\DevOps\\KanbanCustomization",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "BusinessIntelligence",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\BusinessIntelligence",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "PowerBI",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Research\\BusinessIntelligence\\PowerBI",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Training",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "CertAZ203",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "WebJobs",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\WebJobs",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "TestAzureFunctionAppSoln",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\TestAzureFunctionAppSoln",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Search",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Search",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "MessagingAndEventing",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\MessagingAndEventing",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "ManagedIdentities",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ManagedIdentities",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "CosmosDB",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\CosmosDB",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "ContentDeliveryNetwork",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ContentDeliveryNetwork",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Containers",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Containers",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Cache",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Cache",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "AzureServiceBus",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureServiceBus",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "AzureBatch",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureBatch",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "AzureAD",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\AzureAD",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Autoscaling",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\Autoscaling",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "ApplicationInsights",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Training\\CertAZ203\\ApplicationInsights",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Workshops",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "DevOps",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "hol-tbs-3",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "Legacy Portfolio",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Legacy Portfolio",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Modern Portfolio",
+                              "structureType": "area",
+                              "hasChildren": true,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio",
+                              "attributes": null,
+                              "children": [
+                                {
+                                  "name": "ERP Program",
+                                  "structureType": "area",
+                                  "hasChildren": true,
+                                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\ERP Program",
+                                  "attributes": null,
+                                  "children": [
+                                    {
+                                      "name": "desktop",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\ERP Program\\desktop",
+                                      "attributes": null,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "CRM program",
+                                  "structureType": "area",
+                                  "hasChildren": true,
+                                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program",
+                                  "attributes": null,
+                                  "children": [
+                                    {
+                                      "name": "web",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program\\web",
+                                      "attributes": null,
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "mobile",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\Modern Portfolio\\CRM program\\mobile",
+                                      "attributes": null,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "RnD portfolio",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol-tbs-3\\RnD portfolio",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "hol",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "Modern Portfolio",
+                              "structureType": "area",
+                              "hasChildren": true,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio",
+                              "attributes": null,
+                              "children": [
+                                {
+                                  "name": "ERP Program",
+                                  "structureType": "area",
+                                  "hasChildren": true,
+                                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\ERP Program",
+                                  "attributes": null,
+                                  "children": [
+                                    {
+                                      "name": "Desktop ERP",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\ERP Program\\Desktop ERP",
+                                      "attributes": null,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "CRM Program",
+                                  "structureType": "area",
+                                  "hasChildren": true,
+                                  "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program",
+                                  "attributes": null,
+                                  "children": [
+                                    {
+                                      "name": "Web CRM",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program\\Web CRM",
+                                      "attributes": null,
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "Mobile CRM",
+                                      "structureType": "area",
+                                      "hasChildren": false,
+                                      "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Modern Portfolio\\CRM Program\\Mobile CRM",
+                                      "attributes": null,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Legacy Portfolio",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\XProject\\Area\\OneProject Portfolio\\OneProject Product\\OneProjectV2_05\\Workshops\\DevOps\\hol\\Legacy Portfolio",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

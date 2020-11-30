@@ -1,0 +1,74 @@
+[
+  {
+    "cards": {
+      "Epic": [
+        {
+          "fieldIdentifier": "System.Id"
+        },
+        {
+          "fieldIdentifier": "System.Title"
+        },
+        {
+          "fieldIdentifier": "System.AssignedTo",
+          "displayFormat": "AvatarAndFullName"
+        },
+        {
+          "fieldIdentifier": "System.Tags"
+        },
+        {
+          "fieldIdentifier": "System.State"
+        }
+      ]
+    },
+    "boardName": "Epics"
+  },
+  {
+    "cards": {
+      "Feature": [
+        {
+          "fieldIdentifier": "System.Id"
+        },
+        {
+          "fieldIdentifier": "System.Title"
+        },
+        {
+          "fieldIdentifier": "System.AssignedTo",
+          "displayFormat": "AvatarAndFullName"
+        },
+        {
+          "fieldIdentifier": "System.Tags"
+        },
+        {
+          "fieldIdentifier": "System.State"
+        }
+      ]
+    },
+    "boardName": "Features"
+  },
+  {
+    "cards": {
+      "Requirement": [
+        {
+          "fieldIdentifier": "System.Id"
+        },
+        {
+          "fieldIdentifier": "System.Title"
+        },
+        {
+          "fieldIdentifier": "System.AssignedTo",
+          "displayFormat": "AvatarAndFullName"
+        },
+        {
+          "fieldIdentifier": "System.Tags"
+        },
+        {
+          "fieldIdentifier": "System.State"
+        },
+        {
+          "fieldIdentifier": "Microsoft.VSTS.Scheduling.Size"
+        }
+      ]
+    },
+    "boardName": "Requirements"
+  }
+]

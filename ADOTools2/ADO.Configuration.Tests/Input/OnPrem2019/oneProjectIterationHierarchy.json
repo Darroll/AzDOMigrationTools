@@ -1,0 +1,501 @@
+{
+  "name": "Core",
+  "structureType": "iteration",
+  "hasChildren": true,
+  "path": "\\Core\\Iteration",
+  "attributes": null,
+  "children": [
+    {
+      "name": "Core",
+      "structureType": "iteration",
+      "hasChildren": true,
+      "path": "\\Core\\Iteration\\Core",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Core",
+          "structureType": "iteration",
+          "hasChildren": true,
+          "path": "\\Core\\Iteration\\Core\\Core",
+          "attributes": null,
+          "children": [
+            {
+              "name": "4Q16",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Core\\Iteration\\Core\\Core\\4Q16",
+              "attributes": {
+                "startDate": "2017-01-01T00:00:00Z",
+                "finishDate": "2017-06-30T00:00:00Z"
+              },
+              "children": [
+                {
+                  "name": "Sprint 01",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 01",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 02",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 02",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 03",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 03",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 04",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 04",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 05",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 05",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 06",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 06",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 07",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 07",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 08",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 08",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 09",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 09",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 10",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\4Q16\\Sprint 10",
+                  "attributes": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3Q17",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Core\\Iteration\\Core\\Core\\3Q17",
+              "attributes": {
+                "startDate": "2017-01-01T00:00:00Z",
+                "finishDate": "2017-09-19T00:00:00Z"
+              },
+              "children": [
+                {
+                  "name": "Sprint 0",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 0",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 1",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 1",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 2",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 2",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 3",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 3",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 4",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 4",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 5",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 5",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 6",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 6",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 7",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 7",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 8",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 8",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 9",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 9",
+                  "attributes": {
+                    "startDate": "2017-07-12T00:00:00Z",
+                    "finishDate": "2017-08-01T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 10",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 10",
+                  "attributes": {
+                    "startDate": "2017-08-02T00:00:00Z",
+                    "finishDate": "2017-08-22T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 11",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\3Q17\\Sprint 11",
+                  "attributes": {
+                    "startDate": "2017-08-23T00:00:00Z",
+                    "finishDate": "2017-09-19T00:00:00Z"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Pending Backlog",
+              "structureType": "iteration",
+              "hasChildren": false,
+              "path": "\\Core\\Iteration\\Core\\Core\\Pending Backlog",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "Graveyard",
+              "structureType": "iteration",
+              "hasChildren": false,
+              "path": "\\Core\\Iteration\\Core\\Core\\Graveyard",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "Release 1",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Core\\Iteration\\Core\\Core\\Release 1",
+              "attributes": {
+                "startDate": "2015-01-01T00:00:00Z",
+                "finishDate": "2015-06-30T00:00:00Z"
+              },
+              "children": [
+                {
+                  "name": "Sprint 3",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 3",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 6",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 6",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 4",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 4",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 5",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 5",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 1",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 1",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sprint 2",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\Release 1\\Sprint 2",
+                  "attributes": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "1Q18",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Core\\Iteration\\Core\\Core\\1Q18",
+              "attributes": {
+                "startDate": "2017-09-20T00:00:00Z",
+                "finishDate": "2018-03-20T00:00:00Z"
+              },
+              "children": [
+                {
+                  "name": "Sprint 00",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 00",
+                  "attributes": {
+                    "startDate": "2017-09-20T00:00:00Z",
+                    "finishDate": "2017-10-03T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 01",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 01",
+                  "attributes": {
+                    "startDate": "2017-10-04T00:00:00Z",
+                    "finishDate": "2017-10-24T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 02",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 02",
+                  "attributes": {
+                    "startDate": "2017-10-25T00:00:00Z",
+                    "finishDate": "2017-11-14T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 03",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 03",
+                  "attributes": {
+                    "startDate": "2017-11-15T00:00:00Z",
+                    "finishDate": "2017-12-05T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 04",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 04",
+                  "attributes": {
+                    "startDate": "2017-12-06T00:00:00Z",
+                    "finishDate": "2018-01-08T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 05",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 05",
+                  "attributes": {
+                    "startDate": "2018-01-10T00:00:00Z",
+                    "finishDate": "2018-01-30T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 06",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 06",
+                  "attributes": {
+                    "startDate": "2018-01-31T00:00:00Z",
+                    "finishDate": "2018-02-20T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 07",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 07",
+                  "attributes": {
+                    "startDate": "2018-02-21T00:00:00Z",
+                    "finishDate": "2018-03-13T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 08",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 08",
+                  "attributes": {
+                    "startDate": "2018-03-14T00:00:00Z",
+                    "finishDate": "2018-04-03T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 09",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 09",
+                  "attributes": {
+                    "startDate": "2018-04-04T00:00:00Z",
+                    "finishDate": "2018-04-24T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 10",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 10",
+                  "attributes": {
+                    "startDate": "2018-04-25T00:00:00Z",
+                    "finishDate": "2018-05-15T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 11",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 11",
+                  "attributes": {
+                    "startDate": "2018-05-16T00:00:00Z",
+                    "finishDate": "2018-06-05T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Sprint 12",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Sprint 12",
+                  "attributes": {
+                    "startDate": "2018-06-06T00:00:00Z",
+                    "finishDate": "2018-06-22T00:00:00Z"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Lucky Sprint 13",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\1Q18\\Lucky Sprint 13",
+                  "attributes": {
+                    "startDate": "2018-06-27T00:00:00Z",
+                    "finishDate": "2018-07-17T00:00:00Z"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2.3",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Core\\Iteration\\Core\\Core\\2.3",
+              "attributes": {
+                "startDate": "2018-07-18T00:00:00Z",
+                "finishDate": "2019-01-15T00:00:00Z"
+              },
+              "children": [
+                {
+                  "name": "Sprint 1",
+                  "structureType": "iteration",
+                  "hasChildren": false,
+                  "path": "\\Core\\Iteration\\Core\\Core\\2.3\\Sprint 1",
+                  "attributes": {
+                    "startDate": "2018-07-18T00:00:00Z",
+                    "finishDate": "2018-08-07T00:00:00Z"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

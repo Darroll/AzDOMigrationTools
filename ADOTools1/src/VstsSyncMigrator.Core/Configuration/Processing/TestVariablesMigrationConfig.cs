@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+
+namespace VstsSyncMigrator.Engine.Configuration.Processing
+{
+    public class TestVariablesMigrationConfig : ITfsProcessingConfig
+    {
+        [JsonProperty(PropertyName = "enabled")]
+        public bool Enabled { get; set; }
+
+        [JsonIgnore]
+        public Type Processor
+        {
+            get { return typeof(TestVariablesMigrationContext); }
+        }
+
+        public bool IsProcessorCompatible(IReadOnlyList<ITfsProcessingConfig> otherProcessors)
+        {
+            return true;
+        }
+    }
+}

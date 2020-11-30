@@ -1,0 +1,9 @@
+{
+  "parameters": {
+    "gitSource": {
+      "url": "$Url$"
+    },
+    "serviceEndpointId": "$Endpoint:EndpointName-Id$",
+    "deleteServiceEndpointAfterImportIsDone": true
+  }
+}

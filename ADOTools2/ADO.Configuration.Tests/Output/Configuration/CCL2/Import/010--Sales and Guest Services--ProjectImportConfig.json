@@ -1,0 +1,395 @@
+{
+  "sourceCollection": "carnivalcruiselines",
+  "sourceProject": "Sales and Guest Services",
+  "destinationCollection": "ccldevopsabcs",
+  "destinationProject": "OneProject",
+  "destinationProjectProcessName": "CCL-One",
+  "pat": "Environment.PatToken",
+  "defaultTeamName": "OneProject Team",
+  "description": "One Project to Rule Them All",
+  "securityTasksFile": "C:\\Templates\\V2\\ExtractedTemplate\\carnivalcruiselines\\Sales and Guest Services\\SecurityTasks.json",
+  "importPath": "C:\\Templates\\V2\\ExtractedTemplate",
+  "restApiService": {
+    "build": "5.0",
+    "coreApi": "5.0",
+    "distributedTask": "2.0-preview.1",
+    "extensionMgmtApi": "5.0-preview.1",
+    "taskAgentApi": "5.0-preview.1",
+    "git": "5.0",
+    "git|PullRequests": "5.0",
+    "git|Repositories": "5.0",
+    "git|ImportRequests": "5.0-preview.1",
+    "graph": "5.0-preview.1",
+    "policy": "5.0",
+    "processes": "5.0",
+    "projects": "5.0",
+    "projects|Get Project Properties": "5.0-preview.1",
+    "teams": "5.0",
+    "release": "5.0",
+    "security": "5.0-preview.1",
+    "serviceEndpoint": "5.0-preview.1",
+    "wiki": "5.0",
+    "wiql": "5.0",
+    "work": "5.0",
+    "work|Boards": "5.0",
+    "work|TeamSettings": "5.0",
+    "workItemTracking": "5.0",
+    "workItemTracking|Get Classification Nodes": "5.0"
+  },
+  "customInputParameterNamesForServiceEndpoint": null,
+  "importSourceCodeCredentials": {
+    "userID": "<Enter your user identifier to connect to ADO>",
+    "password": "Environment.PatTokenCCL",
+    "gitUsername": "<Enter your user identifier to connect to GitHub>",
+    "gitPassword": "Environment.GitHubPassword"
+  },
+  "behaviors": {
+    "createDestinationProject": false,
+    "initializeProject": false,
+    "deleteDefaultRepository": false,
+    "deleteSecurityTasksOutputFile": true,
+    "executeSecurityTasks": true,
+    "importAgentQueue": false,
+    "importArea": true,
+    "importBuildDefinition": true,
+    "importIteration": true,
+    "importPolicyConfiguration": true,
+    "importPullRequest": true,
+    "importReleaseDefinition": true,
+    "importRepository": true,
+    "importServiceEndpoint": true,
+    "importTeam": true,
+    "importTeamConfiguration": true,
+    "includeTeamSettings": true,
+    "includeTeamAreas": true,
+    "includeTeamIterations": true,
+    "includeBoardColumns": true,
+    "includeBoardRows": true,
+    "includeCardFieldSettings": true,
+    "includeCardStyleSettings": true,
+    "importTaskGroup": true,
+    "importVariableGroup": true,
+    "importWiki": true,
+    "installExtensions": false,
+    "querySecurityDescriptors": true,
+    "includeAreaSecurity": true,
+    "includeBuildPipelineSecurity": true,
+    "includeEndpointCreatorsSecurity": true,
+    "includeQueryFolderSecurity": true,
+    "includeReleasePipelineSecurity": true,
+    "includeRepositorySecurity": true,
+    "loadSecretsFromEnvironmentVariables": true,
+    "renameRepository": false,
+    "renameTeam": false,
+    "useSecurityTasksFile": false
+  },
+  "queryFolderPaths": [
+    {
+      "path": "Shared Queries/Sales and Guest Service/FMA",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    }
+  ],
+  "areaPaths": [
+    {
+      "path": "OneProject\\Sales and Guest Services\\BonVoyage",
+      "teamName": "Bonvoyage",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Carnival Australia",
+      "teamName": "Carnival Australia",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\CNAV-Carnival Navigator",
+      "teamName": "CNAV-Carnival Navigator",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\iCare\\iCare 2019",
+      "teamName": "Crew Travel Incident Tracking",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\CRM - Dash",
+      "teamName": "CRM - Dash",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\RUP-EPP",
+      "teamName": "EPP",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\FMA",
+      "teamName": "FMA",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Gift Card Customer Service Optimization",
+      "teamName": "Gift Card Customer Service Optimization",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\GMP",
+      "teamName": "GMP",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\GSAR",
+      "teamName": "GSAR",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\iCare",
+      "teamName": "iCare",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Audit Cases",
+      "teamName": "iCare Audit Cases",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Upgrade",
+      "teamName": "iCare Upgrade",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Launchpad_Nav Server Upgrade 2016",
+      "teamName": "Launchpad_Nav Server Upgrade 2016",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\MainbookingDisplay",
+      "teamName": "MainbookingDisplay",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Navigator Enterprise Server Release (Mainframe Release)",
+      "teamName": "Navigator Enterprise Server Release (Mainframe Release)",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Oracle Right Now",
+      "teamName": "Oracle Right Now",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Oracle Sales Cloud",
+      "teamName": "Oracle Sales Cloud",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\RUP",
+      "teamName": "RUP",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\SGS CI-CD Setup",
+      "teamName": "SGS CI-CD Setup",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Siebel",
+      "teamName": "Siebel",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\TARP",
+      "teamName": "TARP",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\Varicent",
+      "teamName": "Varicent",
+      "disableInheritance": false
+    },
+    {
+      "path": "OneProject\\Sales and Guest Services\\EPP",
+      "teamName": "Verint Upgrade",
+      "disableInheritance": false
+    }
+  ],
+  "areaPrefixPath": "",
+  "iterationPrefixPath": "",
+  "buildPipelineFolderPaths": [
+    {
+      "path": "Sales and Guest Service/FMA",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    }
+  ],
+  "releasePipelineFolderPaths": [
+    {
+      "path": "Sales and Guest Service/FMA",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    }
+  ],
+  "repositorySecurity": [
+    {
+      "path": "Sales-and-Guest-Services.wiki",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "EPPSecurityAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMBookingDisplayAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "EPPWebUI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA_FleetCalculations",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA_EmailNotification",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "Bonvoyage",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "EPPDatabase",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMDashSecurityAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMDashWebUI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "DBScript",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMBookingDisplay",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "GSAR_NotifyOther",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA_DbObjects",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "GSAR",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "EPPWebAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "Sales and Guest Services",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMDatabase",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "RUP",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "GSAR_NotifyMarketing",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA_API",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "CRMDashAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "EPPDataLoads",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "GMP",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "TARPDatabase",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA_SecurityAPI",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    },
+    {
+      "path": "FMA",
+      "teamName": "Sales and Guest Services Team",
+      "disableInheritance": false
+    }
+  ],
+  "teamMappings": null,
+  "teamExclusions": [
+    "someExcludedTeam"
+  ],
+  "teamInclusions": [
+    "FMA",
+    "Sales and Guest Services Team"
+  ],
+  "areaInclusions": [
+    "Sales and Guest Services\\FMA"
+  ],
+  "iterationInclusions": [
+    "Sales and Guest Services\\FMA",
+    "Sales and Guest Services\\iCare"
+  ],
+  "prefixName": "SGS",
+  "prefixSeparator": "_",
+  "processMapLocation": "..\\..\\..\\ADO.ProcessMapping.Tests\\Output\\OneMapToRuleThemAll.json",
+  "areaInitializationTreePath": null,
+  "iterationInitializationTreePath": null,
+  "isOnPremiseMigration": true,
+  "isClone": true
+}

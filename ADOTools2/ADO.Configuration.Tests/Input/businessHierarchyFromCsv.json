@@ -1,0 +1,297 @@
+{
+  "Name": "OneProjectV2_02",
+  "Children": [
+    {
+      "Name": "Customer",
+      "BusinessHierarchyTeam": {
+        "Name": "Customer Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "FinTech",
+          "BusinessHierarchyTeam": {
+            "Name": "FinTech Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Finastra-Hackfest-PoC",
+              "TeamPrefix": "FIN",
+              "Process": "Scrum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Demo",
+      "BusinessHierarchyTeam": {
+        "Name": "Demo Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "Migrations",
+          "BusinessHierarchyTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PartsUnlimited",
+              "TeamPrefix": "PU",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "SmartHotel360",
+              "TeamPrefix": "SH",
+              "Process": "Scrum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Research",
+      "BusinessHierarchyTeam": {
+        "Name": "Research Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "BusinessIntelligence",
+          "BusinessHierarchyTeam": {
+            "Name": "BusinessIntelligence Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PowerBI",
+              "TeamPrefix": "PBI",
+              "Process": "Scrum"
+            }
+          ]
+        },
+        {
+          "Name": "DevOps",
+          "BusinessHierarchyTeam": {
+            "Name": "DevOps Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "KanbanCustomization",
+              "TeamPrefix": "KB",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "VstsExtensionSamples",
+              "TeamPrefix": "XT",
+              "Process": "Scrum"
+            }
+          ]
+        },
+        {
+          "Name": "Migrations",
+          "BusinessHierarchyTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "DevOpsDemoGenerator",
+              "TeamPrefix": "DG",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "MigrationTool",
+              "TeamPrefix": "MT",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "PostmanTools",
+              "TeamPrefix": "PT",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "VstsWorkItemMigrator",
+              "TeamPrefix": "WIT",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "WikiProject",
+              "TeamPrefix": "WP",
+              "Process": "Scrum"
+            }
+          ]
+        },
+        {
+          "Name": "OSS",
+          "BusinessHierarchyTeam": {
+            "Name": "OSS Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ScrumWithJavaMyShuttle",
+              "TeamPrefix": "JV",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "spring-music-devops",
+              "TeamPrefix": "SPR",
+              "Process": "Scrum"
+            }
+          ]
+        },
+        {
+          "Name": "Testing",
+          "BusinessHierarchyTeam": {
+            "Name": "Testing Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "SpecFlow",
+              "TeamPrefix": "SF",
+              "Process": "Scrum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Training",
+      "BusinessHierarchyTeam": {
+        "Name": "Training Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "CertAZ203",
+          "BusinessHierarchyTeam": {
+            "Name": "CertAZ203 Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ApplicationInsights",
+              "TeamPrefix": "AI",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Autoscaling",
+              "TeamPrefix": "AS",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureAD",
+              "TeamPrefix": "AD",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureBatch",
+              "TeamPrefix": "AB",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "AzureServiceBus",
+              "TeamPrefix": "SB",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Cache",
+              "TeamPrefix": "CA",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Containers",
+              "TeamPrefix": "CNT",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ContentDeliveryNetwork",
+              "TeamPrefix": "CDN",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "CosmosDB",
+              "TeamPrefix": "CDB",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "ManagedIdentities",
+              "TeamPrefix": "MI",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "MessagingAndEventing",
+              "TeamPrefix": "ME",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "Search",
+              "TeamPrefix": "S",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "TestAzureFunctionAppSoln",
+              "TeamPrefix": "FN",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "WebJobs",
+              "TeamPrefix": "WJ",
+              "Process": "Scrum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Workshops",
+      "BusinessHierarchyTeam": {
+        "Name": "Workshops Portfolio Team"
+      },
+      "Children": [
+        {
+          "Name": "DevOps",
+          "BusinessHierarchyTeam": {
+            "Name": "DevOps Program Team"
+          },
+          "Children": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "hol",
+              "TeamPrefix": "HOL",
+              "Process": "Scrum"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "Name": "hol-tbs-3",
+              "TeamPrefix": "HOL3",
+              "Process": "Scrum"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

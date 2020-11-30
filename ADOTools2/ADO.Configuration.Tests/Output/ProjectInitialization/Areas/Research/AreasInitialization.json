@@ -1,0 +1,142 @@
+{
+  "name": "Research",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Research\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "BusinessIntelligence",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Research\\Area\\BusinessIntelligence",
+      "attributes": null,
+      "children": [
+        {
+          "name": "PowerBI",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\BusinessIntelligence\\PowerBI",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Research\\Area\\DevOps",
+      "attributes": null,
+      "children": [
+        {
+          "name": "KanbanCustomization",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\DevOps\\KanbanCustomization",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "VstsExtensionSamples",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\DevOps\\VstsExtensionSamples",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Migrations",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Research\\Area\\Migrations",
+      "attributes": null,
+      "children": [
+        {
+          "name": "DevOpsDemoGenerator",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Migrations\\DevOpsDemoGenerator",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "MigrationTool",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Migrations\\MigrationTool",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "PostmanTools",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Migrations\\PostmanTools",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "VstsWorkItemMigrator",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Migrations\\VstsWorkItemMigrator",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "WikiProject",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Migrations\\WikiProject",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "OSS",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Research\\Area\\OSS",
+      "attributes": null,
+      "children": [
+        {
+          "name": "ScrumWithJavaMyShuttle",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\OSS\\ScrumWithJavaMyShuttle",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "spring-music-devops",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\OSS\\spring-music-devops",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Research\\Area\\Testing",
+      "attributes": null,
+      "children": [
+        {
+          "name": "SpecFlow",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Research\\Area\\Testing\\SpecFlow",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Demo",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Demo\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "Migrations",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Demo\\Area\\Migrations",
+      "attributes": null,
+      "children": [
+        {
+          "name": "PartsUnlimited",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Demo\\Area\\Migrations\\PartsUnlimited",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "SmartHotel360",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Demo\\Area\\Migrations\\SmartHotel360",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

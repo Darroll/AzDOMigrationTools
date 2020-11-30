@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props')" />
+  <Import Project="..\..\ADOTools1\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\..\ADOTools1\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D9252CB-F59C-4D1C-82AD-7EFD8BCA68D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADO.Configuration.Tests</RootNamespace>
+    <AssemblyName>ADO.Configuration.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LINQtoCSV, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LINQtoCSV.1.4.0.0\lib\net35\LINQtoCSV.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="TreeCollections, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\ADOTools1\packages\TreeCollections.1.0.4\lib\net45\TreeCollections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestBusinessEntities.cs" />
+    <Compile Include="TestCadences.cs" />
+    <Compile Include="TestGenerateUniversal.cs" />
+    <Compile Include="TestCcl.cs" />
+    <Compile Include="TestOneHierarchy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestGenerateConfigs.cs" />
+    <Compile Include="TestKForce.cs" />
+    <Compile Include="TestKForceNormal.cs" />
+    <Compile Include="TestMigration.cs" />
+    <Compile Include="TestOnPrem2019.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Input\agileatscale\Areas.json" />
+    <None Include="Input\agileatscale\businessHierarchyCsv.csv" />
+    <None Include="Input\agileatscale\Iterations.json" />
+    <None Include="Input\agileatscale\oneProjectAreaHierarchy.json" />
+    <None Include="Input\agileatscale\oneProjectIterationHierarchy.json" />
+    <None Include="Input\businessHierarchy.json" />
+    <None Include="Input\businessHierarchyCsv2.csv" />
+    <None Include="Input\businessHierarchyCsv.csv" />
+    <None Include="Input\businessHierarchyFromAreas.json" />
+    <None Include="Input\businessHierarchyFromCsv.json" />
+    <None Include="Input\businessNodeFromAreas.json" />
+    <None Include="Input\businessNodeFromBusinessHierarchy.json" />
+    <None Include="Input\businessNodeFromCsv.json" />
+    <None Include="Input\businessNodeFromCsv2.json" />
+    <None Include="Input\businessNodeFromCsvNEW.json" />
+    <None Include="Input\businessNodeFromCsvNEW2.json" />
+    <None Include="Input\CCL2\businessHierarchyCsvAlt.csv" />
+    <None Include="Input\CCL2\businessHierarchyCsv.csv" />
+    <None Include="Input\CCL2\oneProjectAreaHierarchy.json" />
+    <None Include="Input\CCL2\oneProjectIterationHierarchy.json" />
+    <None Include="Input\CCLOneProject\businessHierarchyCsv.csv" />
+    <None Include="Input\CCLOneProject\oneProjectAreaHierarchy.json" />
+    <None Include="Input\CCLOneProject\oneProjectIterationHierarchy.json" />
+    <None Include="Input\CCL\businessHierarchyCsv.csv" />
+    <None Include="Input\CCL\oneProjectAreaHierarchy.json" />
+    <None Include="Input\CCL\oneProjectIterationHierarchy.json" />
+    <None Include="Input\KForceNormal\businessHierarchyCsv2.csv" />
+    <None Include="Input\KForceNormal\businessNodeFromCsv2.json" />
+    <None Include="Input\KForceNormal\businessNodeFromCsvNEW2.json" />
+    <None Include="Input\KForce\businessHierarchyCsv2.csv" />
+    <None Include="Input\KForce\businessNodeFromCsv2.json" />
+    <None Include="Input\KForce\businessNodeFromCsvNEW2.json" />
+    <None Include="Input\oneProjectAreaInitialization.json" />
+    <None Include="Input\oneProjectIterationInitialization.json" />
+    <None Include="Input\OnPrem2019\businessHierarchyCsv.csv" />
+    <None Include="Input\OnPrem2019\oneProjectAreaHierarchy.json" />
+    <None Include="Input\OnPrem2019\oneProjectIterationHierarchy.json" />
+    <None Include="Output\agileatscale\businessNodeDataNodeFromCsv.json" />
+    <None Include="Output\agileatscale\businessNodeFromCsv.json" />
+    <None Include="Output\agileatscale\oneProjectAreaHierarchy.json" />
+    <None Include="Output\agileatscale\oneProjectAreaInitialization.json" />
+    <None Include="Output\agileatscale\oneProjectAreaMap.json" />
+    <None Include="Output\agileatscale\oneProjectIterationHierarchy.json" />
+    <None Include="Output\agileatscale\oneProjectIterationInitialization.json" />
+    <None Include="Output\agileatscale\oneProjectIterationMap.json" />
+    <None Include="Output\businessHierarchy.json" />
+    <None Include="Output\businessHierarchyCsv.csv" />
+    <None Include="Output\businessHierarchyFromCsv.json" />
+    <None Include="Output\businessNodeFromBusinessHierarchy.json" />
+    <None Include="Output\businessNodeFromCsv.json" />
+    <None Include="Output\businessNodeFromCsv2.json" />
+    <None Include="Output\CCL2\businessNodeDataNodeFromCsv.json" />
+    <None Include="Output\CCL2\businessNodeFromCsv.json" />
+    <None Include="Output\CCL2\oneProjectAreaHierarchy.json" />
+    <None Include="Output\CCL2\oneProjectAreaMap.json" />
+    <None Include="Output\CCL2\oneProjectIterationHierarchy.json" />
+    <None Include="Output\CCL2\oneProjectIterationMap.json" />
+    <None Include="Output\CCLOneProject\businessNodeDataNodeFromCsv.json" />
+    <None Include="Output\CCLOneProject\businessNodeFromCsv.json" />
+    <None Include="Output\CCLOneProject\oneProjectAreaHierarchy.json" />
+    <None Include="Output\CCLOneProject\oneProjectAreaInitialization.json" />
+    <None Include="Output\CCLOneProject\oneProjectAreaMap.json" />
+    <None Include="Output\CCLOneProject\oneProjectIterationHierarchy.json" />
+    <None Include="Output\CCLOneProject\oneProjectIterationInitialization.json" />
+    <None Include="Output\CCLOneProject\oneProjectIterationMap.json" />
+    <None Include="Output\CCL\businessNodeDataNodeFromCsv.json" />
+    <None Include="Output\CCL\businessNodeFromCsv.json" />
+    <None Include="Output\CCL\oneProjectAreaHierarchy.json" />
+    <None Include="Output\CCL\oneProjectAreaMap.json" />
+    <None Include="Output\CCL\oneProjectIterationHierarchy.json" />
+    <None Include="Output\CCL\oneProjectIterationMap.json" />
+    <None Include="Output\Configuration\agileatscale\BulkImport\004--OneProjectV2_05--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\agileatscale\Export\004--OneProjectV2_05--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\agileatscale\Import\004--OneProjectV2_05--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\agileatscale\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\agileatscale\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\agileatscale\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\CCL2\BulkImport\004--HR Finance Accounting--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\BulkImport\007--CSS Dining Mobility--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\BulkImport\010--Sales and Guest Services--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Export\004--HR Finance Accounting--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Export\007--CSS Dining Mobility--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Export\010--Sales and Guest Services--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Import\004--HR Finance Accounting--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Import\007--CSS Dining Mobility--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Import\010--Sales and Guest Services--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL2\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\CCL2\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\CCL2\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\CCLOneProject\BulkImport\004--OneProject_01--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCLOneProject\Export\004--OneProject_01--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCLOneProject\Import\004--OneProject_01--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCLOneProject\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\CCLOneProject\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\CCLOneProject\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\CCL\BulkImport\004--Project Delta--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL\BulkImport\007--HR Finance Accounting--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL\BulkImport\010--Master Data Management--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL\BulkImport\013--CSS Dining Mobility--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL\BulkImport\016--Sales and Guest Services--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Export\004--Project Delta--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL\Export\007--HR Finance Accounting--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL\Export\010--Master Data Management--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL\Export\013--CSS Dining Mobility--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL\Export\016--Sales and Guest Services--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\CCL\Import\004--Project Delta--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Import\007--HR Finance Accounting--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Import\010--Master Data Management--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Import\013--CSS Dining Mobility--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Import\016--Sales and Guest Services--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\CCL\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\CCL\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\CCL\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\KForceNormal\BulkImport\004--KForce Project--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForceNormal\Export\004--KForce Project--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForceNormal\Import\004--KForce Project--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\KForceNormal\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\KForceNormal\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\KForceNormal\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\KForce\BulkImport\004--Technology Operating Committee--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\006--Information Marketplace--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\009--IT Application Services--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\010--IT Technology Services--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\013--Kforce Connect--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\014--TRM--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\016--ERP Prog--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\018--DevSecOps Program--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\BulkImport\020--CRM--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\004--Technology Operating Committee--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\006--Information Marketplace--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\009--IT Application Services--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\010--IT Technology Services--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\013--Kforce Connect--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\014--TRM--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\016--ERP Prog--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\018--DevSecOps Program--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Export\020--CRM--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\KForce\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\KForce\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\OnPrem2019\BulkImport\001--Core--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\OnPrem2019\Export\001--Core--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\OnPrem2019\Import\001--Core--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\OnPrem2019\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\OnPrem2019\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\OnPrem2019\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\Phase1\BulkImport\004--Finastra-Hackfest-PoC--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\007--PartsUnlimited--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\008--SmartHotel360--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\011--PowerBI--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\013--KanbanCustomization--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\014--VstsExtensionSamples--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\016--DevOpsDemoGenerator--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\017--MigrationTool--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\018--PostmanTools--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\019--VstsWorkItemMigrator--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\020--WikiProject--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\022--ScrumWithJavaMyShuttle--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\023--spring-music-devops--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\025--SpecFlow--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\028--ApplicationInsights--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\029--Autoscaling--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\030--AzureAD--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\031--AzureBatch--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\032--AzureServiceBus--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\033--Cache--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\034--Containers--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\035--ContentDeliveryNetwork--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\036--CosmosDB--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\037--ManagedIdentities--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\038--MessagingAndEventing--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\039--Search--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\040--TestAzureFunctionAppSoln--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\041--WebJobs--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\044--hol--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\BulkImport\045--hol-tbs-3--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\004--Finastra-Hackfest-PoC--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\007--PartsUnlimited--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\008--SmartHotel360--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\011--PowerBI--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\013--KanbanCustomization--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\014--VstsExtensionSamples--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\016--DevOpsDemoGenerator--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\017--MigrationTool--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\018--PostmanTools--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\019--VstsWorkItemMigrator--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\020--WikiProject--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\022--ScrumWithJavaMyShuttle--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\023--spring-music-devops--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\025--SpecFlow--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\028--ApplicationInsights--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\029--Autoscaling--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\030--AzureAD--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\031--AzureBatch--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\032--AzureServiceBus--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\033--Cache--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\034--Containers--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\035--ContentDeliveryNetwork--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\036--CosmosDB--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\037--ManagedIdentities--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\038--MessagingAndEventing--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\039--Search--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\040--TestAzureFunctionAppSoln--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\041--WebJobs--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\044--hol--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Export\045--hol-tbs-3--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\004--Finastra-Hackfest-PoC--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\007--PartsUnlimited--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\008--SmartHotel360--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\011--PowerBI--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\013--KanbanCustomization--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\014--VstsExtensionSamples--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\016--DevOpsDemoGenerator--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\017--MigrationTool--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\018--PostmanTools--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\019--VstsWorkItemMigrator--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\020--WikiProject--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\022--ScrumWithJavaMyShuttle--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\023--spring-music-devops--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\025--SpecFlow--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\028--ApplicationInsights--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\029--Autoscaling--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\030--AzureAD--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\031--AzureBatch--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\032--AzureServiceBus--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\033--Cache--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\034--Containers--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\035--ContentDeliveryNetwork--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\036--CosmosDB--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\037--ManagedIdentities--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\038--MessagingAndEventing--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\039--Search--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\040--TestAzureFunctionAppSoln--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\041--WebJobs--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\044--hol--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Import\045--hol-tbs-3--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\Phase1\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\Phase1\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\Phase1\Scripts\ImportAll.bat" />
+    <None Include="Output\Configuration\UniversalProcess\BulkImport\004--Agile Xml--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\BulkImport\005--CMMI Xml Project--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\BulkImport\006--Scrum Xml--ProjectBulkImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Export\004--Agile Xml--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Export\005--CMMI Xml Project--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Export\006--Scrum Xml--ProjectExportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Import\004--Agile Xml--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Import\005--CMMI Xml Project--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Import\006--Scrum Xml--ProjectImportConfig.json" />
+    <None Include="Output\Configuration\UniversalProcess\Scripts\BulkImportAll.bat" />
+    <None Include="Output\Configuration\UniversalProcess\Scripts\ExportAll.bat" />
+    <None Include="Output\Configuration\UniversalProcess\Scripts\ImportAll.bat" />
+    <None Include="Output\KForceNormal\businessNodeFromCsv2.json" />
+    <None Include="Output\KForce\businessNodeFromCsv2.json" />
+    <None Include="Output\OnPrem2019\businessNodeDataNodeFromCsv.json" />
+    <None Include="Output\OnPrem2019\businessNodeFromCsv.json" />
+    <None Include="Output\OnPrem2019\oneProjectAreaHierarchy.json" />
+    <None Include="Output\OnPrem2019\oneProjectAreaMap.json" />
+    <None Include="Output\OnPrem2019\oneProjectIterationHierarchy.json" />
+    <None Include="Output\OnPrem2019\oneProjectIterationMap.json" />
+    <None Include="Output\ProjectInitialization\Areas\Customer\AreasInitialization.json" />
+    <None Include="Output\ProjectInitialization\Areas\Demo\AreasInitialization.json" />
+    <None Include="Output\ProjectInitialization\Areas\Research\AreasInitialization.json" />
+    <None Include="Output\ProjectInitialization\Areas\Training\AreasInitialization.json" />
+    <None Include="Output\ProjectInitialization\Areas\Workshops\AreasInitialization.json" />
+    <None Include="Output\ProjectInitialization\Iterations\Customer\IterationsInitialization.json" />
+    <None Include="Output\ProjectInitialization\Iterations\Demo\IterationsInitialization.json" />
+    <None Include="Output\ProjectInitialization\Iterations\Research\IterationsInitialization.json" />
+    <None Include="Output\ProjectInitialization\Iterations\Training\IterationsInitialization.json" />
+    <None Include="Output\ProjectInitialization\Iterations\Workshops\IterationsInitialization.json" />
+    <None Include="Output\ProjectInitialization\Teams\ApplicationInsights Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\ApplicationInsights Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\ApplicationInsights Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Autoscaling Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Autoscaling Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Autoscaling Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureAD Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureAD Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureAD Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureBatch Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureBatch Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureBatch Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureServiceBus Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureServiceBus Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\AzureServiceBus Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\BusinessIntelligence Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\BusinessIntelligence Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\BusinessIntelligence Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Cache Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Cache Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Cache Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\CertAZ203 Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\CertAZ203 Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\CertAZ203 Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Containers Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Containers Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Containers Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\ContentDeliveryNetwork Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\ContentDeliveryNetwork Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\ContentDeliveryNetwork Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\CosmosDB Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\CosmosDB Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\CosmosDB Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Customer Portfolio Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Customer Portfolio Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Customer Portfolio Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Demo Portfolio Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Demo Portfolio Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Demo Portfolio Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOps Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOps Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOps Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOpsDemoGenerator Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOpsDemoGenerator Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\DevOpsDemoGenerator Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Finastra-Hackfest-PoC Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Finastra-Hackfest-PoC Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Finastra-Hackfest-PoC Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\FinTech Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\FinTech Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\FinTech Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol-tbs-3 Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol-tbs-3 Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\hol-tbs-3 Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\KanbanCustomization Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\KanbanCustomization Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\KanbanCustomization Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\ManagedIdentities Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\ManagedIdentities Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\ManagedIdentities Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\MessagingAndEventing Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\MessagingAndEventing Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\MessagingAndEventing Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Migrations Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Migrations Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Migrations Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\MigrationTool Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\MigrationTool Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\MigrationTool Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\OSS Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\OSS Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\OSS Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\PartsUnlimited Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\PartsUnlimited Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\PartsUnlimited Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\PostmanTools Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\PostmanTools Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\PostmanTools Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\PowerBI Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\PowerBI Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\PowerBI Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Research Portfolio Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Research Portfolio Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Research Portfolio Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\ScrumWithJavaMyShuttle Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\ScrumWithJavaMyShuttle Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\ScrumWithJavaMyShuttle Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Search Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Search Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Search Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\SmartHotel360 Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\SmartHotel360 Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\SmartHotel360 Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\SpecFlow Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\SpecFlow Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\SpecFlow Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\spring-music-devops Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\spring-music-devops Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\spring-music-devops Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Teams.json" />
+    <None Include="Output\ProjectInitialization\Teams\TestAzureFunctionAppSoln Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\TestAzureFunctionAppSoln Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\TestAzureFunctionAppSoln Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Testing Program Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Testing Program Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Testing Program Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Training Portfolio Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Training Portfolio Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Training Portfolio Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsExtensionSamples Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsExtensionSamples Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsExtensionSamples Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsWorkItemMigrator Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsWorkItemMigrator Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\VstsWorkItemMigrator Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\WebJobs Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\WebJobs Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\WebJobs Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\WikiProject Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\WikiProject Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\WikiProject Team\TeamSettings.json" />
+    <None Include="Output\ProjectInitialization\Teams\Workshops Portfolio Team\TeamAreas.json" />
+    <None Include="Output\ProjectInitialization\Teams\Workshops Portfolio Team\TeamIterations.json" />
+    <None Include="Output\ProjectInitialization\Teams\Workshops Portfolio Team\TeamSettings.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Output\Configuration\KForce\Import\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ADOTools1\src\VstsSyncMigrator.Core\VstsSyncMigrator.Core.csproj">
+      <Project>{68baf6ba-2bc0-48d0-b892-1d9f93d7003a}</Project>
+      <Name>VstsSyncMigrator.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADO.Engine\ADO.Engine.csproj">
+      <Project>{108A0541-D66C-4926-A461-52F422AE056E}</Project>
+      <Name>ADO.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Output\areasFromBuildHierarchy.txt" />
+    <Content Include="Output\areasFromBuildNode.txt" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets'))" />
+  </Target>
+  <Import Project="..\..\ADOTools1\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\..\ADOTools1\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.targets')" />
+  <Import Project="..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets')" />
+</Project>

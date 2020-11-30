@@ -1,0 +1,665 @@
+{
+	"source": 1,
+	"revision": 1,
+	"description": null,
+	"createdBy": {
+		"displayName": "manu k",
+		"url": "https://spsprodcca1.vssps.visualstudio.com/Addc678a3-2af2-473b-8c3b-241693626ecf/_apis/Identities/56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+		"_links": {
+			"avatar": {
+				"href": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+			}
+		},
+		"id": "56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+		"uniqueName": "emmanuel@devopsabcs.com",
+		"imageUrl": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi",
+		"descriptor": "aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+	},
+	"createdOn": "2019-04-07T16:45:57.473Z",
+	"modifiedBy": {
+		"displayName": "manu k",
+		"url": "https://spsprodcca1.vssps.visualstudio.com/Addc678a3-2af2-473b-8c3b-241693626ecf/_apis/Identities/56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+		"_links": {
+			"avatar": {
+				"href": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+			}
+		},
+		"id": "56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+		"uniqueName": "emmanuel@devopsabcs.com",
+		"imageUrl": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi",
+		"descriptor": "aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+	},
+	"modifiedOn": "2019-04-07T16:45:57.473Z",
+	"isDeleted": false,
+	"variables": {
+		"HostingPlan": {
+			"value": "pule2e"
+		},
+		"ResourceGroupName": {
+			"value": "ASPDOTNET"
+		},
+		"ServerName": {
+			"value": "pule2eca927031"
+		}
+	},
+	"variableGroups": [],
+	"environments": [
+		{
+			"id": 1,
+			"name": "Dev",
+			"rank": 1,
+			"owner": {
+				"displayName": "manu k",
+				"url": "https://spsprodcca1.vssps.visualstudio.com/Addc678a3-2af2-473b-8c3b-241693626ecf/_apis/Identities/56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"_links": {
+					"avatar": {
+						"href": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+					}
+				},
+				"id": "56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"uniqueName": "emmanuel@devopsabcs.com",
+				"imageUrl": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi",
+				"descriptor": "aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+			},
+			"variables": {
+				"WebsiteName": {
+					"value": "pule2eca927031"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 2
+					}
+				]
+			},
+			"deployStep": {
+				"id": 5
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 8
+					}
+				]
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 364,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Dev",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "94a74903-f93f-4075-884f-dc11f34058b4",
+							"version": "2.*",
+							"name": "Azure Deployment",
+							"refName": "AzureResourceGroupDeployment1",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"ConnectedServiceName": "",
+								"action": "Create Or Update Resource Group",
+								"resourceGroupName": "$(ResourceGroupName)",
+								"location": "Central US",
+								"templateLocation": "Linked artifact",
+								"csmFileLink": "",
+								"csmParametersFileLink": "",
+								"csmFile": "$(System.DefaultWorkingDirectory)/PartsUnlimitedE2E/drop/PartsUnlimited-aspnet45/env/PartsUnlimitedEnv/Templates/FullEnvironmentSetupMerged.json",
+								"csmParametersFile": "$(System.DefaultWorkingDirectory)/PartsUnlimitedE2E/drop/PartsUnlimited-aspnet45/env/PartsUnlimitedEnv/Templates/FullEnvironmentSetupMerged.param.json",
+								"overrideParameters": "-WebsiteName $(WebsiteName) -PUL_ServerName $(ServerName)  -PUL_HostingPlanName $(HostingPlan)",
+								"deploymentMode": "Incremental",
+								"enableDeploymentPrerequisites": "None",
+								"deploymentGroupEndpoint": "",
+								"project": "",
+								"deploymentGroupName": "",
+								"copyAzureVMTags": "true",
+								"outputVariable": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "497d490f-eea7-4f2b-ab94-48d9c1acdcb1",
+							"version": "3.*",
+							"name": "Azure App Service Deploy",
+							"refName": "AzureRmWebAppDeployment2",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"ConnectedServiceName": "",
+								"WebAppName": "$(WebsiteName)",
+								"WebAppKind": "app",
+								"DeployToSlotFlag": "true",
+								"ImageSource": "Registry",
+								"ResourceGroupName": "$(ResourceGroupName)",
+								"SlotName": "Dev",
+								"AzureContainerRegistry": "",
+								"AzureContainerRegistryLoginServer": "",
+								"AzureContainerRegistryImage": "",
+								"AzureContainerRegistryTag": "",
+								"DockerRepositoryAccess": "public",
+								"RegistryConnectedServiceName": "",
+								"PrivateRegistryImage": "",
+								"PrivateRegistryTag": "",
+								"DockerNamespace": "",
+								"DockerRepository": "",
+								"DockerImageTag": "",
+								"VirtualApplication": "",
+								"Package": "$(System.DefaultWorkingDirectory)/PartsUnlimitedE2E/drop/PartsUnlimitedWebsite.zip",
+								"BuiltinLinuxPackage": "$(System.DefaultWorkingDirectory)/**/*.zip",
+								"RuntimeStack": "node|4.4",
+								"StartupCommand": "",
+								"WebAppUri": "",
+								"ScriptType": "",
+								"InlineScript": ":: You can provide your deployment commands here. One command per line.",
+								"ScriptPath": "",
+								"GenerateWebConfig": "false",
+								"WebConfigParameters": "",
+								"AppSettings": "",
+								"TakeAppOfflineFlag": "false",
+								"UseWebDeploy": "false",
+								"SetParametersFile": "",
+								"RemoveAdditionalFilesFlag": "false",
+								"ExcludeFilesFromAppDataFlag": "false",
+								"AdditionalArguments": "",
+								"RenameFilesFlag": "false",
+								"XmlTransformation": "false",
+								"XmlVariableSubstitution": "false",
+								"JSONFiles": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": false,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "ReleaseStarted",
+					"conditionType": 1,
+					"value": ""
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 0,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 0,
+				"url": "https://vsrm.dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_apis/Release/releases/0",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://vsrm.dev.azure.com/devopsabcs/_apis/public/Release/badge/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/1/1"
+		},
+		{
+			"id": 2,
+			"name": "QA",
+			"rank": 2,
+			"owner": {
+				"displayName": "manu k",
+				"url": "https://spsprodcca1.vssps.visualstudio.com/Addc678a3-2af2-473b-8c3b-241693626ecf/_apis/Identities/56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"_links": {
+					"avatar": {
+						"href": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+					}
+				},
+				"id": "56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"uniqueName": "emmanuel@devopsabcs.com",
+				"imageUrl": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi",
+				"descriptor": "aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+			},
+			"variables": {
+				"WebsiteName": {
+					"value": "pule2eca927031"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 1
+					}
+				]
+			},
+			"deployStep": {
+				"id": 6
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 7
+					}
+				]
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 364,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "QA",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "497d490f-eea7-4f2b-ab94-48d9c1acdcb1",
+							"version": "3.*",
+							"name": "Azure App Service Deploy",
+							"refName": "AzureRmWebAppDeployment1",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"ConnectedServiceName": "",
+								"WebAppName": "$(WebsiteName)",
+								"WebAppKind": "app",
+								"DeployToSlotFlag": "true",
+								"ImageSource": "Registry",
+								"ResourceGroupName": "$(ResourceGroupName)",
+								"SlotName": "Staging",
+								"AzureContainerRegistry": "",
+								"AzureContainerRegistryLoginServer": "",
+								"AzureContainerRegistryImage": "",
+								"AzureContainerRegistryTag": "",
+								"DockerRepositoryAccess": "public",
+								"RegistryConnectedServiceName": "",
+								"PrivateRegistryImage": "",
+								"PrivateRegistryTag": "",
+								"DockerNamespace": "",
+								"DockerRepository": "",
+								"DockerImageTag": "",
+								"VirtualApplication": "",
+								"Package": "$(System.DefaultWorkingDirectory)/PartsUnlimitedE2E/drop/PartsUnlimitedWebsite.zip",
+								"BuiltinLinuxPackage": "$(System.DefaultWorkingDirectory)/**/*.zip",
+								"RuntimeStack": "node|4.4",
+								"StartupCommand": "",
+								"WebAppUri": "",
+								"ScriptType": "",
+								"InlineScript": ":: You can provide your deployment commands here. One command per line.",
+								"ScriptPath": "",
+								"GenerateWebConfig": "false",
+								"WebConfigParameters": "",
+								"AppSettings": "",
+								"TakeAppOfflineFlag": "false",
+								"UseWebDeploy": "false",
+								"SetParametersFile": "",
+								"RemoveAdditionalFilesFlag": "false",
+								"ExcludeFilesFromAppDataFlag": "false",
+								"AdditionalArguments": "",
+								"RenameFilesFlag": "false",
+								"XmlTransformation": "false",
+								"XmlVariableSubstitution": "false",
+								"JSONFiles": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": false,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "Dev",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 0,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 0,
+				"url": "https://vsrm.dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_apis/Release/releases/0",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://vsrm.dev.azure.com/devopsabcs/_apis/public/Release/badge/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/1/2"
+		},
+		{
+			"id": 3,
+			"name": "Production",
+			"rank": 3,
+			"owner": {
+				"displayName": "manu k",
+				"url": "https://spsprodcca1.vssps.visualstudio.com/Addc678a3-2af2-473b-8c3b-241693626ecf/_apis/Identities/56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"_links": {
+					"avatar": {
+						"href": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+					}
+				},
+				"id": "56c9c9f2-2c3b-663e-9543-57e7324a46bb",
+				"uniqueName": "emmanuel@devopsabcs.com",
+				"imageUrl": "https://dev.azure.com/devopsabcs/_apis/GraphProfile/MemberAvatars/aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi",
+				"descriptor": "aad.NTZjOWM5ZjItMmMzYi03NjNlLTk1NDMtNTdlNzMyNGE0NmJi"
+			},
+			"variables": {
+				"WebsiteName": {
+					"value": "pule2eca927031"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 3
+					}
+				]
+			},
+			"deployStep": {
+				"id": 4
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 9
+					}
+				]
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 364,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Production",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "497d490f-eea7-4f2b-ab94-48d9c1acdcb1",
+							"version": "3.*",
+							"name": "Azure App Service Deploy",
+							"refName": "AzureRmWebAppDeployment1",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"ConnectedServiceName": "",
+								"WebAppName": "$(WebsiteName)",
+								"WebAppKind": "app",
+								"DeployToSlotFlag": "false",
+								"ImageSource": "Registry",
+								"ResourceGroupName": "",
+								"SlotName": "",
+								"AzureContainerRegistry": "",
+								"AzureContainerRegistryLoginServer": "",
+								"AzureContainerRegistryImage": "",
+								"AzureContainerRegistryTag": "",
+								"DockerRepositoryAccess": "public",
+								"RegistryConnectedServiceName": "",
+								"PrivateRegistryImage": "",
+								"PrivateRegistryTag": "",
+								"DockerNamespace": "",
+								"DockerRepository": "",
+								"DockerImageTag": "",
+								"VirtualApplication": "",
+								"Package": "$(System.DefaultWorkingDirectory)/PartsUnlimitedE2E/drop/PartsUnlimitedWebsite.zip",
+								"BuiltinLinuxPackage": "$(System.DefaultWorkingDirectory)/**/*.zip",
+								"RuntimeStack": "node|4.4",
+								"StartupCommand": "",
+								"WebAppUri": "",
+								"ScriptType": "",
+								"InlineScript": ":: You can provide your deployment commands here. One command per line.",
+								"ScriptPath": "",
+								"GenerateWebConfig": "false",
+								"WebConfigParameters": "",
+								"AppSettings": "",
+								"TakeAppOfflineFlag": "false",
+								"UseWebDeploy": "false",
+								"SetParametersFile": "",
+								"RemoveAdditionalFilesFlag": "false",
+								"ExcludeFilesFromAppDataFlag": "false",
+								"AdditionalArguments": "",
+								"RenameFilesFlag": "false",
+								"XmlTransformation": "false",
+								"XmlVariableSubstitution": "false",
+								"JSONFiles": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": false,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "QA",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 0,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 0,
+				"url": "https://vsrm.dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_apis/Release/releases/0",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://vsrm.dev.azure.com/devopsabcs/_apis/public/Release/badge/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/1/3"
+		}
+	],
+	"artifacts": [
+		{
+			"sourceId": "8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2:37",
+			"type": "Build",
+			"alias": "PartsUnlimitedE2E",
+			"definitionReference": {
+				"defaultVersionType": {
+					"id": "latestType",
+					"name": "Latest"
+				},
+				"definition": {
+					"id": "37",
+					"name": "PartsUnlimitedE2E"
+				},
+				"project": {
+					"id": "8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2",
+					"name": "PartsUnlimited"
+				},
+				"artifactSourceDefinitionUrl": {
+					"id": "https://dev.azure.com/devopsabcs/_permalink/_build/index?collectionId=1662e46f-dc4a-4387-8058-09f0fc84720e&projectId=8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2&definitionId=37",
+					"name": ""
+				}
+			},
+			"isPrimary": true,
+			"isRetained": false
+		}
+	],
+	"triggers": [
+		{
+			"artifactAlias": "PartsUnlimitedE2E",
+			"triggerConditions": [],
+			"triggerType": 1
+		}
+	],
+	"releaseNameFormat": "Release-$(rev:r)",
+	"tags": [],
+	"properties": {},
+	"id": 1,
+	"name": "PartsUnlimitedE2E",
+	"path": "\\",
+	"projectReference": null,
+	"url": "https://vsrm.dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_apis/Release/definitions/1",
+	"_links": {
+		"self": {
+			"href": "https://vsrm.dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_apis/Release/definitions/1"
+		},
+		"web": {
+			"href": "https://dev.azure.com/devopsabcs/8d7d4c6a-cc9e-4a0f-b586-8babf209e4b2/_release?definitionId=1"
+		}
+	}
+}

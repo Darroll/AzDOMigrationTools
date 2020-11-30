@@ -1,0 +1,337 @@
+{
+  "Id": 1,
+  "Name": "OneProject_10",
+  "StructureType": "iteration",
+  "HasChildren": true,
+  "Path": "\\OneProject_10\\Iteration",
+  "Attributes": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "OneProject Portfolio",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "OneProject Product",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "OneProject_01",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01",
+              "Attributes": null,
+              "Children": [
+                {
+                  "Id": 5,
+                  "Name": "Iteration 1",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Iteration 1",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 6,
+                  "Name": "Iteration 2",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Iteration 2",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 7,
+                  "Name": "Iteration 3",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Iteration 3",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 8,
+                  "Name": "FY2020 - H1",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1",
+                  "Attributes": {
+                    "startDate": "2020-01-01T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 9,
+                      "Name": "PI 1",
+                      "StructureType": "iteration",
+                      "HasChildren": true,
+                      "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 1",
+                      "Attributes": {
+                        "startDate": "2020-01-06T00:00:00Z",
+                        "finishDate": "2020-03-27T00:00:00Z"
+                      },
+                      "Children": [
+                        {
+                          "Id": 10,
+                          "Name": "Sprint 1",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 1\\Sprint 1",
+                          "Attributes": {
+                            "startDate": "2020-01-06T00:00:00Z",
+                            "finishDate": "2020-01-24T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 11,
+                          "Name": "Sprint 2",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 1\\Sprint 2",
+                          "Attributes": {
+                            "startDate": "2020-01-27T00:00:00Z",
+                            "finishDate": "2020-02-14T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 12,
+                          "Name": "Sprint 3",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 1\\Sprint 3",
+                          "Attributes": {
+                            "startDate": "2020-02-17T00:00:00Z",
+                            "finishDate": "2020-03-06T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 13,
+                          "Name": "Sprint 4",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 1\\Sprint 4",
+                          "Attributes": {
+                            "startDate": "2020-03-09T00:00:00Z",
+                            "finishDate": "2020-03-27T00:00:00Z"
+                          },
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Id": 14,
+                      "Name": "PI 2",
+                      "StructureType": "iteration",
+                      "HasChildren": true,
+                      "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 2",
+                      "Attributes": {
+                        "startDate": "2020-03-30T00:00:00Z",
+                        "finishDate": "2020-06-19T00:00:00Z"
+                      },
+                      "Children": [
+                        {
+                          "Id": 15,
+                          "Name": "Sprint 5",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 2\\Sprint 5",
+                          "Attributes": {
+                            "startDate": "2020-03-30T00:00:00Z",
+                            "finishDate": "2020-04-17T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 16,
+                          "Name": "Sprint 6",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 2\\Sprint 6",
+                          "Attributes": {
+                            "startDate": "2020-04-20T00:00:00Z",
+                            "finishDate": "2020-05-08T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 17,
+                          "Name": "Sprint 7",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 2\\Sprint 7",
+                          "Attributes": {
+                            "startDate": "2020-05-11T00:00:00Z",
+                            "finishDate": "2020-05-29T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 18,
+                          "Name": "Sprint 8",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H1\\PI 2\\Sprint 8",
+                          "Attributes": {
+                            "startDate": "2020-06-01T00:00:00Z",
+                            "finishDate": "2020-06-19T00:00:00Z"
+                          },
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Id": 19,
+                  "Name": "FY2020 - H2",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-12-31T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 20,
+                      "Name": "PI 3",
+                      "StructureType": "iteration",
+                      "HasChildren": true,
+                      "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 3",
+                      "Attributes": {
+                        "startDate": "2020-06-22T00:00:00Z",
+                        "finishDate": "2020-09-11T00:00:00Z"
+                      },
+                      "Children": [
+                        {
+                          "Id": 21,
+                          "Name": "Sprint 9",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 3\\Sprint 9",
+                          "Attributes": {
+                            "startDate": "2020-06-22T00:00:00Z",
+                            "finishDate": "2020-07-10T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 22,
+                          "Name": "Sprint 10",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 3\\Sprint 10",
+                          "Attributes": {
+                            "startDate": "2020-07-13T00:00:00Z",
+                            "finishDate": "2020-07-31T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 23,
+                          "Name": "Sprint 11",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 3\\Sprint 11",
+                          "Attributes": {
+                            "startDate": "2020-08-03T00:00:00Z",
+                            "finishDate": "2020-08-21T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 24,
+                          "Name": "Sprint 12",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 3\\Sprint 12",
+                          "Attributes": {
+                            "startDate": "2020-08-24T00:00:00Z",
+                            "finishDate": "2020-09-11T00:00:00Z"
+                          },
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Id": 25,
+                      "Name": "PI 4",
+                      "StructureType": "iteration",
+                      "HasChildren": true,
+                      "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 4",
+                      "Attributes": {
+                        "startDate": "2020-09-14T00:00:00Z",
+                        "finishDate": "2020-12-04T00:00:00Z"
+                      },
+                      "Children": [
+                        {
+                          "Id": 26,
+                          "Name": "Sprint 13",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 4\\Sprint 13",
+                          "Attributes": {
+                            "startDate": "2020-09-14T00:00:00Z",
+                            "finishDate": "2020-10-02T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 27,
+                          "Name": "Sprint 14",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 4\\Sprint 14",
+                          "Attributes": {
+                            "startDate": "2020-10-05T00:00:00Z",
+                            "finishDate": "2020-10-23T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 28,
+                          "Name": "Sprint 15",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 4\\Sprint 15",
+                          "Attributes": {
+                            "startDate": "2020-10-26T00:00:00Z",
+                            "finishDate": "2020-11-13T00:00:00Z"
+                          },
+                          "Children": []
+                        },
+                        {
+                          "Id": 29,
+                          "Name": "Sprint 16",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject_10\\Iteration\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FY2020 - H2\\PI 4\\Sprint 16",
+                          "Attributes": {
+                            "startDate": "2020-11-16T00:00:00Z",
+                            "finishDate": "2020-12-04T00:00:00Z"
+                          },
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

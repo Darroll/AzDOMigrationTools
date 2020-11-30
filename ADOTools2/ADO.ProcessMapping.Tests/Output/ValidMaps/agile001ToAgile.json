@@ -1,0 +1,149 @@
+{
+  "InheritedProcessSourcePath": "..\\..\\..\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
+  "ProcessMaps": [
+    {
+      "SourceProcess": "Agile001",
+      "TargetProcess": "Agile",
+      "WorkItemTypeMap": {
+        "Agile001.Bug": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "Agile001.Epic": "Microsoft.VSTS.WorkItemTypes.Epic",
+        "Agile001.UserStory": "Microsoft.VSTS.WorkItemTypes.UserStory",
+        "Agile001.Feature": "Microsoft.VSTS.WorkItemTypes.Feature",
+        "Agile001.Task": "Microsoft.VSTS.WorkItemTypes.Task"
+      },
+      "UnmappedSourceWorkItemTypes": [],
+      "WorkItemTypeStateMap": {
+        "Agile001.UserStory": {
+          "New": "New",
+          "Active": "Active",
+          "Resolved": "Resolved",
+          "Removed": "Removed",
+          "01 New": "New",
+          "02 Refining": "New",
+          "11 On Hold": "New",
+          "03 Ready for Dev": "Active",
+          "04 Developing": "Active",
+          "05 Ready for Test": "Resolved",
+          "06 Testing": "Resolved",
+          "08 Ready for Technical Approval": "Resolved",
+          "07 Ready for Functional Approval": "Resolved",
+          "09 MTP Approved": "Resolved",
+          "10 Cancelled": "Removed"
+        },
+        "Agile001.Task": {
+          "New": "New",
+          "Active": "Active",
+          "To Do": "New",
+          "In Progress": "Active"
+        }
+      },
+      "UnmappedSourceWorkItemTypeStateMaps": {},
+      "WorkItemTypeFieldMap": {
+        "Agile001.Epic": {
+          "System.AssignedTo": "System.AssignedTo",
+          "Microsoft.VSTS.Common.ValueArea": "Microsoft.VSTS.Common.ValueArea"
+        },
+        "Agile001.UserStory": {
+          "System.AreaPath": "System.AreaPath",
+          "System.AssignedTo": "System.AssignedTo",
+          "Microsoft.VSTS.Scheduling.StoryPoints": "Microsoft.VSTS.Scheduling.StoryPoints"
+        }
+      },
+      "UnmappedSourceWorkItemTypeFieldMaps": {
+        "Agile001.Bug": [
+          "Agile001.HEATID"
+        ],
+        "Agile001.Feature": [
+          "Microsoft.VSTS.Common.AcceptanceCriteria",
+          "Microsoft.VSTS.Scheduling.StoryPoints",
+          "Microsoft.VSTS.Scheduling.Size",
+          "Agile001.BusinessValueDescription"
+        ],
+        "Agile001.Task": [
+          "Microsoft.VSTS.Common.Discipline"
+        ],
+        "Agile001.Epic": [
+          "Agile001.BusinessValueDescription"
+        ],
+        "Agile001.UserStory": [
+          "Microsoft.VSTS.TCM.SystemInfo",
+          "Agile001.HEATID",
+          "Agile001.PlannedDeliveryDate",
+          "Agile001.ITEDArea",
+          "Agile001.PrioritizedDate",
+          "Agile001.StatusComment",
+          "Agile001.DevStartDate",
+          "Agile001.ReleaseNotes",
+          "Agile001.ShortDescription",
+          "Agile001.DevEndDate",
+          "Agile001.QAStartDate",
+          "Agile001.QAEndDate",
+          "Agile001.MTPDate",
+          "Agile001.RefiningStartDate",
+          "Agile001.AssignedDeveloper",
+          "Agile001.AssignedTester",
+          "Agile001.RefiningEndDate",
+          "Agile001.ChangeRequestReference",
+          "Agile001.RequestedBy",
+          "Agile001.Application",
+          "Agile001.OriginalPlannedGoLiveDate",
+          "Agile001.RequiredByDate",
+          "Agile001.BusinessValueDescription",
+          "Agile001.ITEDPriority",
+          "Custom.BusinessSubArea"
+        ]
+      },
+      "WorkItemTypeBoardMap": {
+        "Agile001.UserStory": {
+          "Key": "Stories",
+          "Value": "Stories"
+        },
+        "Agile001.Feature": {
+          "Key": "Features",
+          "Value": "Features"
+        },
+        "Agile001.Task": {
+          "Key": null,
+          "Value": null
+        },
+        "Agile001.Epic": {
+          "Key": "Epics",
+          "Value": "Epics"
+        },
+        "Agile001.Bug": {
+          "Key": null,
+          "Value": null
+        }
+      },
+      "UnmappedSourceWorkItemTypeBoardMaps": [],
+      "NonTrivialWorkItemTypeMap": {
+        "Agile001.Bug": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "Agile001.Epic": "Microsoft.VSTS.WorkItemTypes.Epic",
+        "Agile001.UserStory": "Microsoft.VSTS.WorkItemTypes.UserStory",
+        "Agile001.Feature": "Microsoft.VSTS.WorkItemTypes.Feature",
+        "Agile001.Task": "Microsoft.VSTS.WorkItemTypes.Task"
+      },
+      "NonTrivialWorkItemTypeFieldMap": {},
+      "NonTrivialWorkItemTypeStateMap": {
+        "Agile001.UserStory": {
+          "01 New": "New",
+          "02 Refining": "New",
+          "11 On Hold": "New",
+          "03 Ready for Dev": "Active",
+          "04 Developing": "Active",
+          "05 Ready for Test": "Resolved",
+          "06 Testing": "Resolved",
+          "08 Ready for Technical Approval": "Resolved",
+          "07 Ready for Functional Approval": "Resolved",
+          "09 MTP Approved": "Resolved",
+          "10 Cancelled": "Removed"
+        },
+        "Agile001.Task": {
+          "To Do": "New",
+          "In Progress": "Active"
+        }
+      },
+      "NonTrivialWorkItemTypeBoardMap": {}
+    }
+  ]
+}

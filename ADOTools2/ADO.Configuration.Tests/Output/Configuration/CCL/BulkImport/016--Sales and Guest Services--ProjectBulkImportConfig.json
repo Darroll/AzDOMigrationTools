@@ -1,0 +1,189 @@
+{
+  "telemetryEnableTrace": true,
+  "workaroundForQuerySOAPBugEnabled": false,
+  "source": {
+    "collection": "https://dev.azure.com/carnivalcruiselines",
+    "name": "Sales and Guest Services",
+    "token": "Environment.PatTokenCCL"
+  },
+  "target": {
+    "collection": "https://dev.azure.com/ccldevopsabcs",
+    "name": "OneProject_09",
+    "token": "Environment.PatToken"
+  },
+  "reflectedWorkItemIDFieldName": "ReflectedWorkItemId",
+  "sourceReflectedWorkItemIDFieldName": null,
+  "fieldMaps": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Bug",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "Deferred": "New",
+        "Ready for Test": "Active"
+      }
+    }
+  ],
+  "workItemTypeDefinition": {
+    "Bug": "Bug",
+    "Epic": "Epic",
+    "Feature": "Feature",
+    "Issue": "Issue",
+    "Task": "Task",
+    "Test Case": "Test Case",
+    "Test Plan": "Test Plan",
+    "Test Suite": "Test Suite",
+    "User Story": "User Story",
+    "Requirement": "Requirement",
+    "Product Backlog Item": "Product Backlog Item",
+    "Shared Steps": "Shared Steps",
+    "Shared Parameter": "Shared Parameter",
+    "Impediment": "Impediment",
+    "Change Request": "Change Request",
+    "Review": "Review",
+    "Risk": "Risk"
+  },
+  "processors": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "Sales and Guest Services\\FMA": "Sales and Guest Services\\FMA"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Area\\Sales and Guest Services\\FMA"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Iteration\\Sales and Guest Services\\FMA",
+          "Sales and Guest Services\\iCare": "\\OneProject_09\\Iteration\\Sales and Guest Services\\iCare"
+        }
+      },
+      "queryBit": " AND [System.CreatedDate] > @Today - 90 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment', 'Issue', 'Change Request', 'Review', 'Risk') AND [System.State] <> 'Removed' AND ([System.AreaPath] UNDER 'Sales and Guest Services\\FMA') ",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "Sales and Guest Services\\FMA": "Sales and Guest Services\\FMA"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Area\\Sales and Guest Services\\FMA"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Iteration\\Sales and Guest Services\\FMA",
+          "Sales and Guest Services\\iCare": "\\OneProject_09\\Iteration\\Sales and Guest Services\\iCare"
+        }
+      },
+      "queryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed' AND ([System.AreaPath] UNDER 'Sales and Guest Services\\FMA') ",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "queryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 90  AND ([System.AreaPath] UNDER 'Sales and Guest Services\\FMA') "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+      "enabled": true,
+      "queryBit": "AND [System.AttachedFileCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+      "enabled": true,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Sales and Guest Services\\FMA",
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "Sales and Guest Services\\FMA": "Sales and Guest Services\\FMA"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Area\\Sales and Guest Services\\FMA"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Iteration\\Sales and Guest Services\\FMA",
+          "Sales and Guest Services\\iCare": "\\OneProject_09\\Iteration\\Sales and Guest Services\\iCare"
+        }
+      },
+      "sharedFolderName": "Shared Queries"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+      "areaPath": "",
+      "enabled": true,
+      "iterationPath": "",
+      "onlyElementsWithTag": null,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Sales and Guest Services\\FMA",
+      "useAreaPathMap": true,
+      "areaPathMap": {
+        "Sales and Guest Services\\FMA": "Sales and Guest Services\\FMA"
+      },
+      "fullAreaPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Area\\Sales and Guest Services\\FMA"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": null,
+      "fullIterationPathMap": {
+        "Map": {
+          "Sales and Guest Services\\FMA": "\\OneProject_09\\Iteration\\Sales and Guest Services\\FMA",
+          "Sales and Guest Services\\iCare": "\\OneProject_09\\Iteration\\Sales and Guest Services\\iCare"
+        }
+      },
+      "removeInvalidTestSuiteLinks": false
+    }
+  ],
+  "loadSecretsFromEnvironmentVariables": true
+}

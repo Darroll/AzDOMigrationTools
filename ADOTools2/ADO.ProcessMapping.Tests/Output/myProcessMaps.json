@@ -1,0 +1,24 @@
+{
+  "InheritedProcessSourcePath": "C:\\Users\\dawal\\Source\\Repos\\MigrationVNext\\ADOTools2\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
+  "ProcessMaps": [
+    {
+      "SourceProcess": "Agile",
+      "TargetProcess": "CMMI",
+      "WorkItemTypeMap": {
+        "Microsoft.VSTS.WorkItemTypes.Bug": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "Microsoft.VSTS.WorkItemTypes.Epic": "Microsoft.VSTS.WorkItemTypes.Epic"
+      },
+      "UnmappedSourceWorkItemTypes": null,
+      "WorkItemTypeStateMap": null,
+      "UnmappedSourceWorkItemTypeStateMaps": null,
+      "WorkItemTypeFieldMap": null,
+      "UnmappedSourceWorkItemTypeFieldMaps": null,
+      "WorkItemTypeBoardMap": null,
+      "UnmappedSourceWorkItemTypeBoardMaps": null,
+      "NonTrivialWorkItemTypeMap": null,
+      "NonTrivialWorkItemTypeFieldMap": null,
+      "NonTrivialWorkItemTypeStateMap": null,
+      "NonTrivialWorkItemTypeBoardMap": null
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "telemetryEnableTrace": true,
+  "workaroundForQuerySOAPBugEnabled": false,
+  "source": {
+    "collection": "https://dev.azure.com/processdevopsabcs",
+    "name": "Scrum Xml",
+    "token": "Environment.PatToken"
+  },
+  "target": {
+    "collection": "https://dev.azure.com/processdevopsabcs",
+    "name": "UniversalXML_08",
+    "token": "Environment.PatToken"
+  },
+  "reflectedWorkItemIDFieldName": "Custom.ReflectedWorkItemId",
+  "sourceReflectedWorkItemIDFieldName": null,
+  "fieldMaps": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Bug",
+      "sourceField": "Microsoft.VSTS.Scheduling.Effort",
+      "targetField": "Microsoft.VSTS.Scheduling.Size"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldtoFieldMapConfig",
+      "workItemTypeName": "Product Backlog Item",
+      "sourceField": "Microsoft.VSTS.Scheduling.Effort",
+      "targetField": "Microsoft.VSTS.Scheduling.Size"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Impediment",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "Open": "Active"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Bug",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "New": "Proposed",
+        "Approved": "Proposed",
+        "Committed": "Active",
+        "Done": "Closed",
+        "Removed": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Product Backlog Item",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "New": "Proposed",
+        "Approved": "Proposed",
+        "Committed": "Active",
+        "Done": "Closed",
+        "Removed": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Epic",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "New": "Proposed",
+        "In Progress": "Active",
+        "Done": "Closed",
+        "Removed": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Feature",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "New": "Proposed",
+        "In Progress": "Active",
+        "Done": "Closed",
+        "Removed": "Closed"
+      }
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.FieldMap.FieldValueMapConfig",
+      "workItemTypeName": "Task",
+      "sourceField": "System.State",
+      "targetField": "System.State",
+      "defaultValue": null,
+      "valueMapping": {
+        "To Do": "Proposed",
+        "In Progress": "Active",
+        "Done": "Closed",
+        "Removed": "Closed"
+      }
+    }
+  ],
+  "workItemTypeDefinition": {
+    "Bug": "Bug",
+    "Epic": "Epic",
+    "Feature": "Feature",
+    "Issue": "Issue",
+    "Task": "Task",
+    "Test Case": "Test Case",
+    "Test Plan": "Test Plan",
+    "Test Suite": "Test Suite",
+    "User Story": "User Story",
+    "Requirement": "Requirement",
+    "Product Backlog Item": "Requirement",
+    "Shared Steps": "Shared Steps",
+    "Shared Parameter": "Shared Parameter",
+    "Impediment": "Issue",
+    "Change Request": "Change Request",
+    "Review": "Review",
+    "Risk": "Risk"
+  },
+  "processors": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "Demo\\Migrations",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": false,
+      "areaPathMap": null,
+      "fullAreaPathMap": null,
+      "useIterationPathMap": false,
+      "iterationPathMap": null,
+      "fullIterationPathMap": null,
+      "queryBit": " AND [System.CreatedDate] > @Today - 365 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment', 'Issue', 'Change Request', 'Review', 'Risk') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false,
+      "isClone": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "Demo\\Migrations",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": false,
+      "areaPathMap": null,
+      "fullAreaPathMap": null,
+      "useIterationPathMap": false,
+      "iterationPathMap": null,
+      "fullIterationPathMap": null,
+      "queryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false,
+      "isClone": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "queryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 365 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+      "enabled": true,
+      "queryBit": "AND [System.AttachedFileCount] > 0 AND [System.CreatedDate] > @Today - 365 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+      "enabled": true,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Demo\\Migrations",
+      "useAreaPathMap": false,
+      "areaPathMap": null,
+      "fullAreaPathMap": null,
+      "useIterationPathMap": false,
+      "iterationPathMap": null,
+      "fullIterationPathMap": null,
+      "sharedFolderName": "Shared Queries",
+      "isClone": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+      "areaPath": "",
+      "enabled": true,
+      "iterationPath": "",
+      "onlyElementsWithTag": null,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Demo\\Migrations",
+      "useAreaPathMap": false,
+      "areaPathMap": null,
+      "fullAreaPathMap": null,
+      "useIterationPathMap": false,
+      "iterationPathMap": null,
+      "fullIterationPathMap": null,
+      "removeInvalidTestSuiteLinks": false,
+      "isClone": true
+    }
+  ],
+  "loadSecretsFromEnvironmentVariables": true
+}

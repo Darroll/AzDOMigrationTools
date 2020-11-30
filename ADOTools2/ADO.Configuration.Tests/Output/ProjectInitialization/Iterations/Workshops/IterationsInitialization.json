@@ -1,0 +1,1612 @@
+{
+  "name": "Workshops",
+  "structureType": "iteration",
+  "hasChildren": true,
+  "path": "\\Workshops\\Iteration",
+  "attributes": null,
+  "children": [
+    {
+      "name": "DevOps",
+      "structureType": "iteration",
+      "hasChildren": true,
+      "path": "\\Workshops\\Iteration\\DevOps",
+      "attributes": null,
+      "children": [
+        {
+          "name": "hol",
+          "structureType": "iteration",
+          "hasChildren": true,
+          "path": "\\Workshops\\Iteration\\DevOps\\hol",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Fiscal Year 2019 - H1",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1",
+              "attributes": {
+                "startDate": "2019-01-01T00:00:00",
+                "finishDate": "2019-06-30T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 1",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1",
+                  "attributes": {
+                    "startDate": "2019-01-06T00:00:00",
+                    "finishDate": "2019-03-16T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 1",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 1",
+                      "attributes": {
+                        "startDate": "2019-01-06T00:00:00",
+                        "finishDate": "2019-01-19T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 2",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 2",
+                      "attributes": {
+                        "startDate": "2019-01-20T00:00:00",
+                        "finishDate": "2019-02-02T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 3",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 3",
+                      "attributes": {
+                        "startDate": "2019-02-03T00:00:00",
+                        "finishDate": "2019-02-16T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 4",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 4",
+                      "attributes": {
+                        "startDate": "2019-02-17T00:00:00",
+                        "finishDate": "2019-03-02T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 5",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 5",
+                      "attributes": {
+                        "startDate": "2019-03-03T00:00:00",
+                        "finishDate": "2019-03-16T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 2",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2",
+                  "attributes": {
+                    "startDate": "2019-03-17T00:00:00",
+                    "finishDate": "2019-05-25T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 6",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 6",
+                      "attributes": {
+                        "startDate": "2019-03-17T00:00:00",
+                        "finishDate": "2019-03-30T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 7",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 7",
+                      "attributes": {
+                        "startDate": "2019-03-31T00:00:00",
+                        "finishDate": "2019-04-13T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 8",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 8",
+                      "attributes": {
+                        "startDate": "2019-04-14T00:00:00",
+                        "finishDate": "2019-04-27T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 9",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 9",
+                      "attributes": {
+                        "startDate": "2019-04-28T00:00:00",
+                        "finishDate": "2019-05-11T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 10",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 10",
+                      "attributes": {
+                        "startDate": "2019-05-12T00:00:00",
+                        "finishDate": "2019-05-25T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 3",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 3",
+                  "attributes": {
+                    "startDate": "2019-05-26T00:00:00",
+                    "finishDate": "2019-08-03T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 11",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 11",
+                      "attributes": {
+                        "startDate": "2019-05-26T00:00:00",
+                        "finishDate": "2019-06-08T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 12",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 12",
+                      "attributes": {
+                        "startDate": "2019-06-09T00:00:00",
+                        "finishDate": "2019-06-22T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 13",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 13",
+                      "attributes": {
+                        "startDate": "2019-06-23T00:00:00",
+                        "finishDate": "2019-07-06T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2019 - H2",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2",
+              "attributes": {
+                "startDate": "2019-07-01T00:00:00",
+                "finishDate": "2019-12-31T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 3",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 3",
+                  "attributes": {
+                    "startDate": "2019-05-26T00:00:00",
+                    "finishDate": "2019-08-03T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 14",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 14",
+                      "attributes": {
+                        "startDate": "2019-07-07T00:00:00",
+                        "finishDate": "2019-07-20T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 15",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 15",
+                      "attributes": {
+                        "startDate": "2019-07-21T00:00:00",
+                        "finishDate": "2019-08-03T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 4",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4",
+                  "attributes": {
+                    "startDate": "2019-08-04T00:00:00",
+                    "finishDate": "2019-10-12T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 16",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 16",
+                      "attributes": {
+                        "startDate": "2019-08-04T00:00:00",
+                        "finishDate": "2019-08-17T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 17",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 17",
+                      "attributes": {
+                        "startDate": "2019-08-18T00:00:00",
+                        "finishDate": "2019-08-31T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 18",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 18",
+                      "attributes": {
+                        "startDate": "2019-09-01T00:00:00",
+                        "finishDate": "2019-09-14T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 19",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 19",
+                      "attributes": {
+                        "startDate": "2019-09-15T00:00:00",
+                        "finishDate": "2019-09-28T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 20",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 20",
+                      "attributes": {
+                        "startDate": "2019-09-29T00:00:00",
+                        "finishDate": "2019-10-12T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 5",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5",
+                  "attributes": {
+                    "startDate": "2019-10-13T00:00:00",
+                    "finishDate": "2019-12-21T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 21",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 21",
+                      "attributes": {
+                        "startDate": "2019-10-13T00:00:00",
+                        "finishDate": "2019-10-26T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 22",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 22",
+                      "attributes": {
+                        "startDate": "2019-10-27T00:00:00",
+                        "finishDate": "2019-11-09T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 23",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 23",
+                      "attributes": {
+                        "startDate": "2019-11-10T00:00:00",
+                        "finishDate": "2019-11-23T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 24",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 24",
+                      "attributes": {
+                        "startDate": "2019-11-24T00:00:00",
+                        "finishDate": "2019-12-07T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 25",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 25",
+                      "attributes": {
+                        "startDate": "2019-12-08T00:00:00",
+                        "finishDate": "2019-12-21T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 6",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 6",
+                  "attributes": {
+                    "startDate": "2019-12-22T00:00:00",
+                    "finishDate": "2020-02-29T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 26",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2019 - H2\\Program Increment 6\\Sprint 26",
+                      "attributes": {
+                        "startDate": "2019-12-22T00:00:00",
+                        "finishDate": "2020-01-04T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2020 - H1",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1",
+              "attributes": {
+                "startDate": "2020-01-01T00:00:00",
+                "finishDate": "2020-06-30T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 6",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 6",
+                  "attributes": {
+                    "startDate": "2019-12-22T00:00:00",
+                    "finishDate": "2020-02-29T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 27",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 27",
+                      "attributes": {
+                        "startDate": "2020-01-05T00:00:00",
+                        "finishDate": "2020-01-18T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 28",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 28",
+                      "attributes": {
+                        "startDate": "2020-01-19T00:00:00",
+                        "finishDate": "2020-02-01T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 29",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 29",
+                      "attributes": {
+                        "startDate": "2020-02-02T00:00:00",
+                        "finishDate": "2020-02-15T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 30",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 30",
+                      "attributes": {
+                        "startDate": "2020-02-16T00:00:00",
+                        "finishDate": "2020-02-29T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 7",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7",
+                  "attributes": {
+                    "startDate": "2020-03-01T00:00:00",
+                    "finishDate": "2020-05-09T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 31",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 31",
+                      "attributes": {
+                        "startDate": "2020-03-01T00:00:00",
+                        "finishDate": "2020-03-14T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 32",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 32",
+                      "attributes": {
+                        "startDate": "2020-03-15T00:00:00",
+                        "finishDate": "2020-03-28T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 33",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 33",
+                      "attributes": {
+                        "startDate": "2020-03-29T00:00:00",
+                        "finishDate": "2020-04-11T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 34",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 34",
+                      "attributes": {
+                        "startDate": "2020-04-12T00:00:00",
+                        "finishDate": "2020-04-25T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 35",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 35",
+                      "attributes": {
+                        "startDate": "2020-04-26T00:00:00",
+                        "finishDate": "2020-05-09T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 8",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 8",
+                  "attributes": {
+                    "startDate": "2020-05-10T00:00:00",
+                    "finishDate": "2020-07-18T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 36",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 36",
+                      "attributes": {
+                        "startDate": "2020-05-10T00:00:00",
+                        "finishDate": "2020-05-23T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 37",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 37",
+                      "attributes": {
+                        "startDate": "2020-05-24T00:00:00",
+                        "finishDate": "2020-06-06T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 38",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 38",
+                      "attributes": {
+                        "startDate": "2020-06-07T00:00:00",
+                        "finishDate": "2020-06-20T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 39",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 39",
+                      "attributes": {
+                        "startDate": "2020-06-21T00:00:00",
+                        "finishDate": "2020-07-04T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2020 - H2",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2",
+              "attributes": {
+                "startDate": "2020-07-01T00:00:00",
+                "finishDate": "2020-12-31T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 8",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 8",
+                  "attributes": {
+                    "startDate": "2020-05-10T00:00:00",
+                    "finishDate": "2020-07-18T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 40",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 8\\Sprint 40",
+                      "attributes": {
+                        "startDate": "2020-07-05T00:00:00",
+                        "finishDate": "2020-07-18T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 9",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9",
+                  "attributes": {
+                    "startDate": "2020-07-19T00:00:00",
+                    "finishDate": "2020-09-26T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 41",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 41",
+                      "attributes": {
+                        "startDate": "2020-07-19T00:00:00",
+                        "finishDate": "2020-08-01T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 42",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 42",
+                      "attributes": {
+                        "startDate": "2020-08-02T00:00:00",
+                        "finishDate": "2020-08-15T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 43",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 43",
+                      "attributes": {
+                        "startDate": "2020-08-16T00:00:00",
+                        "finishDate": "2020-08-29T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 44",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 44",
+                      "attributes": {
+                        "startDate": "2020-08-30T00:00:00",
+                        "finishDate": "2020-09-12T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 45",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 45",
+                      "attributes": {
+                        "startDate": "2020-09-13T00:00:00",
+                        "finishDate": "2020-09-26T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 10",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10",
+                  "attributes": {
+                    "startDate": "2020-09-27T00:00:00",
+                    "finishDate": "2020-12-05T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 46",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 46",
+                      "attributes": {
+                        "startDate": "2020-09-27T00:00:00",
+                        "finishDate": "2020-10-10T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 47",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 47",
+                      "attributes": {
+                        "startDate": "2020-10-11T00:00:00",
+                        "finishDate": "2020-10-24T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 48",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 48",
+                      "attributes": {
+                        "startDate": "2020-10-25T00:00:00",
+                        "finishDate": "2020-11-07T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 49",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 49",
+                      "attributes": {
+                        "startDate": "2020-11-08T00:00:00",
+                        "finishDate": "2020-11-21T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 50",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 50",
+                      "attributes": {
+                        "startDate": "2020-11-22T00:00:00",
+                        "finishDate": "2020-12-05T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 11",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 11",
+                  "attributes": {
+                    "startDate": "2020-12-06T00:00:00",
+                    "finishDate": "2021-02-13T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 51",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 51",
+                      "attributes": {
+                        "startDate": "2020-12-06T00:00:00",
+                        "finishDate": "2020-12-19T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 52",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 52",
+                      "attributes": {
+                        "startDate": "2020-12-20T00:00:00",
+                        "finishDate": "2021-01-02T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hol-tbs-3",
+          "structureType": "iteration",
+          "hasChildren": true,
+          "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Fiscal Year 2019 - H1",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1",
+              "attributes": {
+                "startDate": "2019-01-01T00:00:00",
+                "finishDate": "2019-06-30T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 1",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1",
+                  "attributes": {
+                    "startDate": "2019-01-06T00:00:00",
+                    "finishDate": "2019-03-16T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 1",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 1",
+                      "attributes": {
+                        "startDate": "2019-01-06T00:00:00",
+                        "finishDate": "2019-01-19T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 2",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 2",
+                      "attributes": {
+                        "startDate": "2019-01-20T00:00:00",
+                        "finishDate": "2019-02-02T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 3",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 3",
+                      "attributes": {
+                        "startDate": "2019-02-03T00:00:00",
+                        "finishDate": "2019-02-16T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 4",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 4",
+                      "attributes": {
+                        "startDate": "2019-02-17T00:00:00",
+                        "finishDate": "2019-03-02T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 5",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 5",
+                      "attributes": {
+                        "startDate": "2019-03-03T00:00:00",
+                        "finishDate": "2019-03-16T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 2",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2",
+                  "attributes": {
+                    "startDate": "2019-03-17T00:00:00",
+                    "finishDate": "2019-05-25T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 6",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 6",
+                      "attributes": {
+                        "startDate": "2019-03-17T00:00:00",
+                        "finishDate": "2019-03-30T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 7",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 7",
+                      "attributes": {
+                        "startDate": "2019-03-31T00:00:00",
+                        "finishDate": "2019-04-13T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 8",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 8",
+                      "attributes": {
+                        "startDate": "2019-04-14T00:00:00",
+                        "finishDate": "2019-04-27T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 9",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 9",
+                      "attributes": {
+                        "startDate": "2019-04-28T00:00:00",
+                        "finishDate": "2019-05-11T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 10",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 10",
+                      "attributes": {
+                        "startDate": "2019-05-12T00:00:00",
+                        "finishDate": "2019-05-25T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 3",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 3",
+                  "attributes": {
+                    "startDate": "2019-05-26T00:00:00",
+                    "finishDate": "2019-08-03T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 11",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 11",
+                      "attributes": {
+                        "startDate": "2019-05-26T00:00:00",
+                        "finishDate": "2019-06-08T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 12",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 12",
+                      "attributes": {
+                        "startDate": "2019-06-09T00:00:00",
+                        "finishDate": "2019-06-22T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 13",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 13",
+                      "attributes": {
+                        "startDate": "2019-06-23T00:00:00",
+                        "finishDate": "2019-07-06T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2019 - H2",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2",
+              "attributes": {
+                "startDate": "2019-07-01T00:00:00",
+                "finishDate": "2019-12-31T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 3",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 3",
+                  "attributes": {
+                    "startDate": "2019-05-26T00:00:00",
+                    "finishDate": "2019-08-03T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 14",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 14",
+                      "attributes": {
+                        "startDate": "2019-07-07T00:00:00",
+                        "finishDate": "2019-07-20T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 15",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 15",
+                      "attributes": {
+                        "startDate": "2019-07-21T00:00:00",
+                        "finishDate": "2019-08-03T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 4",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4",
+                  "attributes": {
+                    "startDate": "2019-08-04T00:00:00",
+                    "finishDate": "2019-10-12T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 16",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 16",
+                      "attributes": {
+                        "startDate": "2019-08-04T00:00:00",
+                        "finishDate": "2019-08-17T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 17",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 17",
+                      "attributes": {
+                        "startDate": "2019-08-18T00:00:00",
+                        "finishDate": "2019-08-31T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 18",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 18",
+                      "attributes": {
+                        "startDate": "2019-09-01T00:00:00",
+                        "finishDate": "2019-09-14T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 19",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 19",
+                      "attributes": {
+                        "startDate": "2019-09-15T00:00:00",
+                        "finishDate": "2019-09-28T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 20",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 20",
+                      "attributes": {
+                        "startDate": "2019-09-29T00:00:00",
+                        "finishDate": "2019-10-12T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 5",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5",
+                  "attributes": {
+                    "startDate": "2019-10-13T00:00:00",
+                    "finishDate": "2019-12-21T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 21",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 21",
+                      "attributes": {
+                        "startDate": "2019-10-13T00:00:00",
+                        "finishDate": "2019-10-26T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 22",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 22",
+                      "attributes": {
+                        "startDate": "2019-10-27T00:00:00",
+                        "finishDate": "2019-11-09T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 23",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 23",
+                      "attributes": {
+                        "startDate": "2019-11-10T00:00:00",
+                        "finishDate": "2019-11-23T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 24",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 24",
+                      "attributes": {
+                        "startDate": "2019-11-24T00:00:00",
+                        "finishDate": "2019-12-07T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 25",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 25",
+                      "attributes": {
+                        "startDate": "2019-12-08T00:00:00",
+                        "finishDate": "2019-12-21T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 6",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 6",
+                  "attributes": {
+                    "startDate": "2019-12-22T00:00:00",
+                    "finishDate": "2020-02-29T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 26",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2019 - H2\\Program Increment 6\\Sprint 26",
+                      "attributes": {
+                        "startDate": "2019-12-22T00:00:00",
+                        "finishDate": "2020-01-04T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2020 - H1",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1",
+              "attributes": {
+                "startDate": "2020-01-01T00:00:00",
+                "finishDate": "2020-06-30T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 6",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 6",
+                  "attributes": {
+                    "startDate": "2019-12-22T00:00:00",
+                    "finishDate": "2020-02-29T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 27",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 27",
+                      "attributes": {
+                        "startDate": "2020-01-05T00:00:00",
+                        "finishDate": "2020-01-18T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 28",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 28",
+                      "attributes": {
+                        "startDate": "2020-01-19T00:00:00",
+                        "finishDate": "2020-02-01T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 29",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 29",
+                      "attributes": {
+                        "startDate": "2020-02-02T00:00:00",
+                        "finishDate": "2020-02-15T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 30",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 30",
+                      "attributes": {
+                        "startDate": "2020-02-16T00:00:00",
+                        "finishDate": "2020-02-29T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 7",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7",
+                  "attributes": {
+                    "startDate": "2020-03-01T00:00:00",
+                    "finishDate": "2020-05-09T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 31",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 31",
+                      "attributes": {
+                        "startDate": "2020-03-01T00:00:00",
+                        "finishDate": "2020-03-14T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 32",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 32",
+                      "attributes": {
+                        "startDate": "2020-03-15T00:00:00",
+                        "finishDate": "2020-03-28T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 33",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 33",
+                      "attributes": {
+                        "startDate": "2020-03-29T00:00:00",
+                        "finishDate": "2020-04-11T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 34",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 34",
+                      "attributes": {
+                        "startDate": "2020-04-12T00:00:00",
+                        "finishDate": "2020-04-25T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 35",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 35",
+                      "attributes": {
+                        "startDate": "2020-04-26T00:00:00",
+                        "finishDate": "2020-05-09T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 8",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 8",
+                  "attributes": {
+                    "startDate": "2020-05-10T00:00:00",
+                    "finishDate": "2020-07-18T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 36",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 36",
+                      "attributes": {
+                        "startDate": "2020-05-10T00:00:00",
+                        "finishDate": "2020-05-23T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 37",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 37",
+                      "attributes": {
+                        "startDate": "2020-05-24T00:00:00",
+                        "finishDate": "2020-06-06T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 38",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 38",
+                      "attributes": {
+                        "startDate": "2020-06-07T00:00:00",
+                        "finishDate": "2020-06-20T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 39",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 39",
+                      "attributes": {
+                        "startDate": "2020-06-21T00:00:00",
+                        "finishDate": "2020-07-04T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Year 2020 - H2",
+              "structureType": "iteration",
+              "hasChildren": true,
+              "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2",
+              "attributes": {
+                "startDate": "2020-07-01T00:00:00",
+                "finishDate": "2020-12-31T00:00:00"
+              },
+              "children": [
+                {
+                  "name": "Program Increment 8",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 8",
+                  "attributes": {
+                    "startDate": "2020-05-10T00:00:00",
+                    "finishDate": "2020-07-18T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 40",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 8\\Sprint 40",
+                      "attributes": {
+                        "startDate": "2020-07-05T00:00:00",
+                        "finishDate": "2020-07-18T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 9",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9",
+                  "attributes": {
+                    "startDate": "2020-07-19T00:00:00",
+                    "finishDate": "2020-09-26T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 41",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 41",
+                      "attributes": {
+                        "startDate": "2020-07-19T00:00:00",
+                        "finishDate": "2020-08-01T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 42",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 42",
+                      "attributes": {
+                        "startDate": "2020-08-02T00:00:00",
+                        "finishDate": "2020-08-15T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 43",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 43",
+                      "attributes": {
+                        "startDate": "2020-08-16T00:00:00",
+                        "finishDate": "2020-08-29T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 44",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 44",
+                      "attributes": {
+                        "startDate": "2020-08-30T00:00:00",
+                        "finishDate": "2020-09-12T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 45",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 45",
+                      "attributes": {
+                        "startDate": "2020-09-13T00:00:00",
+                        "finishDate": "2020-09-26T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 10",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10",
+                  "attributes": {
+                    "startDate": "2020-09-27T00:00:00",
+                    "finishDate": "2020-12-05T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 46",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 46",
+                      "attributes": {
+                        "startDate": "2020-09-27T00:00:00",
+                        "finishDate": "2020-10-10T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 47",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 47",
+                      "attributes": {
+                        "startDate": "2020-10-11T00:00:00",
+                        "finishDate": "2020-10-24T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 48",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 48",
+                      "attributes": {
+                        "startDate": "2020-10-25T00:00:00",
+                        "finishDate": "2020-11-07T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 49",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 49",
+                      "attributes": {
+                        "startDate": "2020-11-08T00:00:00",
+                        "finishDate": "2020-11-21T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 50",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 50",
+                      "attributes": {
+                        "startDate": "2020-11-22T00:00:00",
+                        "finishDate": "2020-12-05T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Program Increment 11",
+                  "structureType": "iteration",
+                  "hasChildren": true,
+                  "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 11",
+                  "attributes": {
+                    "startDate": "2020-12-06T00:00:00",
+                    "finishDate": "2021-02-13T00:00:00"
+                  },
+                  "children": [
+                    {
+                      "name": "Sprint 51",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 51",
+                      "attributes": {
+                        "startDate": "2020-12-06T00:00:00",
+                        "finishDate": "2020-12-19T00:00:00"
+                      },
+                      "children": []
+                    },
+                    {
+                      "name": "Sprint 52",
+                      "structureType": "iteration",
+                      "hasChildren": false,
+                      "path": "\\Workshops\\Iteration\\DevOps\\hol-tbs-3\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 52",
+                      "attributes": {
+                        "startDate": "2020-12-20T00:00:00",
+                        "finishDate": "2021-01-02T00:00:00"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

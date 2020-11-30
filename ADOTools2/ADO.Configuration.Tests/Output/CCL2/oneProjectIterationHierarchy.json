@@ -1,0 +1,2055 @@
+{
+  "Id": 1,
+  "Name": "OneProject",
+  "StructureType": "iteration",
+  "HasChildren": true,
+  "Path": "\\OneProject\\Iteration",
+  "Attributes": null,
+  "Children": [
+    {
+      "Id": 2,
+      "Name": "Mobility Portfolio",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\Mobility Portfolio",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 3,
+          "Name": "Dining Product",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 4,
+              "Name": "CSS Dining Mobility",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+              "Attributes": null,
+              "Children": [
+                {
+                  "Id": 5,
+                  "Name": "Sprint 1",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1",
+                  "Attributes": {
+                    "startDate": "2019-09-19T00:00:00Z",
+                    "finishDate": "2019-09-30T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 6,
+                  "Name": "Sprint 2",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 2",
+                  "Attributes": {
+                    "startDate": "2019-10-02T00:00:00Z",
+                    "finishDate": "2019-10-15T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 7,
+                  "Name": "Sprint 3",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 3",
+                  "Attributes": {
+                    "startDate": "2019-10-16T00:00:00Z",
+                    "finishDate": "2019-10-29T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 8,
+                  "Name": "Sprint 4",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 4",
+                  "Attributes": {
+                    "startDate": "2019-10-30T00:00:00Z",
+                    "finishDate": "2019-11-12T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 9,
+                  "Name": "Sprint 5",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 5",
+                  "Attributes": {
+                    "startDate": "2019-11-13T00:00:00Z",
+                    "finishDate": "2019-11-26T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 10,
+                  "Name": "Sprint 6",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 6",
+                  "Attributes": {
+                    "startDate": "2019-11-27T00:00:00Z",
+                    "finishDate": "2019-12-10T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 11,
+                  "Name": "Sprint 7",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 7",
+                  "Attributes": {
+                    "startDate": "2019-12-11T00:00:00Z",
+                    "finishDate": "2019-12-24T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 12,
+                  "Name": "Sprint 9",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 9",
+                  "Attributes": {
+                    "startDate": "2020-01-20T00:00:00Z",
+                    "finishDate": "2020-01-31T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 13,
+                  "Name": "Sprint 10",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 10",
+                  "Attributes": {
+                    "startDate": "2020-02-03T00:00:00Z",
+                    "finishDate": "2020-02-17T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 14,
+                  "Name": "Sprint 8",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 8",
+                  "Attributes": {
+                    "startDate": "2020-01-06T00:00:00Z",
+                    "finishDate": "2020-01-17T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 15,
+                  "Name": "Sprint 11",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 11",
+                  "Attributes": {
+                    "startDate": "2020-02-18T00:00:00Z",
+                    "finishDate": "2020-03-02T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 16,
+                  "Name": "Sprint 12",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 12",
+                  "Attributes": {
+                    "startDate": "2020-03-03T00:00:00Z",
+                    "finishDate": "2020-03-16T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 17,
+                  "Name": "Sprint 13",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 13",
+                  "Attributes": {
+                    "startDate": "2020-03-17T00:00:00Z",
+                    "finishDate": "2020-03-30T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 18,
+                  "Name": "Sprint 14",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 14",
+                  "Attributes": {
+                    "startDate": "2020-03-31T00:00:00Z",
+                    "finishDate": "2020-04-10T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 19,
+                  "Name": "Sprint 15",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 15",
+                  "Attributes": {
+                    "startDate": "2020-04-13T00:00:00Z",
+                    "finishDate": "2020-04-29T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 20,
+                  "Name": "Sprint 16",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 16",
+                  "Attributes": {
+                    "startDate": "2020-04-30T00:00:00Z",
+                    "finishDate": "2020-05-18T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 21,
+                  "Name": "Sprint Backlog",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint Backlog",
+                  "Attributes": {
+                    "startDate": "2020-05-19T00:00:00Z",
+                    "finishDate": "2020-06-22T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "Name": "Sales and Guest Services",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\Sales and Guest Services",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 23,
+          "Name": "FMA",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA",
+          "Attributes": {
+            "startDate": "2019-09-02T00:00:00Z",
+            "finishDate": "2020-12-31T00:00:00Z"
+          },
+          "Children": [
+            {
+              "Id": 24,
+              "Name": "Release 2019-03",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2019-03",
+              "Attributes": {
+                "startDate": "2019-09-02T00:00:00Z",
+                "finishDate": "2019-12-02T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 25,
+                  "Name": "Design Sprint - 2019-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2019-03\\Design Sprint - 2019-03",
+                  "Attributes": {
+                    "startDate": "2019-09-02T00:00:00Z",
+                    "finishDate": "2019-09-06T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 26,
+                  "Name": "Development Sprint 2019-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2019-03\\Development Sprint 2019-03",
+                  "Attributes": {
+                    "startDate": "2019-09-09T00:00:00Z",
+                    "finishDate": "2019-10-31T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 27,
+                  "Name": "System Test Sprint 2019-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2019-03\\System Test Sprint 2019-03",
+                  "Attributes": {
+                    "startDate": "2019-11-01T00:00:00Z",
+                    "finishDate": "2019-11-13T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 28,
+                  "Name": "UAT Test Sprint 2019-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2019-03\\UAT Test Sprint 2019-03",
+                  "Attributes": {
+                    "startDate": "2019-11-14T00:00:00Z",
+                    "finishDate": "2019-12-02T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 29,
+              "Name": "Release 2020-01",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01",
+              "Attributes": {
+                "startDate": "2019-10-28T00:00:00Z",
+                "finishDate": "2020-02-05T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 30,
+                  "Name": "Design Sprint 2020-01",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01\\Design Sprint 2020-01",
+                  "Attributes": {
+                    "startDate": "2019-10-28T00:00:00Z",
+                    "finishDate": "2019-11-15T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 31,
+                  "Name": "Development Sprint 2020-01",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01\\Development Sprint 2020-01",
+                  "Attributes": {
+                    "startDate": "2019-11-18T00:00:00Z",
+                    "finishDate": "2019-12-27T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 32,
+                  "Name": "System Test Sprint 2020-01",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01\\System Test Sprint 2020-01",
+                  "Attributes": {
+                    "startDate": "2019-12-30T00:00:00Z",
+                    "finishDate": "2020-01-17T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 33,
+                  "Name": "UAT Sprint 2020-01",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01\\UAT Sprint 2020-01",
+                  "Attributes": {
+                    "startDate": "2020-01-20T00:00:00Z",
+                    "finishDate": "2020-02-05T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 34,
+                  "Name": "GFT",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-01\\GFT",
+                  "Attributes": {
+                    "startDate": "2020-01-07T00:00:00Z",
+                    "finishDate": "2020-01-24T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 35,
+              "Name": "Release 2020-02",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-02",
+              "Attributes": {
+                "startDate": "2019-12-30T00:00:00Z",
+                "finishDate": "2020-04-08T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 36,
+                  "Name": "Design Sprint 2020-02",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-02\\Design Sprint 2020-02",
+                  "Attributes": {
+                    "startDate": "2019-12-30T00:00:00Z",
+                    "finishDate": "2020-01-19T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 37,
+                  "Name": "Development Sprint 2020-02",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-02\\Development Sprint 2020-02",
+                  "Attributes": {
+                    "startDate": "2020-01-20T00:00:00Z",
+                    "finishDate": "2020-03-01T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 38,
+                  "Name": "System Test 2020-02",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-02\\System Test 2020-02",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-03-22T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 39,
+                  "Name": "UAT Sprint 2020-02",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-02\\UAT Sprint 2020-02",
+                  "Attributes": {
+                    "startDate": "2020-03-23T00:00:00Z",
+                    "finishDate": "2020-04-08T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 40,
+              "Name": "Release 2020-03",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-03",
+              "Attributes": {
+                "startDate": "2020-05-04T00:00:00Z",
+                "finishDate": "2020-07-10T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 41,
+                  "Name": "Design Sprint 2020-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-03\\Design Sprint 2020-03",
+                  "Attributes": {
+                    "startDate": "2020-05-04T00:00:00Z",
+                    "finishDate": "2020-05-15T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 42,
+                  "Name": "Development Sprint 2020-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-03\\Development Sprint 2020-03",
+                  "Attributes": {
+                    "startDate": "2020-05-20T00:00:00Z",
+                    "finishDate": "2020-06-17T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 43,
+                  "Name": "System Test Sprint 2020-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-03\\System Test Sprint 2020-03",
+                  "Attributes": {
+                    "startDate": "2020-06-18T00:00:00Z",
+                    "finishDate": "2020-06-25T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 44,
+                  "Name": "UAT Sprint 2020-03",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-03\\UAT Sprint 2020-03",
+                  "Attributes": {
+                    "startDate": "2020-06-26T00:00:00Z",
+                    "finishDate": "2020-07-03T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 45,
+              "Name": "Release 2020-04",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-04",
+              "Attributes": {
+                "startDate": "2020-05-04T00:00:00Z",
+                "finishDate": "2020-08-12T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 46,
+                  "Name": "Design Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-04\\Design Sprint",
+                  "Attributes": {
+                    "startDate": "2020-05-04T00:00:00Z",
+                    "finishDate": "2020-05-24T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 47,
+                  "Name": "Development Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-04\\Development Sprint",
+                  "Attributes": {
+                    "startDate": "2020-05-25T00:00:00Z",
+                    "finishDate": "2020-07-05T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 48,
+                  "Name": "System Test Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-04\\System Test Sprint",
+                  "Attributes": {
+                    "startDate": "2020-07-06T00:00:00Z",
+                    "finishDate": "2020-07-26T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 49,
+                  "Name": "UAT Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-04\\UAT Sprint",
+                  "Attributes": {
+                    "startDate": "2020-07-27T00:00:00Z",
+                    "finishDate": "2020-08-12T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 50,
+              "Name": "Release 2020-05",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-05",
+              "Attributes": {
+                "startDate": "2020-07-06T00:00:00Z",
+                "finishDate": "2020-10-14T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 51,
+                  "Name": "Design Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-05\\Design Sprint",
+                  "Attributes": {
+                    "startDate": "2020-07-06T00:00:00Z",
+                    "finishDate": "2020-07-26T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 52,
+                  "Name": "Development Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-05\\Development Sprint",
+                  "Attributes": {
+                    "startDate": "2020-07-27T00:00:00Z",
+                    "finishDate": "2020-09-06T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 53,
+                  "Name": "System Test",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-05\\System Test",
+                  "Attributes": {
+                    "startDate": "2020-09-07T00:00:00Z",
+                    "finishDate": "2020-09-27T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 54,
+                  "Name": "UAT Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-05\\UAT Sprint",
+                  "Attributes": {
+                    "startDate": "2020-09-28T00:00:00Z",
+                    "finishDate": "2020-10-14T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 55,
+              "Name": "Release 2020-06",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-06",
+              "Attributes": {
+                "startDate": "2020-09-07T00:00:00Z",
+                "finishDate": "2020-12-16T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 56,
+                  "Name": "Design Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-06\\Design Sprint",
+                  "Attributes": {
+                    "startDate": "2020-09-07T00:00:00Z",
+                    "finishDate": "2020-09-27T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 57,
+                  "Name": "Development Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-06\\Development Sprint",
+                  "Attributes": {
+                    "startDate": "2020-09-28T00:00:00Z",
+                    "finishDate": "2020-11-08T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 58,
+                  "Name": "System Test Phase",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-06\\System Test Phase",
+                  "Attributes": {
+                    "startDate": "2020-11-09T00:00:00Z",
+                    "finishDate": "2020-11-29T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 59,
+                  "Name": "UAT Sprint",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA\\Release 2020-06\\UAT Sprint",
+                  "Attributes": {
+                    "startDate": "2020-11-30T00:00:00Z",
+                    "finishDate": "2020-12-16T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": 60,
+          "Name": "iCare",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 61,
+              "Name": "iCare 2020",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020",
+              "Attributes": {
+                "startDate": "2020-01-01T00:00:00Z",
+                "finishDate": "2020-12-31T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 62,
+                  "Name": "iCare - Crew Travel Incident Tracking",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - Crew Travel Incident Tracking",
+                  "Attributes": {
+                    "startDate": "2020-01-06T00:00:00Z",
+                    "finishDate": "2020-05-01T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 63,
+                      "Name": "User Story - Crew Travel Incident Tracking",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - Crew Travel Incident Tracking\\User Story - Crew Travel Incident Tracking",
+                      "Attributes": {
+                        "startDate": "2020-01-06T00:00:00Z",
+                        "finishDate": "2020-05-01T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 64,
+                      "Name": "iCare - System Testing",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - Crew Travel Incident Tracking\\iCare - System Testing",
+                      "Attributes": null,
+                      "Children": []
+                    },
+                    {
+                      "Id": 65,
+                      "Name": "iCare - UAT",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - Crew Travel Incident Tracking\\iCare - UAT",
+                      "Attributes": null,
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 66,
+                  "Name": "iCare - CQ213716 - Sail and Sign",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ213716 - Sail and Sign",
+                  "Attributes": {
+                    "startDate": "2019-11-01T00:00:00Z",
+                    "finishDate": "2020-03-20T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 67,
+                      "Name": "USer Stroy - CQ213716 Requirement",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ213716 - Sail and Sign\\USer Stroy - CQ213716 Requirement",
+                      "Attributes": {
+                        "startDate": "2019-11-01T00:00:00Z",
+                        "finishDate": "2020-03-20T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 68,
+                      "Name": "iCare - CQ213716 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ213716 - Sail and Sign\\iCare - CQ213716 System Test Case",
+                      "Attributes": {
+                        "startDate": "2019-11-01T00:00:00Z",
+                        "finishDate": "2020-03-20T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 69,
+                      "Name": "iCare - CQ213716 UAT Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ213716 - Sail and Sign\\iCare - CQ213716 UAT Test Case",
+                      "Attributes": {
+                        "startDate": "2019-11-01T00:00:00Z",
+                        "finishDate": "2020-03-20T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 70,
+                  "Name": "iCare - CQ211823 - GSAR(Guest Status Advisory Report) Automation Upload",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ211823 - GSAR(Guest Status Advisory Report) Automation Upload",
+                  "Attributes": {
+                    "startDate": "2020-04-01T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 71,
+                      "Name": "User Story - CQ211823 GSAR Automation Upload",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ211823 - GSAR(Guest Status Advisory Report) Automation Upload\\User Story - CQ211823 GSAR Automation Upload",
+                      "Attributes": {
+                        "startDate": "2020-04-01T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 72,
+                      "Name": "iCare - CQ211823 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ211823 - GSAR(Guest Status Advisory Report) Automation Upload\\iCare - CQ211823 System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-04-01T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 73,
+                      "Name": "iCare - CQ211823 Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ211823 - GSAR(Guest Status Advisory Report) Automation Upload\\iCare - CQ211823 Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-04-01T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 74,
+                  "Name": "iCare - CQXXXXXX - Carnival Radiance setup",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Radiance setup",
+                  "Attributes": {
+                    "startDate": "2020-02-03T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 75,
+                      "Name": "User Story - CQXXXXXX Carnival Radiance setup",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Radiance setup\\User Story - CQXXXXXX Carnival Radiance setup",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 76,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Radiance setup\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 77,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Radiance setup\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 78,
+                  "Name": "iCare - CQXXXXXX - TGO(Target Guest Offers) Impact",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - TGO(Target Guest Offers) Impact",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 79,
+                      "Name": "User Story - CQXXXXXX TGO Impact",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - TGO(Target Guest Offers) Impact\\User Story - CQXXXXXX TGO Impact",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 80,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - TGO(Target Guest Offers) Impact\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 81,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - TGO(Target Guest Offers) Impact\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 82,
+                  "Name": "iCare - CQXXXXXX - Carnival Mardi Gras setup",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Mardi Gras setup",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 83,
+                      "Name": "User Story - CQXXXXXX Carnival Mardi Gras setup",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Mardi Gras setup\\User Story - CQXXXXXX Carnival Mardi Gras setup",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 84,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Mardi Gras setup\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 85,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Carnival Mardi Gras setup\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 86,
+                  "Name": "iCare - CQXXXXXX - PPC(Pricing Promotional Capabilities) Changes",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - PPC(Pricing Promotional Capabilities) Changes",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 87,
+                      "Name": "User Story - CQXXXXXX PPC Changes",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - PPC(Pricing Promotional Capabilities) Changes\\User Story - CQXXXXXX PPC Changes",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 88,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - PPC(Pricing Promotional Capabilities) Changes\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 89,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - PPC(Pricing Promotional Capabilities) Changes\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 90,
+                  "Name": "iCare - CQ214676 - Resume iCare purge for Attachment excluding Accounting cases",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214676 - Resume iCare purge for Attachment excluding Accounting cases",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 91,
+                      "Name": "User Story - CQ214676 Resume iCare purge for Attachment excluding Accounting cases",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214676 - Resume iCare purge for Attachment excluding Accounting cases\\User Story - CQ214676 Resume iCare purge for Attachment excluding Accounting cases",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 92,
+                      "Name": "iCare - CQ214676 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214676 - Resume iCare purge for Attachment excluding Accounting cases\\iCare - CQ214676 System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 93,
+                      "Name": "iCare - CQ214676 Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214676 - Resume iCare purge for Attachment excluding Accounting cases\\iCare - CQ214676 Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 94,
+                  "Name": "iCare - CQ214677 - iCare Application Servers to F5 Load Balancer",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214677 - iCare Application Servers to F5 Load Balancer",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 95,
+                      "Name": "iCare - CQ214677 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214677 - iCare Application Servers to F5 Load Balancer\\iCare - CQ214677 System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 96,
+                      "Name": "iCare - CQ214677 Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214677 - iCare Application Servers to F5 Load Balancer\\iCare - CQ214677 Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 97,
+                      "Name": "User Story - CQ214677 iCare Application Servers to F5 Load Balancer",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ214677 - iCare Application Servers to F5 Load Balancer\\User Story - CQ214677 iCare Application Servers to F5 Load Balancer",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 98,
+                  "Name": "iCare - CQXXXXXX - Comdo Certificate consolidation for Shore side and shipboard",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Comdo Certificate consolidation for Shore side and shipboard",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 99,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Comdo Certificate consolidation for Shore side and shipboard\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 100,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Comdo Certificate consolidation for Shore side and shipboard\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 101,
+                      "Name": "User Story - CQXXXXXX Comdo Certificate consolidation for Shore side and shipboard",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Comdo Certificate consolidation for Shore side and shipboard\\User Story - CQXXXXXX Comdo Certificate consolidation for Shore side and shipboard",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 102,
+                  "Name": "iCare - CQXXXXXX - Guest Search, Create-Add Task, Correspondence_Functional Enhancement",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Guest Search, Create-Add Task, Correspondence_Functional Enhancement",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 103,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Guest Search, Create-Add Task, Correspondence_Functional Enhancement\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 104,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Guest Search, Create-Add Task, Correspondence_Functional Enhancement\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 105,
+                      "Name": "User Story - CQXXXXXX Guest Search, Create-Add Task, Correspondence_Functional Enhancement",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Guest Search, Create-Add Task, Correspondence_Functional Enhancement\\User Story - CQXXXXXX Guest Search, Create-Add Task, Correspondence_Functional Enhancement",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 106,
+                  "Name": "iCare - CQXXXXXX - Refactor and consolidate to single code base",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Refactor and consolidate to single code base",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 107,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Refactor and consolidate to single code base\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 108,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Refactor and consolidate to single code base\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 109,
+                      "Name": "User Story - CQXXXXXX Refactor and consolidate to single code base",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Refactor and consolidate to single code base\\User Story - CQXXXXXX Refactor and consolidate to single code base",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 110,
+                  "Name": "iCare - CQXXXXXX - Externalize iCare attachments and place them into external repository",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Externalize iCare attachments and place them into external repository",
+                  "Attributes": {
+                    "startDate": "2020-03-02T00:00:00Z",
+                    "finishDate": "2020-06-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 111,
+                      "Name": "User Story - CQXXXXXX Externalize iCare attachments and place them into external repository",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Externalize iCare attachments and place them into external repository\\User Story - CQXXXXXX Externalize iCare attachments and place them into external repository",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 112,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Externalize iCare attachments and place them into external repository\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 113,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Externalize iCare attachments and place them into external repository\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-03-02T00:00:00Z",
+                        "finishDate": "2020-06-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 114,
+                  "Name": "iCare - CQXXXXXX - Convert SOAP to REST WebService - Shoreside",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert SOAP to REST WebService - Shoreside",
+                  "Attributes": {
+                    "startDate": "2020-06-01T00:00:00Z",
+                    "finishDate": "2020-09-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 115,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert SOAP to REST WebService - Shoreside\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 116,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert SOAP to REST WebService - Shoreside\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 117,
+                      "Name": "User Story - CQXXXXX Convert SOAP  to REST WebService - Shoreside",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert SOAP to REST WebService - Shoreside\\User Story - CQXXXXX Convert SOAP  to REST WebService - Shoreside",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 118,
+                  "Name": "iCare - CQXXXXXX - Convert .Net Webservice to REST Webservice - Shipboard",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert .Net Webservice to REST Webservice - Shipboard",
+                  "Attributes": {
+                    "startDate": "2020-06-01T00:00:00Z",
+                    "finishDate": "2020-09-30T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 119,
+                      "Name": "iCare - CQXXXXXX System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert .Net Webservice to REST Webservice - Shipboard\\iCare - CQXXXXXX System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 120,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert .Net Webservice to REST Webservice - Shipboard\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 121,
+                      "Name": "User Story - CQXXXXXX Convert .Net Webservice to REST Webservice - Shipboard",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Convert .Net Webservice to REST Webservice - Shipboard\\User Story - CQXXXXXX Convert .Net Webservice to REST Webservice - Shipboard",
+                      "Attributes": {
+                        "startDate": "2020-06-01T00:00:00Z",
+                        "finishDate": "2020-09-30T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 122,
+                  "Name": "iCare - CQ217801 - Email sender under carnival domain",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217801 - Email sender under carnival domain",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-11-02T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 123,
+                      "Name": "iCare - CQ217801 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217801 - Email sender under carnival domain\\iCare - CQ217801 System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 124,
+                      "Name": "User Story - CQ217801 Email sender under carnival domain",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217801 - Email sender under carnival domain\\User Story - CQ217801 Email sender under carnival domain",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 125,
+                      "Name": "iCare - CQ217801 Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217801 - Email sender under carnival domain\\iCare - CQ217801 Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 126,
+                  "Name": "iCare - CQ217753 - Correspondence Indicator",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217753 - Correspondence Indicator",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-11-02T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 127,
+                      "Name": "iCare - CQ217753 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217753 - Correspondence Indicator\\iCare - CQ217753 System Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 128,
+                      "Name": "iCare - CQ217753 Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217753 - Correspondence Indicator\\iCare - CQ217753 Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 129,
+                      "Name": "User Story - CQ217753 Correspondence Indicator",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQ217753 - Correspondence Indicator\\User Story - CQ217753 Correspondence Indicator",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 130,
+                  "Name": "iCare - CQXXXXXX - Stream Line Shipboard Fleet Deployment",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Stream Line Shipboard Fleet Deployment",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-11-02T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 131,
+                      "Name": "iCare - CQXXXXXX System Test",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Stream Line Shipboard Fleet Deployment\\iCare - CQXXXXXX System Test",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 132,
+                      "Name": "iCare - CQXXXXXX Regression Test",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Stream Line Shipboard Fleet Deployment\\iCare - CQXXXXXX Regression Test",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 133,
+                      "Name": "User Story - CQXXXXXX Stream Line Shipboard Fleet Deployment",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Stream Line Shipboard Fleet Deployment\\User Story - CQXXXXXX Stream Line Shipboard Fleet Deployment",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 134,
+                  "Name": "iCare - CQXXXXXX - Sync ICare - CPS Crew_Automate Icare Login Creation for the_Shipboard",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Sync ICare - CPS Crew_Automate Icare Login Creation for the_Shipboard",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-11-02T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 135,
+                      "Name": "iCare - CQXXXXXX System Test",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Sync ICare - CPS Crew_Automate Icare Login Creation for the_Shipboard\\iCare - CQXXXXXX System Test",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 136,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Sync ICare - CPS Crew_Automate Icare Login Creation for the_Shipboard\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 137,
+                      "Name": "User Story - CQXXXXXX Sync ICare - CPS Crew_Automate iCare Login Creation for the ShipBoard",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - Sync ICare - CPS Crew_Automate Icare Login Creation for the_Shipboard\\User Story - CQXXXXXX Sync ICare - CPS Crew_Automate iCare Login Creation for the ShipBoard",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 138,
+                  "Name": "iCare - CQXXXXXX - SQL Server 2016 Upgrade",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - SQL Server 2016 Upgrade",
+                  "Attributes": {
+                    "startDate": "2020-07-01T00:00:00Z",
+                    "finishDate": "2020-11-02T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 139,
+                      "Name": "iCare - CQXXXXXX System Test",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - SQL Server 2016 Upgrade\\iCare - CQXXXXXX System Test",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 140,
+                      "Name": "iCare - CQXXXXXX Regression Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - SQL Server 2016 Upgrade\\iCare - CQXXXXXX Regression Test Case",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 141,
+                      "Name": "User Story - CQXXXXXX SQL Server 2016 Upgrade",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2020\\iCare - CQXXXXXX - SQL Server 2016 Upgrade\\User Story - CQXXXXXX SQL Server 2016 Upgrade",
+                      "Attributes": {
+                        "startDate": "2020-07-01T00:00:00Z",
+                        "finishDate": "2020-11-02T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Id": 142,
+              "Name": "iCare 2019",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019",
+              "Attributes": {
+                "startDate": "2019-01-01T00:00:00Z",
+                "finishDate": "2019-12-30T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 143,
+                  "Name": "iCare Audit Cases",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Audit Cases",
+                  "Attributes": {
+                    "startDate": "2019-03-01T00:00:00Z",
+                    "finishDate": "2019-10-31T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 144,
+                      "Name": "iCare Data Warehouse",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Audit Cases\\iCare Data Warehouse",
+                      "Attributes": {
+                        "startDate": "2019-06-01T00:00:00Z",
+                        "finishDate": "2019-08-31T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 145,
+                      "Name": "iCare Functional",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Audit Cases\\iCare Functional",
+                      "Attributes": {
+                        "startDate": "2019-06-01T00:00:00Z",
+                        "finishDate": "2019-08-31T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 146,
+                  "Name": "iCare - 195146 Care Team Incident Tracking",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking",
+                  "Attributes": {
+                    "startDate": "2019-10-07T00:00:00Z",
+                    "finishDate": "2020-01-31T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 147,
+                      "Name": "iCare - CQ195146 System Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\iCare - CQ195146 System Test Case",
+                      "Attributes": {
+                        "startDate": "2019-10-07T00:00:00Z",
+                        "finishDate": "2020-01-31T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 148,
+                      "Name": "iCare - CQ195146 General Functional Testing Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\iCare - CQ195146 General Functional Testing Test Case",
+                      "Attributes": {
+                        "startDate": "2019-10-07T00:00:00Z",
+                        "finishDate": "2020-01-31T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 149,
+                      "Name": "iCare - CQ195146 Unit Test Case",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\iCare - CQ195146 Unit Test Case",
+                      "Attributes": {
+                        "startDate": "2019-10-07T00:00:00Z",
+                        "finishDate": "2020-01-31T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 150,
+                      "Name": "iCare - 195146 Care Team Incident",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\iCare - 195146 Care Team Incident",
+                      "Attributes": {
+                        "startDate": "2019-10-07T00:00:00Z",
+                        "finishDate": "2020-01-31T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 151,
+                      "Name": "System Test Iteration 1",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\System Test Iteration 1",
+                      "Attributes": {
+                        "startDate": "2019-11-12T00:00:00Z",
+                        "finishDate": "2019-12-13T00:00:00Z"
+                      },
+                      "Children": []
+                    },
+                    {
+                      "Id": 152,
+                      "Name": "UAT",
+                      "StructureType": "iteration",
+                      "HasChildren": false,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare - 195146 Care Team Incident Tracking\\UAT",
+                      "Attributes": {
+                        "startDate": "2020-01-07T00:00:00Z",
+                        "finishDate": "2020-02-14T00:00:00Z"
+                      },
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Id": 153,
+                  "Name": "iCare Upgrade",
+                  "StructureType": "iteration",
+                  "HasChildren": true,
+                  "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Upgrade",
+                  "Attributes": {
+                    "startDate": "2017-08-01T00:00:00Z",
+                    "finishDate": "2018-02-28T00:00:00Z"
+                  },
+                  "Children": [
+                    {
+                      "Id": 154,
+                      "Name": "iCare Upgrade - Functional",
+                      "StructureType": "iteration",
+                      "HasChildren": true,
+                      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Upgrade\\iCare Upgrade - Functional",
+                      "Attributes": {
+                        "startDate": "2017-12-01T00:00:00Z",
+                        "finishDate": "2018-03-30T00:00:00Z"
+                      },
+                      "Children": [
+                        {
+                          "Id": 155,
+                          "Name": "Default",
+                          "StructureType": "iteration",
+                          "HasChildren": false,
+                          "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare\\iCare 2019\\iCare Upgrade\\iCare Upgrade - Functional\\Default",
+                          "Attributes": null,
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 156,
+      "Name": "HR Finance Accounting",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\HR Finance Accounting",
+      "Attributes": null,
+      "Children": [
+        {
+          "Id": 157,
+          "Name": "Tokenization",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Tokenization",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 158,
+              "Name": "UAT",
+              "StructureType": "iteration",
+              "HasChildren": false,
+              "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Tokenization\\UAT",
+              "Attributes": null,
+              "Children": []
+            },
+            {
+              "Id": 159,
+              "Name": "PCI - 3rd Party Partners Credit Cards Tokenization",
+              "StructureType": "iteration",
+              "HasChildren": false,
+              "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Tokenization\\PCI - 3rd Party Partners Credit Cards Tokenization",
+              "Attributes": {
+                "startDate": "2020-02-10T00:00:00Z",
+                "finishDate": "2020-03-02T00:00:00Z"
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Id": 160,
+          "Name": "Talent Management",
+          "StructureType": "iteration",
+          "HasChildren": true,
+          "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management",
+          "Attributes": null,
+          "Children": [
+            {
+              "Id": 161,
+              "Name": "ATS",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS",
+              "Attributes": {
+                "startDate": "2016-09-12T00:00:00Z",
+                "finishDate": "2016-10-12T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 162,
+                  "Name": "Sprint 5",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\Sprint 5",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 163,
+                  "Name": "Sprint 4",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\Sprint 4",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 164,
+                  "Name": "Sprint 6",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\Sprint 6",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 165,
+                  "Name": "UAT Cycle 2",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\UAT Cycle 2",
+                  "Attributes": {
+                    "startDate": "2016-10-05T00:00:00Z",
+                    "finishDate": "2016-10-12T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 166,
+                  "Name": "System Test",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\System Test",
+                  "Attributes": {
+                    "startDate": "2016-08-25T00:00:00Z",
+                    "finishDate": "2016-09-09T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 167,
+                  "Name": "UAT Cycle 1",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\UAT Cycle 1",
+                  "Attributes": {
+                    "startDate": "2016-09-12T00:00:00Z",
+                    "finishDate": "2016-09-30T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 168,
+                  "Name": "ODF UAT Cycle 1",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\ODF UAT Cycle 1",
+                  "Attributes": null,
+                  "Children": []
+                },
+                {
+                  "Id": 169,
+                  "Name": "ODF UAT Cycle 2",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\ATS\\ODF UAT Cycle 2",
+                  "Attributes": null,
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Id": 170,
+              "Name": "LMS",
+              "StructureType": "iteration",
+              "HasChildren": true,
+              "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\LMS",
+              "Attributes": {
+                "startDate": "2016-12-05T00:00:00Z",
+                "finishDate": "2017-01-20T00:00:00Z"
+              },
+              "Children": [
+                {
+                  "Id": 171,
+                  "Name": "UAT Cycle 1",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\LMS\\UAT Cycle 1",
+                  "Attributes": {
+                    "startDate": "2016-12-05T00:00:00Z",
+                    "finishDate": "2016-12-16T00:00:00Z"
+                  },
+                  "Children": []
+                },
+                {
+                  "Id": 172,
+                  "Name": "UAT Cycle 2",
+                  "StructureType": "iteration",
+                  "HasChildren": false,
+                  "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management\\LMS\\UAT Cycle 2",
+                  "Attributes": {
+                    "startDate": "2017-01-09T00:00:00Z",
+                    "finishDate": "2017-01-20T00:00:00Z"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

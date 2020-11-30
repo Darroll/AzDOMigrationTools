@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\Testing",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\Testing",
+      "includeChildren": true
+    }
+  ]
+}

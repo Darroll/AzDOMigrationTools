@@ -1,0 +1,5 @@
+cd "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Engine.Console\bin\Debug"
+ADOTools2 export --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\Export\004--Agile Xml--ProjectExportConfig.json"
+ADOTools2 export --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\Export\005--CMMI Xml Project--ProjectExportConfig.json"
+ADOTools2 export --consoleoutput -c "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\Export\006--Scrum Xml--ProjectExportConfig.json"
+cd "C:\Users\dawal\Source\Repos\MigrationVNext\ADOTools2\ADO.Configuration.Tests\Output\Configuration\UniversalProcess\Scripts"

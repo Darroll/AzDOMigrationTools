@@ -1,0 +1,58 @@
+{
+  "Map": {
+    "(carnivalcruiselines, CSS Dining Mobility, CSS Dining Mobility)": {
+      "Id": 4,
+      "Name": "CSS Dining Mobility",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, Sales and Guest Services, Sales and Guest Services\\FMA)": {
+      "Id": 23,
+      "Name": "FMA",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\FMA",
+      "Attributes": {
+        "startDate": "2019-09-02T00:00:00Z",
+        "finishDate": "2020-12-31T00:00:00Z"
+      }
+    },
+    "(carnivalcruiselines, Sales and Guest Services, Sales and Guest Services\\iCare)": {
+      "Id": 60,
+      "Name": "iCare",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\Sales and Guest Services\\iCare",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\Tokenization)": {
+      "Id": 157,
+      "Name": "Tokenization",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Tokenization",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, HR Finance Accounting, HR Finance Accounting\\Talent Management)": {
+      "Id": 160,
+      "Name": "Talent Management",
+      "StructureType": "iteration",
+      "HasChildren": true,
+      "Path": "\\OneProject\\Iteration\\HR Finance Accounting\\Talent Management",
+      "Attributes": null
+    },
+    "(carnivalcruiselines, CSS Dining Mobility, CSS Dining Mobility\\Sprint 2)": {
+      "Id": 5,
+      "Name": "Sprint 1",
+      "StructureType": "iteration",
+      "HasChildren": false,
+      "Path": "\\OneProject\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1",
+      "Attributes": {
+        "startDate": "2019-09-19T00:00:00Z",
+        "finishDate": "2019-09-30T00:00:00Z"
+      }
+    }
+  }
+}

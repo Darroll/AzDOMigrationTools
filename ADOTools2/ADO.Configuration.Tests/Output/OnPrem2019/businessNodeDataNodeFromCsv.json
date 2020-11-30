@@ -1,0 +1,24 @@
+{
+  "Id": 1,
+  "Name": "Core",
+  "BusinessNodeType": 4,
+  "Disabled": false,
+  "IsClone": true,
+  "IsOnPremiseProject": true,
+  "AzureDevOpsServerFQDN": "tfs2019.devopsabcs.com",
+  "OrganizationName": "RPSUPDV6",
+  "TeamPrefix": null,
+  "Process": "Scrum",
+  "TeamInclusions": null,
+  "AreaBasePaths": null,
+  "AreaPathMap": null,
+  "IterationBasePaths": null,
+  "IterationPathMap": null,
+  "Team": {
+    "Name": "Core Team",
+    "TeamLevel": 0,
+    "Description": null,
+    "Cadences": []
+  },
+  "Children": []
+}

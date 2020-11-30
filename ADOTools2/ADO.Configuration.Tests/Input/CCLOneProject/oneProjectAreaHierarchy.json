@@ -1,0 +1,589 @@
+{
+  "name": "OneProject_10",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\OneProject_10\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "OneProject Portfolio",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_10\\Area\\OneProject Portfolio",
+      "attributes": null,
+      "children": [
+        {
+          "name": "OneProject Product",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product",
+          "attributes": null,
+          "children": [
+            {
+              "name": "OneProject_01",
+              "structureType": "area",
+              "hasChildren": true,
+              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01",
+              "attributes": null,
+              "children": [
+                {
+                  "name": "Sales and Travel Operations",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Navigator",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "Navigator Reservations",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Reservations",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "BAU",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Reservations\\BAU",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Enhancements",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Reservations\\Enhancements",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Australia Project",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Reservations\\Australia Project",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Quarterly Release",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Reservations\\Quarterly Release",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigator Launch Pad",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Launch Pad",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "BAU",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Launch Pad\\BAU",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Enhancements",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Launch Pad\\Enhancements",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Australia Project",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Launch Pad\\Australia Project",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Quarterly Release",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Launch Pad\\Quarterly Release",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigator Revenue Accounting",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Revenue Accounting",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "BAU",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Revenue Accounting\\BAU",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Enhancements",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Revenue Accounting\\Enhancements",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Australia Project",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Revenue Accounting\\Australia Project",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Quarterly Release",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Revenue Accounting\\Quarterly Release",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigator Mapper",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "BAU",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper\\BAU",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Enhancements",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper\\Enhancements",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Australia Project",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper\\Australia Project",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Quarterly Release",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator Mapper\\Quarterly Release",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigator API",
+                          "structureType": "area",
+                          "hasChildren": true,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator API",
+                          "attributes": null,
+                          "children": [
+                            {
+                              "name": "BAU",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator API\\BAU",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Enhancements",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator API\\Enhancements",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Australia Project",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator API\\Australia Project",
+                              "attributes": null,
+                              "children": []
+                            },
+                            {
+                              "name": "Quarterly Release",
+                              "structureType": "area",
+                              "hasChildren": false,
+                              "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\Navigator API\\Quarterly Release",
+                              "attributes": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PPC Program Alternative 2",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Navigator\\PPC Program Alternative 2",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Bon Voyage",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Bon Voyage",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "PPC Program Alternative 2",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Bon Voyage\\PPC Program Alternative 2",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Carnival Dash",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Carnival Dash",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Guest Management Portal",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Guest Management Portal",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "BAU",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Guest Management Portal\\BAU",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Enhancements",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Guest Management Portal\\Enhancements",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Australia Project",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Guest Management Portal\\Australia Project",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ICare",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\ICare",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Siebel",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Siebel",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Oracle Right Now",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\Oracle Right Now",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "FMA",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\FMA",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "BAU",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\FMA\\BAU",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Enhancements",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\FMA\\Enhancements",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "PPC Program Alternative 2",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Sales and Travel Operations\\FMA\\PPC Program Alternative 2",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Guest Operations",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Latitude",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations\\Latitude",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "Latitude Embarkation",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations\\Latitude\\Latitude Embarkation",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Latitude Guest Services",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations\\Latitude\\Latitude Guest Services",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CSS Dining",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Guest Operations\\CSS Dining",
+                      "attributes": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "HR and Finance",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Oracle HCM",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance\\Oracle HCM",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Crunch Time",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance\\Crunch Time",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Lawson",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance\\Lawson",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Kronos",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance\\Kronos",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Secret",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\HR and Finance\\Secret",
+                      "attributes": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Information Management",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Information Management",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Global Casino Operations",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Information Management\\Global Casino Operations",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "CGMS",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Information Management\\CGMS",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "MDM",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\Information Management\\MDM",
+                      "attributes": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "FMA",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\FMA",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "CCL Enterprise Programs",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\CCL Enterprise Programs",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "PPC Program",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\CCL Enterprise Programs\\PPC Program",
+                      "attributes": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "DTS",
+                  "structureType": "area",
+                  "hasChildren": true,
+                  "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS",
+                  "attributes": null,
+                  "children": [
+                    {
+                      "name": "Carnival.com",
+                      "structureType": "area",
+                      "hasChildren": true,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Carnival.com",
+                      "attributes": null,
+                      "children": [
+                        {
+                          "name": "Booking engine",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Carnival.com\\Booking engine",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Cruise search",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Carnival.com\\Cruise search",
+                          "attributes": null,
+                          "children": []
+                        },
+                        {
+                          "name": "Payment",
+                          "structureType": "area",
+                          "hasChildren": false,
+                          "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Carnival.com\\Payment",
+                          "attributes": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "GoCCL",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\GoCCL",
+                      "attributes": null,
+                      "children": []
+                    },
+                    {
+                      "name": "Ecommerce",
+                      "structureType": "area",
+                      "hasChildren": false,
+                      "path": "\\OneProject_10\\Area\\OneProject Portfolio\\OneProject Product\\OneProject_01\\DTS\\Ecommerce",
+                      "attributes": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

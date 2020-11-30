@@ -1,0 +1,213 @@
+{
+  "name": "OneProject_09",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\OneProject_09\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "MDM Portfolio",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_09\\Area\\MDM Portfolio",
+      "attributes": null,
+      "children": [
+        {
+          "name": "MDM Product",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_09\\Area\\MDM Portfolio\\MDM Product",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Master Data Management",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\OneProject_09\\Area\\MDM Portfolio\\MDM Product\\Master Data Management",
+              "attributes": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delta Portfolio",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_09\\Area\\Delta Portfolio",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Delta Product",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Project Delta",
+              "structureType": "area",
+              "hasChildren": true,
+              "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta",
+              "attributes": null,
+              "children": [
+                {
+                  "name": "Travel-Logistics-Mobile",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta\\Travel-Logistics-Mobile",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Sourcing",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta\\Sourcing",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Workforce Planning and AI tool",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta\\Workforce Planning and AI tool",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Data Analytics Team",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta\\Data Analytics Team",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "UAT",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\Delta Portfolio\\Delta Product\\Project Delta\\UAT",
+                  "attributes": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mobility Portfolio",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_09\\Area\\Mobility Portfolio",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Dining Product",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product",
+          "attributes": null,
+          "children": [
+            {
+              "name": "CSS Dining Mobility",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+              "attributes": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales and Guest Services",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_09\\Area\\Sales and Guest Services",
+      "attributes": null,
+      "children": [
+        {
+          "name": "FMA",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\OneProject_09\\Area\\Sales and Guest Services\\FMA",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "HR Finance Accounting",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\OneProject_09\\Area\\HR Finance Accounting",
+      "attributes": null,
+      "children": [
+        {
+          "name": "Tokenization",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization",
+          "attributes": null,
+          "children": [
+            {
+              "name": "GFT",
+              "structureType": "area",
+              "hasChildren": true,
+              "path": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization\\GFT",
+              "attributes": null,
+              "children": [
+                {
+                  "name": "Chargeback",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization\\GFT\\Chargeback",
+                  "attributes": null,
+                  "children": []
+                },
+                {
+                  "name": "Processes",
+                  "structureType": "area",
+                  "hasChildren": false,
+                  "path": "\\OneProject_09\\Area\\HR Finance Accounting\\Tokenization\\GFT\\Processes",
+                  "attributes": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "401K Officers",
+          "structureType": "area",
+          "hasChildren": true,
+          "path": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers",
+          "attributes": null,
+          "children": [
+            {
+              "name": "Zurich International",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers\\Zurich International",
+              "attributes": null,
+              "children": []
+            },
+            {
+              "name": "Merrill Lynch",
+              "structureType": "area",
+              "hasChildren": false,
+              "path": "\\OneProject_09\\Area\\HR Finance Accounting\\401K Officers\\Merrill Lynch",
+              "attributes": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

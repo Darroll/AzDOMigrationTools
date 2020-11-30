@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+
+  },
+  "name": "$Endpoint:EndpointName$",
+  "type": "git",
+  "url": "$Url$",
+  "authorization": {
+    "scheme": "UsernamePassword",
+    "parameters": {
+      "username": "$Username$",
+      "password": "$Password$"
+    }
+  },
+  "isReady": true
+}

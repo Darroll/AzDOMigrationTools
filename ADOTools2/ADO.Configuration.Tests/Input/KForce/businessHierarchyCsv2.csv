@@ -1,0 +1,10 @@
+﻿Collection,Project,Portfolio,ProgramOrProduct,Prefix,Process,TeamInclusionList,AreaPrefixPath,AreaBasePathList,AreaPathMapDictionary,IterationPrefixPath,IterationBasePathList,IterationPathMapDictionary,IsClone,IsOnPremiseProject,AzureDevOpsServerFQDN
+kforce,CRM,IT Solutions,Sales and Marketing,"CRM",Agile,,IT Solutions\Sales and Marketing,,,IT Solutions\Sales and Marketing,,,false,false,
+kforce,TRM,IT Solutions,Delivery,"TRM",Agile,,IT Solutions\Delivery,,,IT Solutions\Delivery,,,false,false,
+kforce,ERP Prog,IT Solutions,Finance and Accounting,"ERP",Agile,,IT Solutions\Finance and Accounting,,,IT Solutions\Finance and Accounting,,,false,false,
+kforce,Technology Operating Committee,BI and EA,EA,"TOC",Agile,,BI and EA\EA,,,BI and EA\EA,,,false,false,
+kforce,DevSecOps Program,IT Solutions,Process Improvement,"DSO",Agile,,IT Solutions\Process Improvement,,,IT Solutions\Process Improvement,,,false,false,
+kforce,IT Technology Services,IT Services,Teams,"ITTS",Agile,,IT Services\Teams,,,IT Services\Teams,,,false,false,
+kforce,IT Application Services,IT Services,Teams,"ITAS",Agile,,IT Services\Teams,,,IT Services\Teams,,,false,false,
+kforce,Information Marketplace,BI and EA,IT Products,"IM",Agile,,BI and EA\IT Products,,,BI and EA\IT Products,,,false,false,
+kforce,Kforce Connect,IT Solutions,Delivery,"KC",Agile,,IT Solutions\Delivery,,,IT Solutions\Delivery,,,false,false,

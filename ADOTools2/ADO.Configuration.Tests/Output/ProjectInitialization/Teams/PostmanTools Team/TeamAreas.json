@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\Migrations\\PostmanTools",
+      "includeChildren": true
+    }
+  ]
+}

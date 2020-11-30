@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Research\\DevOps\\VstsExtensionSamples",
+      "includeChildren": true
+    }
+  ]
+}

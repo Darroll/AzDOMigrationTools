@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Training\\CertAZ203\\Containers",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Training\\CertAZ203\\Containers",
+      "includeChildren": true
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "telemetryEnableTrace": true,
+  "workaroundForQuerySOAPBugEnabled": false,
+  "source": {
+    "collection": "https://dev.azure.com/carnivalcruiselines",
+    "name": "CSS Dining Mobility",
+    "token": "Environment.PatTokenCCL"
+  },
+  "target": {
+    "collection": "https://dev.azure.com/ccldevopsabcs",
+    "name": "OneProject_09",
+    "token": "Environment.PatToken"
+  },
+  "reflectedWorkItemIDFieldName": "ReflectedWorkItemId",
+  "sourceReflectedWorkItemIDFieldName": null,
+  "fieldMaps": [],
+  "workItemTypeDefinition": {
+    "Bug": "Bug",
+    "Epic": "Epic",
+    "Feature": "Feature",
+    "Issue": "Issue",
+    "Task": "Task",
+    "Test Case": "Test Case",
+    "Test Plan": "Test Plan",
+    "Test Suite": "Test Suite",
+    "User Story": "User Story",
+    "Requirement": "Requirement",
+    "Product Backlog Item": "Product Backlog Item",
+    "Shared Steps": "Shared Steps",
+    "Shared Parameter": "Shared Parameter",
+    "Impediment": "Impediment",
+    "Change Request": "Change Request",
+    "Review": "Review",
+    "Risk": "Risk"
+  },
+  "processors": [
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "Mobility Portfolio\\Dining Product",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": {
+        "CSS Dining Mobility\\Sprint 2": "Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+      },
+      "fullIterationPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+          "CSS Dining Mobility\\Sprint 2": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+        }
+      },
+      "queryBit": " AND [System.CreatedDate] > @Today - 90 AND [System.WorkItemType] IN ('Requirement', 'Task', 'User Story', 'Bug', 'Epic', 'Feature', 'Product Backlog Item', 'Impediment', 'Issue', 'Change Request', 'Review', 'Risk') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemRevisionReplayMigrationConfig",
+      "areaPath": "",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "force": false,
+      "iterationPath": "",
+      "keepAreaPath": false,
+      "keepIterationPath": false,
+      "keepState": false,
+      "prefixPath": "Mobility Portfolio\\Dining Product",
+      "prefixProjectToNodes": false,
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": {
+        "CSS Dining Mobility\\Sprint 2": "Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+      },
+      "fullIterationPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+          "CSS Dining Mobility\\Sprint 2": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+        }
+      },
+      "queryBit": "AND [System.WorkItemType] IN ('Shared Steps', 'Shared Parameter', 'Test Case') AND [System.State] <> 'Removed'",
+      "updateSoureReflectedId": false
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.LinkMigrationConfig",
+      "degreeOfParallelism": 16,
+      "enabled": true,
+      "queryBit": "AND [System.RelatedLinkCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementExportMigrationConfig",
+      "enabled": true,
+      "queryBit": "AND [System.AttachedFileCount] > 0 AND [System.CreatedDate] > @Today - 90 "
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.AttachementImportMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.WorkItemQueryMigrationConfig",
+      "enabled": true,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Mobility Portfolio\\Dining Product",
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": {
+        "CSS Dining Mobility\\Sprint 2": "Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+      },
+      "fullIterationPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+          "CSS Dining Mobility\\Sprint 2": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+        }
+      },
+      "sharedFolderName": "Shared Queries"
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestVariablesMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestConfigurationsMigrationConfig",
+      "enabled": true
+    },
+    {
+      "ObjectType": "VstsSyncMigrator.Engine.Configuration.Processing.TestPlansAndSuitesMigrationConfig",
+      "areaPath": "",
+      "enabled": true,
+      "iterationPath": "",
+      "onlyElementsWithTag": null,
+      "prefixProjectToNodes": false,
+      "prefixPath": "Mobility Portfolio\\Dining Product",
+      "useAreaPathMap": true,
+      "areaPathMap": null,
+      "fullAreaPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Area\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility"
+        }
+      },
+      "useIterationPathMap": true,
+      "iterationPathMap": {
+        "CSS Dining Mobility\\Sprint 2": "Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+      },
+      "fullIterationPathMap": {
+        "Map": {
+          "CSS Dining Mobility": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility",
+          "CSS Dining Mobility\\Sprint 2": "\\OneProject_09\\Iteration\\Mobility Portfolio\\Dining Product\\CSS Dining Mobility\\Sprint 1"
+        }
+      },
+      "removeInvalidTestSuiteLinks": false
+    }
+  ],
+  "loadSecretsFromEnvironmentVariables": true
+}

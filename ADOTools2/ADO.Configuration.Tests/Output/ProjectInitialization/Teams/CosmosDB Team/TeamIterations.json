@@ -1,0 +1,473 @@
+{
+  "count": 52,
+  "value": [
+    {
+      "name": "Sprint 1",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 1",
+      "attributes": {
+        "startDate": "2019-01-06T00:00:00",
+        "finishDate": "2019-01-19T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 2",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 2",
+      "attributes": {
+        "startDate": "2019-01-20T00:00:00",
+        "finishDate": "2019-02-02T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 3",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 3",
+      "attributes": {
+        "startDate": "2019-02-03T00:00:00",
+        "finishDate": "2019-02-16T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 4",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 4",
+      "attributes": {
+        "startDate": "2019-02-17T00:00:00",
+        "finishDate": "2019-03-02T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 5",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 1\\Sprint 5",
+      "attributes": {
+        "startDate": "2019-03-03T00:00:00",
+        "finishDate": "2019-03-16T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 6",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 6",
+      "attributes": {
+        "startDate": "2019-03-17T00:00:00",
+        "finishDate": "2019-03-30T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 7",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 7",
+      "attributes": {
+        "startDate": "2019-03-31T00:00:00",
+        "finishDate": "2019-04-13T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 8",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 8",
+      "attributes": {
+        "startDate": "2019-04-14T00:00:00",
+        "finishDate": "2019-04-27T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 9",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 9",
+      "attributes": {
+        "startDate": "2019-04-28T00:00:00",
+        "finishDate": "2019-05-11T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 10",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 2\\Sprint 10",
+      "attributes": {
+        "startDate": "2019-05-12T00:00:00",
+        "finishDate": "2019-05-25T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 11",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 11",
+      "attributes": {
+        "startDate": "2019-05-26T00:00:00",
+        "finishDate": "2019-06-08T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 12",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 12",
+      "attributes": {
+        "startDate": "2019-06-09T00:00:00",
+        "finishDate": "2019-06-22T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 13",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H1\\Program Increment 3\\Sprint 13",
+      "attributes": {
+        "startDate": "2019-06-23T00:00:00",
+        "finishDate": "2019-07-06T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 14",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 14",
+      "attributes": {
+        "startDate": "2019-07-07T00:00:00",
+        "finishDate": "2019-07-20T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 15",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 3\\Sprint 15",
+      "attributes": {
+        "startDate": "2019-07-21T00:00:00",
+        "finishDate": "2019-08-03T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 16",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 16",
+      "attributes": {
+        "startDate": "2019-08-04T00:00:00",
+        "finishDate": "2019-08-17T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 17",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 17",
+      "attributes": {
+        "startDate": "2019-08-18T00:00:00",
+        "finishDate": "2019-08-31T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 18",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 18",
+      "attributes": {
+        "startDate": "2019-09-01T00:00:00",
+        "finishDate": "2019-09-14T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 19",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 19",
+      "attributes": {
+        "startDate": "2019-09-15T00:00:00",
+        "finishDate": "2019-09-28T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 20",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 4\\Sprint 20",
+      "attributes": {
+        "startDate": "2019-09-29T00:00:00",
+        "finishDate": "2019-10-12T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 21",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 21",
+      "attributes": {
+        "startDate": "2019-10-13T00:00:00",
+        "finishDate": "2019-10-26T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 22",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 22",
+      "attributes": {
+        "startDate": "2019-10-27T00:00:00",
+        "finishDate": "2019-11-09T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 23",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 23",
+      "attributes": {
+        "startDate": "2019-11-10T00:00:00",
+        "finishDate": "2019-11-23T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 24",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 24",
+      "attributes": {
+        "startDate": "2019-11-24T00:00:00",
+        "finishDate": "2019-12-07T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 25",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 5\\Sprint 25",
+      "attributes": {
+        "startDate": "2019-12-08T00:00:00",
+        "finishDate": "2019-12-21T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 26",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2019 - H2\\Program Increment 6\\Sprint 26",
+      "attributes": {
+        "startDate": "2019-12-22T00:00:00",
+        "finishDate": "2020-01-04T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 27",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 27",
+      "attributes": {
+        "startDate": "2020-01-05T00:00:00",
+        "finishDate": "2020-01-18T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 28",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 28",
+      "attributes": {
+        "startDate": "2020-01-19T00:00:00",
+        "finishDate": "2020-02-01T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 29",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 29",
+      "attributes": {
+        "startDate": "2020-02-02T00:00:00",
+        "finishDate": "2020-02-15T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 30",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 6\\Sprint 30",
+      "attributes": {
+        "startDate": "2020-02-16T00:00:00",
+        "finishDate": "2020-02-29T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 31",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 31",
+      "attributes": {
+        "startDate": "2020-03-01T00:00:00",
+        "finishDate": "2020-03-14T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 32",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 32",
+      "attributes": {
+        "startDate": "2020-03-15T00:00:00",
+        "finishDate": "2020-03-28T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 33",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 33",
+      "attributes": {
+        "startDate": "2020-03-29T00:00:00",
+        "finishDate": "2020-04-11T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 34",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 34",
+      "attributes": {
+        "startDate": "2020-04-12T00:00:00",
+        "finishDate": "2020-04-25T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 35",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 7\\Sprint 35",
+      "attributes": {
+        "startDate": "2020-04-26T00:00:00",
+        "finishDate": "2020-05-09T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 36",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 36",
+      "attributes": {
+        "startDate": "2020-05-10T00:00:00",
+        "finishDate": "2020-05-23T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 37",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 37",
+      "attributes": {
+        "startDate": "2020-05-24T00:00:00",
+        "finishDate": "2020-06-06T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 38",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 38",
+      "attributes": {
+        "startDate": "2020-06-07T00:00:00",
+        "finishDate": "2020-06-20T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 39",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H1\\Program Increment 8\\Sprint 39",
+      "attributes": {
+        "startDate": "2020-06-21T00:00:00",
+        "finishDate": "2020-07-04T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 40",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 8\\Sprint 40",
+      "attributes": {
+        "startDate": "2020-07-05T00:00:00",
+        "finishDate": "2020-07-18T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 41",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 41",
+      "attributes": {
+        "startDate": "2020-07-19T00:00:00",
+        "finishDate": "2020-08-01T00:00:00",
+        "timeFrame": "past"
+      }
+    },
+    {
+      "name": "Sprint 42",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 42",
+      "attributes": {
+        "startDate": "2020-08-02T00:00:00",
+        "finishDate": "2020-08-15T00:00:00",
+        "timeFrame": "current"
+      }
+    },
+    {
+      "name": "Sprint 43",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 43",
+      "attributes": {
+        "startDate": "2020-08-16T00:00:00",
+        "finishDate": "2020-08-29T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 44",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 44",
+      "attributes": {
+        "startDate": "2020-08-30T00:00:00",
+        "finishDate": "2020-09-12T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 45",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 9\\Sprint 45",
+      "attributes": {
+        "startDate": "2020-09-13T00:00:00",
+        "finishDate": "2020-09-26T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 46",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 46",
+      "attributes": {
+        "startDate": "2020-09-27T00:00:00",
+        "finishDate": "2020-10-10T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 47",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 47",
+      "attributes": {
+        "startDate": "2020-10-11T00:00:00",
+        "finishDate": "2020-10-24T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 48",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 48",
+      "attributes": {
+        "startDate": "2020-10-25T00:00:00",
+        "finishDate": "2020-11-07T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 49",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 49",
+      "attributes": {
+        "startDate": "2020-11-08T00:00:00",
+        "finishDate": "2020-11-21T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 50",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 10\\Sprint 50",
+      "attributes": {
+        "startDate": "2020-11-22T00:00:00",
+        "finishDate": "2020-12-05T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 51",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 51",
+      "attributes": {
+        "startDate": "2020-12-06T00:00:00",
+        "finishDate": "2020-12-19T00:00:00",
+        "timeFrame": "future"
+      }
+    },
+    {
+      "name": "Sprint 52",
+      "path": "\\OneProjectV2_02\\Training\\CertAZ203\\CosmosDB\\Fiscal Year 2020 - H2\\Program Increment 11\\Sprint 52",
+      "attributes": {
+        "startDate": "2020-12-20T00:00:00",
+        "finishDate": "2021-01-02T00:00:00",
+        "timeFrame": "future"
+      }
+    }
+  ]
+}

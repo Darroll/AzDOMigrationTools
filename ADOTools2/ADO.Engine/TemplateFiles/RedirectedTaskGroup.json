@@ -1,0 +1,54 @@
+{
+    "tasks": [
+        {
+            "environment": {},
+            "displayName": "PowerShell Script",
+            "alwaysRun": false,
+            "continueOnError": false,
+            "condition": "succeeded()",
+            "enabled": true,
+            "timeoutInMinutes": 0,
+            "inputs": {
+                "targetType": "inline",
+                "script": "Write-Host \"Hello World\"",
+                "errorActionPreference": "stop",
+                "failOnStderr": "false",
+                "ignoreLASTEXITCODE": "false",
+                "pwsh": "false",
+                "workingDirectory": "$(System.DefaultWorkingDirectory)"
+            },
+            "task": {
+                "id": "$Task:PowerShell-Id$",
+                "versionSpec": "2.*",
+                "definitionType": "task"
+            }
+        }
+    ],
+    "runsOn": [
+        "Agent",
+        "DeploymentGroup"
+    ],
+    "comment": "",
+    "name": "Redirected Task Group",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0,
+        "isTest": false
+    },
+    "iconUrl": "https://cdn.vsassets.io/v/20180907T133328/_content/icon-meta-task.png",
+    "friendlyName": "Redirected Task Group",
+    "description": "",
+    "category": "Utility",
+    "definitionType": "metaTask",
+    "demands": [],
+    "groups": [],
+    "inputs": [],
+    "satisfies": [],
+    "sourceDefinitions": [],
+    "dataSourceBindings": [],
+    "instanceNameFormat": "Task group: Redirected Task Group ",
+    "preJobExecution": {},
+    "execution": {},
+    "postJobExecution": {}
+}

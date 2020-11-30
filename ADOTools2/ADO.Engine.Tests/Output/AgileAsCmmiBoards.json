@@ -1,0 +1,128 @@
+[
+  {
+    "count": 4,
+    "value": [
+      {
+        "name": "Proposed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Epic": "Proposed"
+        },
+        "columnType": "incoming"
+      },
+      {
+        "name": "Active",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Epic": "Active"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Resolved",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Epic": "Resolved"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Closed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Epic": "Closed"
+        },
+        "columnType": "outgoing"
+      }
+    ],
+    "boardName": "Epics"
+  },
+  {
+    "count": 4,
+    "value": [
+      {
+        "name": "Proposed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Feature": "Proposed"
+        },
+        "columnType": "incoming"
+      },
+      {
+        "name": "Active",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Feature": "Active"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Resolved",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Feature": "Resolved"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Closed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Feature": "Closed"
+        },
+        "columnType": "outgoing"
+      }
+    ],
+    "boardName": "Features"
+  },
+  {
+    "count": 4,
+    "value": [
+      {
+        "name": "Proposed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Requirement": "Proposed"
+        },
+        "columnType": "incoming"
+      },
+      {
+        "name": "Active",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Requirement": "Active"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Resolved",
+        "itemLimit": 5,
+        "stateMappings": {
+          "Requirement": "Resolved"
+        },
+        "isSplit": false,
+        "description": "",
+        "columnType": "inProgress"
+      },
+      {
+        "name": "Closed",
+        "itemLimit": 0,
+        "stateMappings": {
+          "Requirement": "Closed"
+        },
+        "columnType": "outgoing"
+      }
+    ],
+    "boardName": "Stories"
+  }
+]

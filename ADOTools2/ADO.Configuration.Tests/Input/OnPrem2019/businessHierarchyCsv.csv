@@ -1,0 +1,2 @@
+﻿Collection,Project,Portfolio,ProgramOrProduct,Prefix,Process,TeamInclusionList,AreaPrefixPath,AreaBasePathList,AreaPathMapDictionary,IterationPrefixPath,IterationBasePathList,IterationPathMapDictionary,IsClone,IsOnPremiseProject,AzureDevOpsServerFQDN
+RPSUPDV6,Core,,,,Scrum,,,,,,,,true,true,tfs2019.devopsabcs.com

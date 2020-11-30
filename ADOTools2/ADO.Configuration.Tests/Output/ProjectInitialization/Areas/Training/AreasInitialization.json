@@ -1,0 +1,130 @@
+{
+  "name": "Training",
+  "structureType": "area",
+  "hasChildren": true,
+  "path": "\\Training\\Area",
+  "attributes": null,
+  "children": [
+    {
+      "name": "CertAZ203",
+      "structureType": "area",
+      "hasChildren": true,
+      "path": "\\Training\\Area\\CertAZ203",
+      "attributes": null,
+      "children": [
+        {
+          "name": "ApplicationInsights",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\ApplicationInsights",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "Autoscaling",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\Autoscaling",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "AzureAD",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\AzureAD",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "AzureBatch",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\AzureBatch",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "AzureServiceBus",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\AzureServiceBus",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "Cache",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\Cache",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "Containers",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\Containers",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "ContentDeliveryNetwork",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\ContentDeliveryNetwork",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "CosmosDB",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\CosmosDB",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "ManagedIdentities",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\ManagedIdentities",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "MessagingAndEventing",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\MessagingAndEventing",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "Search",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\Search",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "TestAzureFunctionAppSoln",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\TestAzureFunctionAppSoln",
+          "attributes": null,
+          "children": []
+        },
+        {
+          "name": "WebJobs",
+          "structureType": "area",
+          "hasChildren": false,
+          "path": "\\Training\\Area\\CertAZ203\\WebJobs",
+          "attributes": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

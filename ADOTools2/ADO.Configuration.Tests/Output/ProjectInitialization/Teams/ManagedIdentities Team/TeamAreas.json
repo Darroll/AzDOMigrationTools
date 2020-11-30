@@ -1,0 +1,12 @@
+{
+  "field": {
+    "referenceName": "System.AreaPath"
+  },
+  "defaultValue": "\\OneProjectV2_02\\Training\\CertAZ203\\ManagedIdentities",
+  "values": [
+    {
+      "value": "\\OneProjectV2_02\\Training\\CertAZ203\\ManagedIdentities",
+      "includeChildren": true
+    }
+  ]
+}

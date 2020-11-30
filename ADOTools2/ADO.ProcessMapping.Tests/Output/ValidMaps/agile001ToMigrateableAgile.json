@@ -1,0 +1,33 @@
+{
+  "InheritedProcessSourcePath": "..\\..\\..\\ADO.ProcessMapping.Tests\\Input\\InheritedProcess",
+  "ProcessMaps": [
+    {
+      "SourceProcess": "Agile001",
+      "TargetProcess": "MigrateableAgile",
+      "WorkItemTypeMap": {},
+      "UnmappedSourceWorkItemTypes": [
+        "Agile001.UserStory",
+        "Agile001.Feature",
+        "Agile001.Task",
+        "Agile001.Epic",
+        "Agile001.Bug"
+      ],
+      "WorkItemTypeStateMap": {},
+      "UnmappedSourceWorkItemTypeStateMaps": {},
+      "WorkItemTypeFieldMap": {},
+      "UnmappedSourceWorkItemTypeFieldMaps": {},
+      "WorkItemTypeBoardMap": {},
+      "UnmappedSourceWorkItemTypeBoardMaps": [
+        "Agile001.UserStory",
+        "Agile001.Feature",
+        "Agile001.Task",
+        "Agile001.Epic",
+        "Agile001.Bug"
+      ],
+      "NonTrivialWorkItemTypeMap": {},
+      "NonTrivialWorkItemTypeFieldMap": {},
+      "NonTrivialWorkItemTypeStateMap": {},
+      "NonTrivialWorkItemTypeBoardMap": {}
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "Name": "OneProjectV2_02",
+  "Portfolios": [
+    {
+      "Name": "Customer",
+      "PortfolioTeam": {
+        "Name": "Customer Portfolio Team"
+      },
+      "ProgramOrProducts": [
+        {
+          "Name": "FinTech",
+          "ProgramOrProductTeam": {
+            "Name": "FinTech Program Team"
+          },
+          "TeamProjects": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "Finastra-Hackfest-PoC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Demo",
+      "PortfolioTeam": {
+        "Name": "Demo Portfolio Team"
+      },
+      "ProgramOrProducts": [
+        {
+          "Name": "Migrations",
+          "ProgramOrProductTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "TeamProjects": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "PartsUnlimited"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "SmartHotel360"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Research",
+      "PortfolioTeam": {
+        "Name": "Research Portfolio Team"
+      },
+      "ProgramOrProducts": [
+        {
+          "Name": "Migrations",
+          "ProgramOrProductTeam": {
+            "Name": "Migrations Program Team"
+          },
+          "TeamProjects": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "DevOpsDemoGenerator"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "MigrationTool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Training",
+      "PortfolioTeam": {
+        "Name": "Training Portfolio Team"
+      },
+      "ProgramOrProducts": [
+        {
+          "Name": "CertAZ203",
+          "ProgramOrProductTeam": {
+            "Name": "CertAZ203 Program Team"
+          },
+          "TeamProjects": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "ApplicationInsights"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "AutoScaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Workshops",
+      "PortfolioTeam": {
+        "Name": "Workshops Portfolio Team"
+      },
+      "ProgramOrProducts": [
+        {
+          "Name": "DevOps",
+          "ProgramOrProductTeam": {
+            "Name": "DevOps Program Team"
+          },
+          "TeamProjects": [
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "hol"
+            },
+            {
+              "OrganizationOrCollectionName": "devopsabcs",
+              "ProjectName": "hol-tbs-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
